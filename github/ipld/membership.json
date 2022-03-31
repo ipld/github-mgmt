@@ -1,1 +1,212 @@
-{}
+{
+  "AdamStone": {
+    "role": "member"
+  },
+  "BigLep": {
+    "role": "member"
+  },
+  "Gozala": {
+    "role": "member"
+  },
+  "Kubuxu": {
+    "role": "member"
+  },
+  "MarcoPolo": {
+    "role": "member"
+  },
+  "RangerMauve": {
+    "role": "member"
+  },
+  "RichardLitt": {
+    "role": "member"
+  },
+  "Stebalien": {
+    "role": "admin"
+  },
+  "aarshkshah1992": {
+    "role": "member"
+  },
+  "achingbrain": {
+    "role": "member"
+  },
+  "adlrocha": {
+    "role": "member"
+  },
+  "alanshaw": {
+    "role": "member"
+  },
+  "andyschwab": {
+    "role": "member"
+  },
+  "anorth": {
+    "role": "member"
+  },
+  "arajasek": {
+    "role": "member"
+  },
+  "aschmahmann": {
+    "role": "admin"
+  },
+  "cloutiertyler": {
+    "role": "member"
+  },
+  "davidad": {
+    "role": "member"
+  },
+  "davidd8": {
+    "role": "member"
+  },
+  "daviddias": {
+    "role": "admin"
+  },
+  "dhruvbaldawa": {
+    "role": "member"
+  },
+  "dignifiedquire": {
+    "role": "admin"
+  },
+  "dirkmc": {
+    "role": "member"
+  },
+  "flyingzumwalt": {
+    "role": "member"
+  },
+  "galargh": {
+    "role": "admin"
+  },
+  "guseggert": {
+    "role": "member"
+  },
+  "haadcode": {
+    "role": "member"
+  },
+  "hacdias": {
+    "role": "member"
+  },
+  "hannahhoward": {
+    "role": "member"
+  },
+  "hugomrdias": {
+    "role": "member"
+  },
+  "ianopolous": {
+    "role": "member"
+  },
+  "ipfsbot": {
+    "role": "member"
+  },
+  "ipldbot": {
+    "role": "member"
+  },
+  "jacobheun": {
+    "role": "member"
+  },
+  "jbenet": {
+    "role": "admin"
+  },
+  "jbenetsafer": {
+    "role": "member"
+  },
+  "jesseclay": {
+    "role": "member"
+  },
+  "kevina": {
+    "role": "member"
+  },
+  "kumavis": {
+    "role": "member"
+  },
+  "lidel": {
+    "role": "member"
+  },
+  "litzenberger": {
+    "role": "member"
+  },
+  "magik6k": {
+    "role": "member"
+  },
+  "marten-seemann": {
+    "role": "admin"
+  },
+  "masih": {
+    "role": "member"
+  },
+  "mcollina": {
+    "role": "member"
+  },
+  "michaelavila": {
+    "role": "member"
+  },
+  "mikeal": {
+    "role": "admin"
+  },
+  "miyazono": {
+    "role": "member"
+  },
+  "momack2": {
+    "role": "member"
+  },
+  "mvdan": {
+    "role": "member"
+  },
+  "mxinden": {
+    "role": "member"
+  },
+  "nicola": {
+    "role": "member"
+  },
+  "olizilla": {
+    "role": "member"
+  },
+  "petar": {
+    "role": "member"
+  },
+  "pkafei": {
+    "role": "member"
+  },
+  "protocollabsit": {
+    "role": "admin"
+  },
+  "protocollabsit-readonly": {
+    "role": "member"
+  },
+  "raulk": {
+    "role": "member"
+  },
+  "ribasushi": {
+    "role": "member"
+  },
+  "richardschneider": {
+    "role": "member"
+  },
+  "rvagg": {
+    "role": "admin"
+  },
+  "travisperson": {
+    "role": "member"
+  },
+  "vasco-santos": {
+    "role": "member"
+  },
+  "victorb": {
+    "role": "member"
+  },
+  "vmx": {
+    "role": "admin"
+  },
+  "wanderer": {
+    "role": "member"
+  },
+  "warpfork": {
+    "role": "admin"
+  },
+  "web3-bot": {
+    "role": "member"
+  },
+  "whyrusleeping": {
+    "role": "admin"
+  },
+  "willscott": {
+    "role": "member"
+  }
+}

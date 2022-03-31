@@ -1,1 +1,62 @@
-{}
+{
+  "Admin": {
+    "id": "2080485",
+    "parent_team_id": null
+  },
+  "Contributors": {
+    "id": "2411284",
+    "parent_team_id": null
+  },
+  "Core": {
+    "id": "3403997",
+    "parent_team_id": null
+  },
+  "DX": {
+    "id": "2827046",
+    "parent_team_id": null
+  },
+  "Go Team": {
+    "id": "2411285",
+    "parent_team_id": null
+  },
+  "Infra": {
+    "id": "3140142",
+    "parent_team_id": null
+  },
+  "Java Team": {
+    "id": "2211157",
+    "parent_team_id": null
+  },
+  "JavaScript Team": {
+    "id": "2208929",
+    "parent_team_id": null
+  },
+  "Python Team": {
+    "id": "2474599",
+    "parent_team_id": null
+  },
+  "Rust Team": {
+    "id": "2598323",
+    "parent_team_id": null
+  },
+  "Swift Team": {
+    "id": "2568968",
+    "parent_team_id": null
+  },
+  "ci": {
+    "id": "2562367",
+    "parent_team_id": null
+  },
+  "close-collaborators": {
+    "id": "5714572",
+    "parent_team_id": null
+  },
+  "research": {
+    "id": "2591269",
+    "parent_team_id": null
+  },
+  "w3dt-stewards": {
+    "id": "4657014",
+    "parent_team_id": null
+  }
+}
