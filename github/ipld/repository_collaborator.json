@@ -1,1 +1,660 @@
-{}
+{
+  "auto": {
+    "mikeal": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "cid-cbor": {
+    "vmx": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "codec-fixtures": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "docs": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "edelweiss": {
+    "petar": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "explore.ipld.io": {
+    "andyschwab": {
+      "permission": "push"
+    },
+    "davidd8": {
+      "permission": "push"
+    },
+    "lidel": {
+      "permission": "admin"
+    },
+    "olizilla": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "github-mgmt": {
+    "galargh": {
+      "permission": "admin"
+    }
+  },
+  "go-car": {
+    "hannahhoward": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-codec-dagpb": {
+    "rvagg": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-ipld": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-ipld-adl-hamt": {
+    "warpfork": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-ipld-btc": {
+    "marten-seemann": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-ipld-daghelpers": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-ipld-graphql": {
+    "web3-bot": {
+      "permission": "push"
+    },
+    "willscott": {
+      "permission": "admin"
+    }
+  },
+  "go-ipld-prime": {
+    "aschmahmann": {
+      "permission": "admin"
+    },
+    "hannahhoward": {
+      "permission": "push"
+    },
+    "warpfork": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-ipld-prime-proto": {
+    "hannahhoward": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-ipld-schema": {
+    "web3-bot": {
+      "permission": "push"
+    },
+    "whyrusleeping": {
+      "permission": "admin"
+    }
+  },
+  "go-ipld-selector-text-lite": {
+    "ribasushi": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-ipldtool": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-storethehash": {
+    "adlrocha": {
+      "permission": "admin"
+    },
+    "gammazero": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    },
+    "willscott": {
+      "permission": "admin"
+    }
+  },
+  "go-walker": {
+    "hannahhoward": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "grants": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "interface-ipld-format": {
+    "achingbrain": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipld": {
+    "olizilla": {
+      "permission": "maintain"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipld-examples": {
+    "mildred": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipld-in-memory": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "ipld-yang": {
+    "hsanjuan": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "java-cid": {
+    "ianopolous": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "java-ipld-cbor": {
+    "ianopolous": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-bitcoin": {
+    "rvagg": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-block": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-blockcodec-to-ipld-format": {
+    "achingbrain": {
+      "permission": "admin"
+    }
+  },
+  "js-car": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-cli": {
+    "mikeal": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-codec-interface": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-composites": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-dag-cbor": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-dag-json": {
+    "mikeal": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-dag-pb": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-datastore-car": {
+    "rvagg": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-examples": {
+    "rvagg": {
+      "permission": "admin"
+    }
+  },
+  "js-fbl": {
+    "mikeal": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-get-codec": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipld": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-bencode": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-bitcoin": {
+    "vmx": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-block": {
+    "dignifiedquire": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-dag-cbor": {
+    "hugomrdias": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-dag-pb": {
+    "daviddias": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-eth-account-snapshot": {
+    "kumavis": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-eth-block": {
+    "daviddias": {
+      "permission": "admin"
+    },
+    "kumavis": {
+      "permission": "push"
+    },
+    "wanderer": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-eth-block-list": {
+    "kumavis": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-eth-state-trie": {
+    "kumavis": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-eth-storage-trie": {
+    "kumavis": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-eth-trie": {
+    "kumavis": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-eth-tx": {
+    "kumavis": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-eth-tx-trie": {
+    "kumavis": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-ethereum": {
+    "dryajov": {
+      "permission": "push"
+    },
+    "kumavis": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-format-to-blockcodec": {
+    "achingbrain": {
+      "permission": "admin"
+    }
+  },
+  "js-ipld-git": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-graph-builder": {
+    "wanderer": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-raw": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-schema": {
+    "rvagg": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-selector": {
+    "nicola": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-stack": {
+    "mikeal": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-torrent-file": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-torrent-info": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-ipld-zcash": {
+    "vmx": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-iq": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-path-level-one": {
+    "mikeal": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-printify": {
+    "mikeal": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-schema-gen": {
+    "mikeal": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-schema-validation": {
+    "mikeal": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-unixfs": {
+    "Gozala": {
+      "permission": "admin"
+    },
+    "hugomrdias": {
+      "permission": "admin"
+    }
+  },
+  "js-unixfsv2": {
+    "mikeal": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "legacy-unixfs-v2": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "libipld": {
+    "Stebalien": {
+      "permission": "admin"
+    },
+    "dvc94ch": {
+      "permission": "push"
+    },
+    "lKrayola": {
+      "permission": "push"
+    },
+    "molekilla": {
+      "permission": "push"
+    }
+  },
+  "metrics": {
+    "mikeal": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "oneoff-ddrop-cloner": {
+    "ribasushi": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "persistent-metadata": {
+    "edsu": {
+      "permission": "push"
+    },
+    "flyingzumwalt": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "py-cid": {
+    "dhruvbaldawa": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "py-ipld-dag": {
+    "dhruvbaldawa": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "react-ipld": {
+    "dignifiedquire": {
+      "permission": "admin"
+    }
+  },
+  "replication": {
+    "mikeal": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "research": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "roadmap": {
+    "mikeal": {
+      "permission": "admin"
+    },
+    "vmx": {
+      "permission": "admin"
+    },
+    "warpfork": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "specs": {
+    "hannahhoward": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "team-mgmt": {
+    "aschmahmann": {
+      "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "website": {
+    "alanshaw": {
+      "permission": "push"
+    },
+    "jesseclay": {
+      "permission": "push"
+    },
+    "olizilla": {
+      "permission": "admin"
+    },
+    "richsilv": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  }
+}
