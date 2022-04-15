@@ -338,5 +338,12 @@
     "lidel": {
       "role": "member"
     }
+  },
+  "reviewers": {
+    "rvagg": {"role": "member"},
+    "BigLep": {"role": "member"},
+    "warpfork": {"role": "member"},
+    "RangerMauve": {"role": "member"},
+    "willscott": {"role": "member"}
   }
 }
