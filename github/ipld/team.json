@@ -58,5 +58,8 @@
   "w3dt-stewards": {
     "id": "4657014",
     "parent_team_id": null
+  },
+  "reviewers": {
+    "parent_team_id": null
   }
 }
