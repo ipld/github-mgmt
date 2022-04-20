@@ -42,6 +42,7 @@
   "js-dag-cbor": {},
   "js-dag-json": {},
   "js-dag-pb": {},
+  "js-dag-ucan": {},
   "js-datastore-car": {},
   "js-examples": {},
   "js-fbl": {},

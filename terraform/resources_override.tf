@@ -33,7 +33,7 @@ resource "github_team" "this" {
       members_count,
       node_id,
       # parent_team_id,
-      privacy,
+      # privacy,
       slug
     ]
   }

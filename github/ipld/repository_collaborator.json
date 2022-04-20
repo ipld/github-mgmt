@@ -34,10 +34,10 @@
     }
   },
   "explore.ipld.io": {
-    "andyschwab": {
+    "alvin-reyes": {
       "permission": "push"
     },
-    "davidd8": {
+    "andyschwab": {
       "permission": "push"
     },
     "lidel": {
@@ -285,6 +285,14 @@
   "js-dag-pb": {
     "web3-bot": {
       "permission": "push"
+    }
+  },
+  "js-dag-ucan": {
+    "Gozala": {
+      "permission": "admin"
+    },
+    "hugomrdias": {
+      "permission": "maintain"
     }
   },
   "js-datastore-car": {

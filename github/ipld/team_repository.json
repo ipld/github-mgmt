@@ -398,11 +398,6 @@
       "permission": "pull"
     }
   },
-  "DX": {
-    "explore.ipld.io": {
-      "permission": "push"
-    }
-  },
   "Go Team": {
     "cid-cbor": {
       "permission": "pull"
