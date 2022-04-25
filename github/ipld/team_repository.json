@@ -702,6 +702,11 @@
       "permission": "admin"
     }
   },
+  "reviewers": {
+    "ipld": {
+      "permission": "maintain"
+    }
+  },
   "w3dt-stewards": {
     "auto": {
       "permission": "admin"
