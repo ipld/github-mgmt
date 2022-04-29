@@ -705,6 +705,9 @@
   "reviewers": {
     "ipld": {
       "permission": "maintain"
+    },
+    "go-ipld-prime": {
+      "permission": "maintain"
     }
   },
   "w3dt-stewards": {
