@@ -935,6 +935,9 @@
     },
     "website": {
       "permission": "admin"
+    },
+    "edelweiss": {
+      "permission": "admin"
     }
   }
 }
