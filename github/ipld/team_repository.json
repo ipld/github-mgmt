@@ -726,6 +726,9 @@
     "go-car": {
       "permission": "admin"
     },
+    "go-car-priv": {
+      "permission": "admin"
+    },
     "go-codec-dagpb": {
       "permission": "admin"
     },
