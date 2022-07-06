@@ -1,3 +1,1686 @@
 # yaml-language-server: $schema=.schema.json
 
-{}
+members:
+  admin:
+    - Stebalien
+    - aschmahmann
+    - daviddias
+    - dignifiedquire
+    - galargh
+    - jbenet
+    - marten-seemann
+    - mikeal
+    - protocollabsit
+    - rvagg
+    - vmx
+    - warpfork
+    - whyrusleeping
+  member:
+    - AdamStone
+    - BigLep
+    - Gozala
+    - Kubuxu
+    - MarcoPolo
+    - RangerMauve
+    - RichardLitt
+    - aarshkshah1992
+    - achingbrain
+    - adlrocha
+    - ajnavarro
+    - alanshaw
+    - andrew
+    - andyschwab
+    - anorth
+    - arajasek
+    - cloutiertyler
+    - davidad
+    - davidd8
+    - dhruvbaldawa
+    - dirkmc
+    - flyingzumwalt
+    - guseggert
+    - haadcode
+    - hacdias
+    - hannahhoward
+    - hugomrdias
+    - ianopolous
+    - ipfsbot
+    - ipldbot
+    - jacobheun
+    - jbenetsafer
+    - jesseclay
+    - kevina
+    - kumavis
+    - lidel
+    - litzenberger
+    - magik6k
+    - masih
+    - mcollina
+    - michaelavila
+    - miyazono
+    - momack2
+    - mxinden
+    - nicola
+    - olizilla
+    - petar
+    - pkafei
+    - protocollabsit-readonly
+    - raulk
+    - ribasushi
+    - richardschneider
+    - travisperson
+    - vasco-santos
+    - victorb
+    - wanderer
+    - web3-bot
+    - willscott
+repositories:
+  auto:
+    collaborators:
+      admin:
+        - mikeal
+      push:
+        - web3-bot
+    description: Org level automation.
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  cid-cbor:
+    collaborators:
+      admin:
+        - vmx
+      push:
+        - web3-bot
+    description: Spec for Content Identifiers (CIDs) in CBOR for IANA CBOR Tag registry
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+        - Go Team
+        - JavaScript Team
+        - Rust Team
+    visibility: public
+  codec-fixtures:
+    collaborators:
+      push:
+        - web3-bot
+    description: Fixtures for testing standard IPLD codecs
+    teams:
+      push:
+        - Rust Team
+    visibility: public
+  docs:
+    collaborators:
+      push:
+        - web3-bot
+    description: All you need to know about IPLD
+    teams:
+      admin:
+        - w3dt-stewards
+      push:
+        - Core
+        - JavaScript Team
+    visibility: public
+  edelweiss:
+    collaborators:
+      admin:
+        - petar
+      push:
+        - web3-bot
+    description: Decentralized Protocol Compiler
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  eth-hash-to-cid:
+    description: Utility to convert ethereum hashes to CID (Content IDentifier)
+    teams:
+      admin:
+        - Admin
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    topics:
+      - cid
+      - ethereum
+      - ipld
+      - javascript
+    visibility: public
+  explore.ipld.io:
+    collaborators:
+      admin:
+        - lidel
+        - olizilla
+      maintain:
+        - SgtPooki
+      push:
+        - alvin-reyes
+        - andyschwab
+        - web3-bot
+    description: Explore the Merkle Forest from the comfort of your browser
+    teams:
+      admin:
+        - Admin
+        - Core
+        - w3dt-stewards
+    visibility: public
+  github-mgmt:
+    branch_protection:
+      master: {}
+    collaborators:
+      admin:
+        - galargh
+    visibility: public
+  go-car:
+    branch_protection:
+      feat/filestore: {}
+    collaborators:
+      admin:
+        - masih
+        - willscott
+      push:
+        - hannahhoward
+        - web3-bot
+    description: A content addressible archive utility
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - Go Team
+    visibility: public
+  go-car-priv:
+    collaborators:
+      pull:
+        - TippyFlitsUK
+        - alvin-reyes
+        - jennijuju
+      push:
+        - Jorropo
+        - hsanjuan
+    description: go-car but private for hush-hush security stuff
+    teams:
+      admin:
+        - Go Team
+        - w3dt-stewards
+    visibility: private
+  go-codec-dagpb:
+    collaborators:
+      admin:
+        - rvagg
+      push:
+        - web3-bot
+    description: An implementation of the DAG-PB spec for Go
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      push:
+        - Go Team
+    visibility: public
+  go-datalark:
+    collaborators:
+      push:
+        - dustmop
+    description: Use IPLD from Starlark -- read and write data, and play
+      programmagically in an interpreted language!
+    visibility: public
+  go-ipld:
+    collaborators:
+      push:
+        - web3-bot
+    description: Golang IPLD Dev Entry Point Repo
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - Go Team
+    visibility: public
+  go-ipld-adl-hamt:
+    collaborators:
+      admin:
+        - warpfork
+      push:
+        - web3-bot
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - Go Team
+    visibility: public
+  go-ipld-btc:
+    collaborators:
+      admin:
+        - marten-seemann
+      push:
+        - web3-bot
+    description: ipld handlers for bitcoin
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - Go Team
+    visibility: public
+  go-ipld-daghelpers:
+    collaborators:
+      push:
+        - web3-bot
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - Go Team
+    visibility: public
+  go-ipld-deprecated:
+    description: Golang IPLD Dev Entry Point Repo
+    teams:
+      pull:
+        - Admin
+        - Core
+      push:
+        - Go Team
+    visibility: public
+  go-ipld-graphql:
+    collaborators:
+      admin:
+        - willscott
+      push:
+        - web3-bot
+    description: Graphql queries over IPLD schemas
+    teams:
+      admin:
+        - w3dt-stewards
+      maintain:
+        - Go Team
+    visibility: public
+  go-ipld-prime:
+    branch_protection:
+      master: {}
+    collaborators:
+      admin:
+        - aschmahmann
+        - warpfork
+      push:
+        - hannahhoward
+        - web3-bot
+    description: Golang interfaces for the IPLD Data Model, with core Codecs
+      included, IPLD Schemas support, and some handy functional transforms
+      tools.
+    teams:
+      admin:
+        - w3dt-stewards
+      maintain:
+        - reviewers
+      pull:
+        - Core
+      push:
+        - Go Team
+    visibility: public
+  go-ipld-prime-proto:
+    collaborators:
+      admin:
+        - hannahhoward
+      push:
+        - web3-bot
+    description: A DagPB implementation for go-ipld-prime
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - Go Team
+    visibility: public
+  go-ipld-schema:
+    collaborators:
+      admin:
+        - whyrusleeping
+      push:
+        - web3-bot
+    description: Implementation of an ipld schema parser
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - Admin
+        - Go Team
+    visibility: public
+  go-ipld-selector-text-lite:
+    collaborators:
+      push:
+        - ribasushi
+        - web3-bot
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Admin
+        - Core
+      push:
+        - Go Team
+    visibility: public
+  go-ipldtool:
+    collaborators:
+      push:
+        - web3-bot
+    description: A fine gadget
+    teams:
+      push:
+        - Go Team
+    visibility: public
+  go-selector-store:
+    collaborators:
+      admin:
+        - hannahhoward
+    description: A simple store to record selector traversals
+    visibility: public
+  go-storethehash:
+    branch_protection:
+      master: {}
+    collaborators:
+      admin:
+        - adlrocha
+        - gammazero
+        - willscott
+      push:
+        - web3-bot
+    teams:
+      admin:
+        - w3dt-stewards
+      push:
+        - Go Team
+    visibility: public
+  go-walker:
+    collaborators:
+      admin:
+        - hannahhoward
+      push:
+        - web3-bot
+    description: Walker provides an alternate, parellizable and controllable way to
+      execute selectors
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  grants:
+    collaborators:
+      push:
+        - web3-bot
+    description: IPLD Grants for Research and Development
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+    visibility: public
+  interface-ipld-format:
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    description: A interface you can follow to implement a valid IPLD format,
+      resolvable through the IPLD Resolver (available in IPFS)
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+        - Go Team
+        - JavaScript Team
+        - Rust Team
+    visibility: public
+  ipld:
+    collaborators:
+      maintain:
+        - olizilla
+      push:
+        - web3-bot
+    description: InterPlanetary Linked Data
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      maintain:
+        - close-collaborators
+        - reviewers
+      pull:
+        - Contributors
+        - Rust Team
+      push:
+        - Core
+        - Go Team
+        - JavaScript Team
+        - research
+    visibility: public
+  ipld-examples:
+    collaborators:
+      push:
+        - mildred
+        - web3-bot
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+        - Go Team
+        - JavaScript Team
+        - Rust Team
+    topics:
+      - examples
+      - ipld
+    visibility: public
+  ipld-in-memory:
+    collaborators:
+      push:
+        - web3-bot
+    description: 🧠 IPLD in your RAM
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Admin
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  ipld-yang:
+    collaborators:
+      admin:
+        - hsanjuan
+      push:
+        - web3-bot
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+    visibility: public
+  is-circular:
+    collaborators:
+      push:
+        - web3-bot
+    description: determines if an object (or array) is circular
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  java-cid:
+    collaborators:
+      admin:
+        - ianopolous
+      push:
+        - web3-bot
+    description: Java implementation of Content Identifier
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+    topics:
+      - cid
+      - ipld
+      - java
+    visibility: public
+  java-ipld-cbor:
+    collaborators:
+      push:
+        - ianopolous
+        - web3-bot
+    description: A Java implementation of the IPLD cbor format
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+        - Java Team
+    visibility: public
+  js-bitcoin:
+    collaborators:
+      admin:
+        - rvagg
+      push:
+        - web3-bot
+    description: JavaScript Bitcoin data multiformats codecs and utilities for IPLD
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-block:
+    collaborators:
+      push:
+        - web3-bot
+    description: IPLD Block Interface
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-blockcodec-to-ipld-format:
+    collaborators:
+      admin:
+        - achingbrain
+    description: Convert a BlockCodec from the multiformats module to an IPLD format
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  js-car:
+    collaborators:
+      push:
+        - web3-bot
+    description: Content Addressable aRchive format reader and writer for JavaScript
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-cli:
+    collaborators:
+      admin:
+        - mikeal
+      push:
+        - web3-bot
+    description: IPLD Command Line Interface
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-codec-interface:
+    collaborators:
+      push:
+        - web3-bot
+    description: IPLD Codec Interface
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-composites:
+    collaborators:
+      push:
+        - web3-bot
+    description: "WIP: IPLD Composites"
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-dag-cbor:
+    collaborators:
+      push:
+        - web3-bot
+    description: dag-cbor codec for IPLD
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-dag-json:
+    collaborators:
+      admin:
+        - mikeal
+      push:
+        - web3-bot
+    description: JSON Directed Acyclic Graph for IPLD
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-dag-pb:
+    collaborators:
+      push:
+        - web3-bot
+    description: An implementation of the DAG-PB spec for JavaScript (for use with
+      multiformats or @ipld/block)
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-dag-ucan:
+    collaborators:
+      admin:
+        - Gozala
+      maintain:
+        - hugomrdias
+    description: UCAN codec for IPLD
+    visibility: public
+  js-datastore-car:
+    collaborators:
+      admin:
+        - rvagg
+      push:
+        - web3-bot
+    description: Content Addressable aRchive format reader and writer
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Admin
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-examples:
+    collaborators:
+      admin:
+        - rvagg
+    description: JavaScript IPLD Examples
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - JavaScript Team
+    visibility: public
+  js-fbl:
+    collaborators:
+      admin:
+        - mikeal
+      push:
+        - web3-bot
+    description: Flexible Byte Layout Implementation
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-get-codec:
+    collaborators:
+      push:
+        - web3-bot
+    description: IPLD codec loader
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-ipld:
+    collaborators:
+      push:
+        - web3-bot
+    description: The JavaScript Implementation of IPLD
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    topics:
+      - ipld
+      - ipld-resolver
+    visibility: public
+  js-ipld-bencode:
+    collaborators:
+      push:
+        - web3-bot
+    description: JavaScript implementation of the bencode IPLD format
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-ipld-bitcoin:
+    collaborators:
+      admin:
+        - vmx
+      push:
+        - web3-bot
+    description: JavaScript implementation of Bitcoin IPLD formats
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    topics:
+      - ipld-format
+    visibility: public
+  js-ipld-block:
+    collaborators:
+      admin:
+        - dignifiedquire
+      push:
+        - web3-bot
+    description: Implementation of the Block data structure in JavaScript.
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-ipld-cli:
+    branch_protection:
+      master: {}
+    description: Interact with IPLD on the command line
+    teams:
+      admin:
+        - Admin
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-ipld-dag-cbor:
+    collaborators:
+      push:
+        - hugomrdias
+        - web3-bot
+    description: JavaScript implementation of the IPLD dag-cbor format.
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    topics:
+      - ipld-format
+      - ipld-spec
+    visibility: public
+  js-ipld-dag-pb:
+    collaborators:
+      admin:
+        - daviddias
+      push:
+        - web3-bot
+    description: JavaScript Implementation of the MerkleDAG Nodes with Protobuf.
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    topics:
+      - ipld-format
+    visibility: public
+  js-ipld-eth-account-snapshot:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - kumavis
+    teams:
+      admin:
+        - Admin
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-ipld-eth-block:
+    branch_protection:
+      master: {}
+    collaborators:
+      admin:
+        - daviddias
+      push:
+        - kumavis
+        - wanderer
+    description: JavaScript Implementation of the IPLD format - Ethereum Block
+    teams:
+      admin:
+        - Admin
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    topics:
+      - ethereum
+      - ipld
+      - javascript
+    visibility: public
+  js-ipld-eth-block-list:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - kumavis
+    teams:
+      admin:
+        - Admin
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-ipld-eth-state-trie:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - kumavis
+    description: JavaScript Implementation of the IPLD format - Ethereum State Trie
+    teams:
+      admin:
+        - Admin
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    topics:
+      - ethereum
+      - ipld
+      - javascript
+    visibility: public
+  js-ipld-eth-storage-trie:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - kumavis
+    teams:
+      admin:
+        - Admin
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-ipld-eth-trie:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - kumavis
+    teams:
+      admin:
+        - Admin
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-ipld-eth-tx:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - kumavis
+    teams:
+      admin:
+        - Admin
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-ipld-eth-tx-trie:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - kumavis
+    teams:
+      admin:
+        - Admin
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-ipld-ethereum:
+    collaborators:
+      admin:
+        - kumavis
+      push:
+        - dryajov
+        - web3-bot
+    description: JavaScript Implementation of All Ethereum IPLD formats
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    topics:
+      - ipld-format
+    visibility: public
+  js-ipld-format-to-blockcodec:
+    collaborators:
+      admin:
+        - achingbrain
+    description: Converts an IPLD Format into a BlockCodec for use with the
+      multiformats module
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  js-ipld-git:
+    collaborators:
+      push:
+        - web3-bot
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    topics:
+      - ipld-format
+    visibility: public
+  js-ipld-graph-builder:
+    collaborators:
+      admin:
+        - wanderer
+      push:
+        - web3-bot
+    description: Provides an efficient way to build and manipulate IPLD DAGs as JSON
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-ipld-raw:
+    collaborators:
+      push:
+        - web3-bot
+    description: JavaScript implementation of the IPLD raw format.
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    topics:
+      - ipld-format
+    visibility: public
+  js-ipld-schema:
+    collaborators:
+      admin:
+        - rvagg
+      push:
+        - web3-bot
+    description: "IPLD Schema Implementation: parser and utilities"
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-ipld-selector:
+    collaborators:
+      push:
+        - nicola
+        - web3-bot
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    topics:
+      - ipld
+    visibility: public
+  js-ipld-stack:
+    collaborators:
+      admin:
+        - mikeal
+      push:
+        - web3-bot
+    description: "EXPERIMENTAL: Next JS IPLD authoring stack"
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-ipld-torrent-file:
+    collaborators:
+      push:
+        - web3-bot
+    description: JavaScript implementation of the Torrent IPLD format
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-ipld-torrent-info:
+    collaborators:
+      push:
+        - web3-bot
+    description: JavaScript implementation of the Torrent File IPLD format
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-ipld-zcash:
+    collaborators:
+      admin:
+        - vmx
+      push:
+        - web3-bot
+    description: "JavaScript implementation of Zcash IPLD formats "
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    topics:
+      - ipld-format
+    visibility: public
+  js-iq:
+    collaborators:
+      push:
+        - web3-bot
+    description: "Experimental: IPLD Query"
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-path-level-one:
+    collaborators:
+      admin:
+        - mikeal
+      push:
+        - web3-bot
+    description: IPLD multi-block path resolver (Data Model Only)
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-printify:
+    collaborators:
+      admin:
+        - mikeal
+      push:
+        - web3-bot
+    description: Convert a decoded IPLD value to a colored printable string
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-schema-gen:
+    collaborators:
+      admin:
+        - mikeal
+      push:
+        - web3-bot
+    description: Generate type interfaces from IPLD Schema
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-schema-validation:
+    collaborators:
+      admin:
+        - mikeal
+      push:
+        - web3-bot
+    description: Validate decoded data against an IPLD Schema
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  js-unixfs:
+    collaborators:
+      admin:
+        - Gozala
+        - hugomrdias
+    description: UnixFS Directed Acyclic Graph for IPLD
+    visibility: public
+  js-unixfsv2:
+    collaborators:
+      admin:
+        - mikeal
+      push:
+        - web3-bot
+    description: IPLD unixfs-v2 Implementation
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Admin
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  legacy-unixfs-v2:
+    collaborators:
+      push:
+        - web3-bot
+    description: Unixfs V2, this time with more metadata and IPLD magic
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+    visibility: public
+  libipld:
+    collaborators:
+      admin:
+        - Stebalien
+      push:
+        - dvc94ch
+        - lKrayola
+        - molekilla
+    description: Rust IPLD library
+    teams:
+      pull:
+        - Core
+        - Rust Team
+    visibility: public
+  metrics:
+    collaborators:
+      admin:
+        - mikeal
+      push:
+        - web3-bot
+    description: Regularly collect metrics about the IPLD ecosystem
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
+  oneoff-ddrop-cloner:
+    collaborators:
+      admin:
+        - ribasushi
+      push:
+        - web3-bot
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+    visibility: public
+  persistent-metadata:
+    collaborators:
+      admin:
+        - flyingzumwalt
+      push:
+        - edsu
+        - web3-bot
+    description: Creating authenticated metadata with IPLD
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+    visibility: public
+  py-cid:
+    collaborators:
+      admin:
+        - dhruvbaldawa
+      push:
+        - web3-bot
+    description: Self-describing content-addressed identifiers for distributed
+      systems implementation in Python
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - Python Team
+    topics:
+      - cid
+      - ipld
+      - python
+    visibility: public
+  py-ipld-dag:
+    collaborators:
+      admin:
+        - dhruvbaldawa
+      push:
+        - web3-bot
+    description: Merkle DAG implementation for IPLD in Python
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+    visibility: public
+  react-ipld:
+    collaborators:
+      admin:
+        - dignifiedquire
+    description: "React components for IPLD "
+    teams:
+      admin:
+        - Admin
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    topics:
+      - frontend
+      - ipld
+      - javascript
+      - react
+    visibility: public
+  replication:
+    collaborators:
+      admin:
+        - mikeal
+      push:
+        - web3-bot
+    description: Discussions and proposals regarding IPLD replication.
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+        - Go Team
+        - JavaScript Team
+        - Rust Team
+    visibility: public
+  research:
+    collaborators:
+      push:
+        - web3-bot
+    description: "Research repo for the IPLD github org "
+    teams:
+      admin:
+        - Admin
+        - research
+        - w3dt-stewards
+      pull:
+        - Core
+    visibility: public
+  roadmap:
+    collaborators:
+      admin:
+        - mikeal
+        - vmx
+        - warpfork
+      push:
+        - web3-bot
+    description: IPLD Project Roadmap
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+    visibility: public
+  serde_ipld_dagcbor:
+    description: DAG-CBOR implementation for Serde
+    visibility: public
+  specs:
+    collaborators:
+      push:
+        - hannahhoward
+        - web3-bot
+    description: Content-addressed, authenticated, immutable data structures
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Go Team
+        - Rust Team
+      push:
+        - Core
+        - JavaScript Team
+        - ci
+    topics:
+      - content-addressed
+      - graph
+      - hash
+      - ipfs
+      - ipld
+      - linked-data
+    visibility: public
+  team-mgmt:
+    collaborators:
+      admin:
+        - aschmahmann
+      push:
+        - web3-bot
+    description: IPLD Team Planning, Management & Coordination threads
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Go Team
+        - JavaScript Team
+        - Rust Team
+        - close-collaborators
+      push:
+        - Contributors
+        - Core
+    visibility: public
+  website:
+    collaborators:
+      admin:
+        - olizilla
+      push:
+        - alanshaw
+        - jesseclay
+        - richsilv
+        - web3-bot
+    description: Official website for IPLD
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+    visibility: public
+teams:
+  Admin:
+    members:
+      maintainer:
+        - Stebalien
+        - aschmahmann
+        - daviddias
+        - jbenet
+        - mikeal
+        - vmx
+        - warpfork
+        - whyrusleeping
+      member:
+        - BigLep
+        - Kubuxu
+    privacy: closed
+  Contributors:
+    members:
+      maintainer:
+        - Stebalien
+        - aschmahmann
+        - daviddias
+        - vmx
+        - whyrusleeping
+      member:
+        - Kubuxu
+        - RichardLitt
+        - adlrocha
+        - davidad
+        - flyingzumwalt
+        - nicola
+    privacy: closed
+  Core:
+    description: Core Team
+    members:
+      maintainer:
+        - Stebalien
+        - mikeal
+        - rvagg
+        - vmx
+        - warpfork
+      member:
+        - BigLep
+        - willscott
+    privacy: closed
+  DX:
+    description: Developer Experience Team
+    members:
+      member:
+        - travisperson
+        - victorb
+    privacy: closed
+  Go Team:
+    members:
+      maintainer:
+        - Stebalien
+        - aschmahmann
+        - rvagg
+        - warpfork
+        - whyrusleeping
+      member:
+        - Kubuxu
+        - aarshkshah1992
+        - anorth
+        - arajasek
+        - davidd8
+        - dirkmc
+        - guseggert
+        - hannahhoward
+        - ipldbot
+        - magik6k
+        - masih
+        - momack2
+        - petar
+        - raulk
+        - ribasushi
+        - willscott
+    privacy: closed
+  Infra:
+    description: https://github.com/protocol/infra-team/
+    privacy: closed
+  Java Team:
+    description: Java Java Java Java
+    members:
+      maintainer:
+        - jbenet
+      member:
+        - ianopolous
+    privacy: closed
+  JavaScript Team:
+    description: The most awesome team
+    members:
+      maintainer:
+        - daviddias
+        - dignifiedquire
+        - mikeal
+        - rvagg
+        - vmx
+      member:
+        - AdamStone
+        - Gozala
+        - achingbrain
+        - alanshaw
+        - haadcode
+        - hacdias
+        - hugomrdias
+        - ipldbot
+        - jacobheun
+        - kumavis
+        - litzenberger
+        - magik6k
+        - mcollina
+        - momack2
+        - nicola
+        - olizilla
+        - pkafei
+        - richardschneider
+        - vasco-santos
+        - victorb
+        - wanderer
+    privacy: closed
+  Python Team:
+    description: Snaaaaakes 🐍
+    members:
+      maintainer:
+        - daviddias
+      member:
+        - dhruvbaldawa
+    privacy: closed
+  Rust Team:
+    members:
+      maintainer:
+        - vmx
+      member:
+        - MarcoPolo
+        - mxinden
+    privacy: closed
+  Swift Team:
+    members:
+      maintainer:
+        - daviddias
+      member:
+        - cloutiertyler
+    privacy: closed
+  ci:
+    description: ci
+    members:
+      member:
+        - ipfsbot
+    privacy: closed
+  close-collaborators:
+    description: Folks who work across many IPLD repos and languages
+    members:
+      maintainer:
+        - warpfork
+      member:
+        - RangerMauve
+    privacy: closed
+  research:
+    members:
+      maintainer:
+        - Stebalien
+        - dignifiedquire
+        - jbenet
+        - miyazono
+        - nicola
+        - vmx
+      member:
+        - davidad
+    privacy: closed
+  reviewers:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - rvagg
+        - warpfork
+      member:
+        - BigLep
+        - RangerMauve
+        - willscott
+    privacy: closed
+  w3dt-stewards:
+    members:
+      maintainer:
+        - BigLep
+        - Stebalien
+        - aschmahmann
+      member:
+        - achingbrain
+        - ajnavarro
+        - guseggert
+        - lidel
+    privacy: closed
