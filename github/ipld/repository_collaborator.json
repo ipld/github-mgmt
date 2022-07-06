@@ -59,6 +59,12 @@
     "hannahhoward": {
       "permission": "push"
     },
+    "masih": {
+      "permission": "admin"
+    },
+    "willscott": {
+      "permission": "admin"
+    },
     "web3-bot": {
       "permission": "push"
     }
