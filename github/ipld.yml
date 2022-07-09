@@ -177,6 +177,13 @@ repositories:
     collaborators:
       admin:
         - galargh
+    files:
+      CODEOWNERS:
+        content: >
+          *       @galargh
+    teams:
+      maintain:
+        - w3dt-stewards
     visibility: public
   go-car:
     branch_protection:
