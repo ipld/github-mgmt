@@ -49,6 +49,7 @@ members:
     - jacobheun
     - jbenetsafer
     - jesseclay
+    - Jorropo
     - kevina
     - kumavis
     - lidel
@@ -1688,6 +1689,7 @@ teams:
       member:
         - achingbrain
         - ajnavarro
+        - Jorropo
         - guseggert
         - lidel
     privacy: closed
