@@ -161,6 +161,7 @@ repositories:
         - olizilla
       maintain:
         - SgtPooki
+        - hacdias
       push:
         - alvin-reyes
         - andyschwab
