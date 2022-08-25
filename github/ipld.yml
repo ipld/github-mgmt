@@ -209,12 +209,13 @@ repositories:
     visibility: public
   go-car-priv:
     collaborators:
+      admin:
+        - Jorropo
       pull:
         - TippyFlitsUK
         - alvin-reyes
         - jennijuju
       push:
-        - Jorropo
         - hsanjuan
     description: go-car but private for hush-hush security stuff
     teams:
@@ -325,7 +326,6 @@ repositories:
       master: {}
     collaborators:
       admin:
-        - aschmahmann
         - warpfork
       push:
         - hannahhoward
@@ -413,6 +413,7 @@ repositories:
         - willscott
       push:
         - web3-bot
+    description: Storage for hashes, targeted at content addressable systems
     teams:
       admin:
         - w3dt-stewards
@@ -1482,6 +1483,20 @@ repositories:
       push:
         - Contributors
         - Core
+    visibility: public
+  wasm-ipld:
+    branch_protection:
+      main: {}
+    collaborators:
+      admin:
+        - aschmahmann
+      push:
+        - web3-bot
+    description: Tools and examples of IPLD codecs and ADLs in WASM callable from hosts
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
     visibility: public
   website:
     collaborators:
