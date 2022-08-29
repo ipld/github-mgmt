@@ -209,8 +209,6 @@ repositories:
     visibility: public
   go-car-priv:
     collaborators:
-      admin:
-        - Jorropo
       pull:
         - TippyFlitsUK
         - alvin-reyes
