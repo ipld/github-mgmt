@@ -52,6 +52,7 @@ members:
     - Jorropo
     - kevina
     - kumavis
+    - laurentsenta
     - lidel
     - litzenberger
     - magik6k
@@ -174,18 +175,24 @@ repositories:
         - w3dt-stewards
     visibility: public
   github-mgmt:
+    # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     branch_protection:
       master: {}
-    collaborators:
-      admin:
-        - galargh
     files:
       CODEOWNERS:
-        content: >
-          *       @galargh
+        content: |
+          # The ipdx team is responsible for GitHub Management maintenance
+          * @ipld/ipdx
+          
+          # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
+          # The ipdx team is added here temporarily to witness use patterns in github-mgmt
+          /github/ipfs.yml @ipld/github-mgmt-stewards @ipld/ipdx
     teams:
+      # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
       maintain:
-        - w3dt-stewards
+        - ipdx # NOTE: ipdx are the creators of GitHub Management framework
+      push:
+        - github-mgmt stewards
     visibility: public
   go-car:
     branch_protection:
@@ -1670,6 +1677,33 @@ teams:
         - warpfork
       member:
         - RangerMauve
+    privacy: closed
+  github-mgmt stewards:
+    # NOTE: created to capture users with push+ access to github-mgmt repository
+    #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
+    create_default_maintainer: false
+    description: Users that are effectively org admins
+    members:
+      # WARN: membership here should be treated exactly as cautiosly as having an org admin role
+      # ATTN: members are expected to:
+      #  - be familiar with GitHub Management
+      #  - be ready to triage/review org configuration change request in github-mgmt
+      maintainer:
+        - aschmahmann
+        - rvagg
+      member:
+        - BigLep
+        - lidel
+        - RangerMauve
+        - willscott
+    privacy: closed
+  ipdx:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - galargh
+        - laurentsenta
+    parent_team_id: w3dt-stewards
     privacy: closed
   research:
     members:
