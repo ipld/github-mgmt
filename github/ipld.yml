@@ -186,7 +186,7 @@ repositories:
           
           # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
           # The ipdx team is added here temporarily to witness use patterns in github-mgmt
-          /github/ipfs.yml @ipld/github-mgmt-stewards @ipld/ipdx
+          /github/ipld.yml @ipld/github-mgmt-stewards @ipld/ipdx
     teams:
       # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
       maintain:
