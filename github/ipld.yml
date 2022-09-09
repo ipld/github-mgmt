@@ -83,6 +83,7 @@ repositories:
         - mikeal
       push:
         - web3-bot
+    default_branch: master
     description: Org level automation.
     teams:
       admin:
@@ -98,6 +99,7 @@ repositories:
         - vmx
       push:
         - web3-bot
+    default_branch: master
     description: Spec for Content Identifiers (CIDs) in CBOR for IANA CBOR Tag registry
     teams:
       admin:
@@ -112,6 +114,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Fixtures for testing standard IPLD codecs
     teams:
       push:
@@ -121,6 +124,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: All you need to know about IPLD
     teams:
       admin:
@@ -135,12 +139,14 @@ repositories:
         - petar
       push:
         - web3-bot
+    default_branch: main
     description: Decentralized Protocol Compiler
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   eth-hash-to-cid:
+    default_branch: master
     description: Utility to convert ethereum hashes to CID (Content IDentifier)
     teams:
       admin:
@@ -167,6 +173,7 @@ repositories:
         - alvin-reyes
         - andyschwab
         - web3-bot
+    default_branch: master
     description: Explore the Merkle Forest from the comfort of your browser
     teams:
       admin:
@@ -178,6 +185,7 @@ repositories:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     branch_protection:
       master: {}
+    default_branch: master
     files:
       CODEOWNERS:
         content: |
@@ -204,6 +212,7 @@ repositories:
       push:
         - hannahhoward
         - web3-bot
+    default_branch: master
     description: A content addressible archive utility
     teams:
       admin:
@@ -222,6 +231,7 @@ repositories:
         - jennijuju
       push:
         - hsanjuan
+    default_branch: master
     description: go-car but private for hush-hush security stuff
     teams:
       admin:
@@ -234,6 +244,7 @@ repositories:
         - rvagg
       push:
         - web3-bot
+    default_branch: master
     description: An implementation of the DAG-PB spec for Go
     teams:
       admin:
@@ -246,6 +257,7 @@ repositories:
     collaborators:
       push:
         - dustmop
+    default_branch: master
     description: Use IPLD from Starlark -- read and write data, and play
       programmagically in an interpreted language!
     visibility: public
@@ -253,6 +265,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Golang IPLD Dev Entry Point Repo
     teams:
       admin:
@@ -268,6 +281,7 @@ repositories:
         - warpfork
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - w3dt-stewards
@@ -282,6 +296,7 @@ repositories:
         - marten-seemann
       push:
         - web3-bot
+    default_branch: master
     description: ipld handlers for bitcoin
     teams:
       admin:
@@ -295,6 +310,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - Admin
@@ -305,6 +321,7 @@ repositories:
         - Go Team
     visibility: public
   go-ipld-deprecated:
+    default_branch: master
     description: Golang IPLD Dev Entry Point Repo
     teams:
       pull:
@@ -319,6 +336,7 @@ repositories:
         - willscott
       push:
         - web3-bot
+    default_branch: master
     description: Graphql queries over IPLD schemas
     teams:
       admin:
@@ -335,6 +353,7 @@ repositories:
       push:
         - hannahhoward
         - web3-bot
+    default_branch: master
     description: Golang interfaces for the IPLD Data Model, with core Codecs
       included, IPLD Schemas support, and some handy functional transforms
       tools.
@@ -354,6 +373,7 @@ repositories:
         - hannahhoward
       push:
         - web3-bot
+    default_branch: master
     description: A DagPB implementation for go-ipld-prime
     teams:
       admin:
@@ -369,6 +389,7 @@ repositories:
         - whyrusleeping
       push:
         - web3-bot
+    default_branch: master
     description: Implementation of an ipld schema parser
     teams:
       admin:
@@ -384,6 +405,7 @@ repositories:
       push:
         - ribasushi
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - w3dt-stewards
@@ -397,6 +419,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A fine gadget
     teams:
       push:
@@ -406,6 +429,7 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
+    default_branch: main
     description: A simple store to record selector traversals
     visibility: public
   go-storethehash:
@@ -418,6 +442,7 @@ repositories:
         - willscott
       push:
         - web3-bot
+    default_branch: master
     description: Storage for hashes, targeted at content addressable systems
     teams:
       admin:
@@ -431,6 +456,7 @@ repositories:
         - hannahhoward
       push:
         - web3-bot
+    default_branch: main
     description: Walker provides an alternate, parellizable and controllable way to
       execute selectors
     teams:
@@ -441,6 +467,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: main
     description: IPLD Grants for Research and Development
     teams:
       admin:
@@ -454,6 +481,7 @@ repositories:
         - achingbrain
       push:
         - web3-bot
+    default_branch: master
     description: A interface you can follow to implement a valid IPLD format,
       resolvable through the IPLD Resolver (available in IPFS)
     teams:
@@ -472,6 +500,7 @@ repositories:
         - olizilla
       push:
         - web3-bot
+    default_branch: master
     description: InterPlanetary Linked Data
     teams:
       admin:
@@ -494,6 +523,7 @@ repositories:
       push:
         - mildred
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - Admin
@@ -511,6 +541,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: 🧠 IPLD in your RAM
     teams:
       admin:
@@ -527,6 +558,7 @@ repositories:
         - hsanjuan
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - Admin
@@ -538,6 +570,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: determines if an object (or array) is circular
     teams:
       admin:
@@ -553,6 +586,7 @@ repositories:
         - ianopolous
       push:
         - web3-bot
+    default_branch: master
     description: Java implementation of Content Identifier
     teams:
       admin:
@@ -570,6 +604,7 @@ repositories:
       push:
         - ianopolous
         - web3-bot
+    default_branch: master
     description: A Java implementation of the IPLD cbor format
     teams:
       admin:
@@ -584,6 +619,7 @@ repositories:
         - rvagg
       push:
         - web3-bot
+    default_branch: master
     description: JavaScript Bitcoin data multiformats codecs and utilities for IPLD
     teams:
       admin:
@@ -597,6 +633,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: IPLD Block Interface
     teams:
       admin:
@@ -610,6 +647,7 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+    default_branch: master
     description: Convert a BlockCodec from the multiformats module to an IPLD format
     teams:
       admin:
@@ -619,6 +657,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Content Addressable aRchive format reader and writer for JavaScript
     teams:
       admin:
@@ -635,6 +674,7 @@ repositories:
         - mikeal
       push:
         - web3-bot
+    default_branch: master
     description: IPLD Command Line Interface
     teams:
       admin:
@@ -648,6 +688,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: IPLD Codec Interface
     teams:
       admin:
@@ -661,6 +702,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: "WIP: IPLD Composites"
     teams:
       admin:
@@ -674,6 +716,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: dag-cbor codec for IPLD
     teams:
       admin:
@@ -689,6 +732,7 @@ repositories:
         - mikeal
       push:
         - web3-bot
+    default_branch: master
     description: JSON Directed Acyclic Graph for IPLD
     teams:
       admin:
@@ -702,6 +746,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: An implementation of the DAG-PB spec for JavaScript (for use with
       multiformats or @ipld/block)
     teams:
@@ -718,6 +763,7 @@ repositories:
         - Gozala
       maintain:
         - hugomrdias
+    default_branch: main
     description: UCAN codec for IPLD
     visibility: public
   js-datastore-car:
@@ -726,6 +772,7 @@ repositories:
         - rvagg
       push:
         - web3-bot
+    default_branch: master
     description: Content Addressable aRchive format reader and writer
     teams:
       admin:
@@ -740,6 +787,7 @@ repositories:
     collaborators:
       admin:
         - rvagg
+    default_branch: master
     description: JavaScript IPLD Examples
     teams:
       admin:
@@ -753,6 +801,7 @@ repositories:
         - mikeal
       push:
         - web3-bot
+    default_branch: master
     description: Flexible Byte Layout Implementation
     teams:
       admin:
@@ -766,6 +815,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: IPLD codec loader
     teams:
       admin:
@@ -779,6 +829,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: The JavaScript Implementation of IPLD
     teams:
       admin:
@@ -796,6 +847,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: JavaScript implementation of the bencode IPLD format
     teams:
       admin:
@@ -812,6 +864,7 @@ repositories:
         - vmx
       push:
         - web3-bot
+    default_branch: master
     description: JavaScript implementation of Bitcoin IPLD formats
     teams:
       admin:
@@ -830,6 +883,7 @@ repositories:
         - dignifiedquire
       push:
         - web3-bot
+    default_branch: master
     description: Implementation of the Block data structure in JavaScript.
     teams:
       admin:
@@ -842,6 +896,7 @@ repositories:
   js-ipld-cli:
     branch_protection:
       master: {}
+    default_branch: master
     description: Interact with IPLD on the command line
     teams:
       admin:
@@ -856,6 +911,7 @@ repositories:
       push:
         - hugomrdias
         - web3-bot
+    default_branch: master
     description: JavaScript implementation of the IPLD dag-cbor format.
     teams:
       admin:
@@ -875,6 +931,7 @@ repositories:
         - daviddias
       push:
         - web3-bot
+    default_branch: master
     description: JavaScript Implementation of the MerkleDAG Nodes with Protobuf.
     teams:
       admin:
@@ -893,6 +950,7 @@ repositories:
     collaborators:
       push:
         - kumavis
+    default_branch: master
     teams:
       admin:
         - Admin
@@ -910,6 +968,7 @@ repositories:
       push:
         - kumavis
         - wanderer
+    default_branch: master
     description: JavaScript Implementation of the IPLD format - Ethereum Block
     teams:
       admin:
@@ -929,6 +988,7 @@ repositories:
     collaborators:
       push:
         - kumavis
+    default_branch: master
     teams:
       admin:
         - Admin
@@ -943,6 +1003,7 @@ repositories:
     collaborators:
       push:
         - kumavis
+    default_branch: master
     description: JavaScript Implementation of the IPLD format - Ethereum State Trie
     teams:
       admin:
@@ -962,6 +1023,7 @@ repositories:
     collaborators:
       push:
         - kumavis
+    default_branch: master
     teams:
       admin:
         - Admin
@@ -976,6 +1038,7 @@ repositories:
     collaborators:
       push:
         - kumavis
+    default_branch: master
     teams:
       admin:
         - Admin
@@ -990,6 +1053,7 @@ repositories:
     collaborators:
       push:
         - kumavis
+    default_branch: master
     teams:
       admin:
         - Admin
@@ -1004,6 +1068,7 @@ repositories:
     collaborators:
       push:
         - kumavis
+    default_branch: master
     teams:
       admin:
         - Admin
@@ -1019,6 +1084,7 @@ repositories:
       push:
         - dryajov
         - web3-bot
+    default_branch: master
     description: JavaScript Implementation of All Ethereum IPLD formats
     teams:
       admin:
@@ -1035,6 +1101,7 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+    default_branch: master
     description: Converts an IPLD Format into a BlockCodec for use with the
       multiformats module
     teams:
@@ -1045,6 +1112,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - Admin
@@ -1062,6 +1130,7 @@ repositories:
         - wanderer
       push:
         - web3-bot
+    default_branch: master
     description: Provides an efficient way to build and manipulate IPLD DAGs as JSON
     teams:
       admin:
@@ -1076,6 +1145,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: JavaScript implementation of the IPLD raw format.
     teams:
       admin:
@@ -1094,6 +1164,7 @@ repositories:
         - rvagg
       push:
         - web3-bot
+    default_branch: master
     description: "IPLD Schema Implementation: parser and utilities"
     teams:
       admin:
@@ -1108,6 +1179,7 @@ repositories:
       push:
         - nicola
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - Admin
@@ -1125,6 +1197,7 @@ repositories:
         - mikeal
       push:
         - web3-bot
+    default_branch: master
     description: "EXPERIMENTAL: Next JS IPLD authoring stack"
     teams:
       admin:
@@ -1138,6 +1211,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: JavaScript implementation of the Torrent IPLD format
     teams:
       admin:
@@ -1152,6 +1226,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: JavaScript implementation of the Torrent File IPLD format
     teams:
       admin:
@@ -1168,6 +1243,7 @@ repositories:
         - vmx
       push:
         - web3-bot
+    default_branch: master
     description: "JavaScript implementation of Zcash IPLD formats "
     teams:
       admin:
@@ -1184,6 +1260,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: "Experimental: IPLD Query"
     teams:
       admin:
@@ -1199,6 +1276,7 @@ repositories:
         - mikeal
       push:
         - web3-bot
+    default_branch: master
     description: IPLD multi-block path resolver (Data Model Only)
     teams:
       admin:
@@ -1214,6 +1292,7 @@ repositories:
         - mikeal
       push:
         - web3-bot
+    default_branch: master
     description: Convert a decoded IPLD value to a colored printable string
     teams:
       admin:
@@ -1229,6 +1308,7 @@ repositories:
         - mikeal
       push:
         - web3-bot
+    default_branch: master
     description: Generate type interfaces from IPLD Schema
     teams:
       admin:
@@ -1244,6 +1324,7 @@ repositories:
         - mikeal
       push:
         - web3-bot
+    default_branch: master
     description: Validate decoded data against an IPLD Schema
     teams:
       admin:
@@ -1258,6 +1339,7 @@ repositories:
       admin:
         - Gozala
         - hugomrdias
+    default_branch: main
     description: UnixFS Directed Acyclic Graph for IPLD
     visibility: public
   js-unixfsv2:
@@ -1266,6 +1348,7 @@ repositories:
         - mikeal
       push:
         - web3-bot
+    default_branch: master
     description: IPLD unixfs-v2 Implementation
     teams:
       admin:
@@ -1280,6 +1363,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Unixfs V2, this time with more metadata and IPLD magic
     teams:
       admin:
@@ -1295,6 +1379,7 @@ repositories:
         - dvc94ch
         - lKrayola
         - molekilla
+    default_branch: master
     description: Rust IPLD library
     teams:
       pull:
@@ -1307,6 +1392,7 @@ repositories:
         - mikeal
       push:
         - web3-bot
+    default_branch: master
     description: Regularly collect metrics about the IPLD ecosystem
     teams:
       admin:
@@ -1322,6 +1408,7 @@ repositories:
         - ribasushi
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - w3dt-stewards
@@ -1335,6 +1422,7 @@ repositories:
       push:
         - edsu
         - web3-bot
+    default_branch: master
     description: Creating authenticated metadata with IPLD
     teams:
       admin:
@@ -1349,6 +1437,7 @@ repositories:
         - dhruvbaldawa
       push:
         - web3-bot
+    default_branch: master
     description: Self-describing content-addressed identifiers for distributed
       systems implementation in Python
     teams:
@@ -1370,6 +1459,7 @@ repositories:
         - dhruvbaldawa
       push:
         - web3-bot
+    default_branch: master
     description: Merkle DAG implementation for IPLD in Python
     teams:
       admin:
@@ -1382,6 +1472,7 @@ repositories:
     collaborators:
       admin:
         - dignifiedquire
+    default_branch: master
     description: "React components for IPLD "
     teams:
       admin:
@@ -1402,6 +1493,7 @@ repositories:
         - mikeal
       push:
         - web3-bot
+    default_branch: master
     description: Discussions and proposals regarding IPLD replication.
     teams:
       admin:
@@ -1417,6 +1509,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: "Research repo for the IPLD github org "
     teams:
       admin:
@@ -1434,6 +1527,7 @@ repositories:
         - warpfork
       push:
         - web3-bot
+    default_branch: master
     description: IPLD Project Roadmap
     teams:
       admin:
@@ -1442,6 +1536,7 @@ repositories:
         - Core
     visibility: public
   serde_ipld_dagcbor:
+    default_branch: master
     description: DAG-CBOR implementation for Serde
     visibility: public
   specs:
@@ -1449,6 +1544,7 @@ repositories:
       push:
         - hannahhoward
         - web3-bot
+    default_branch: master
     description: Content-addressed, authenticated, immutable data structures
     teams:
       admin:
@@ -1475,6 +1571,7 @@ repositories:
         - aschmahmann
       push:
         - web3-bot
+    default_branch: master
     description: IPLD Team Planning, Management & Coordination threads
     teams:
       admin:
@@ -1497,6 +1594,7 @@ repositories:
         - aschmahmann
       push:
         - web3-bot
+    default_branch: main
     description: Tools and examples of IPLD codecs and ADLs in WASM callable from hosts
     teams:
       admin:
@@ -1512,6 +1610,7 @@ repositories:
         - jesseclay
         - richsilv
         - web3-bot
+    default_branch: master
     description: Official website for IPLD
     teams:
       admin:
