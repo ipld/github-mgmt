@@ -1694,7 +1694,6 @@ teams:
       member:
         - BigLep
         - lidel
-        - RangerMauve
         - willscott
     privacy: closed
   ipdx:
