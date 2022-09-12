@@ -191,7 +191,7 @@ repositories:
         content: |
           # The ipdx team is responsible for GitHub Management maintenance
           * @ipld/ipdx
-          
+
           # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
           # The ipdx team is added here temporarily to witness use patterns in github-mgmt
           /github/ipld.yml @ipld/github-mgmt-stewards @ipld/ipdx
@@ -1685,6 +1685,24 @@ teams:
         - travisperson
         - victorb
     privacy: closed
+  github-mgmt stewards:
+    # NOTE: created to capture users with push+ access to github-mgmt repository
+    #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
+    create_default_maintainer: false
+    description: Users that are effectively org admins
+    members:
+      # WARN: membership here should be treated exactly as cautiosly as having an org admin role
+      # ATTN: members are expected to:
+      #  - be familiar with GitHub Management
+      #  - be ready to triage/review org configuration change request in github-mgmt
+      maintainer:
+        - aschmahmann
+        - rvagg
+      member:
+        - BigLep
+        - lidel
+        - willscott
+    privacy: closed
   Go Team:
     members:
       maintainer:
@@ -1713,6 +1731,14 @@ teams:
     privacy: closed
   Infra:
     description: https://github.com/protocol/infra-team/
+    privacy: closed
+  ipdx:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - galargh
+        - laurentsenta
+    parent_team_id: w3dt-stewards
     privacy: closed
   Java Team:
     description: Java Java Java Java
@@ -1761,32 +1787,6 @@ teams:
         - daviddias
       member:
         - dhruvbaldawa
-    privacy: closed
-  github-mgmt stewards:
-    # NOTE: created to capture users with push+ access to github-mgmt repository
-    #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
-    create_default_maintainer: false
-    description: Users that are effectively org admins
-    members:
-      # WARN: membership here should be treated exactly as cautiosly as having an org admin role
-      # ATTN: members are expected to:
-      #  - be familiar with GitHub Management
-      #  - be ready to triage/review org configuration change request in github-mgmt
-      maintainer:
-        - aschmahmann
-        - rvagg
-      member:
-        - BigLep
-        - lidel
-        - willscott
-    privacy: closed
-  ipdx:
-    create_default_maintainer: false
-    members:
-      maintainer:
-        - galargh
-        - laurentsenta
-    parent_team_id: w3dt-stewards
     privacy: closed
   research:
     members:
