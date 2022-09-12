@@ -2,7 +2,6 @@
 
 members:
   admin:
-    - Stebalien
     - aschmahmann
     - daviddias
     - dignifiedquire
@@ -12,19 +11,14 @@ members:
     - mikeal
     - protocollabsit
     - rvagg
+    - Stebalien
     - vmx
     - warpfork
     - whyrusleeping
   member:
-    - AdamStone
-    - BigLep
-    - Gozala
-    - Kubuxu
-    - MarcoPolo
-    - RangerMauve
-    - RichardLitt
     - aarshkshah1992
     - achingbrain
+    - AdamStone
     - adlrocha
     - ajnavarro
     - alanshaw
@@ -32,12 +26,14 @@ members:
     - andyschwab
     - anorth
     - arajasek
+    - BigLep
     - cloutiertyler
     - davidad
     - davidd8
     - dhruvbaldawa
     - dirkmc
     - flyingzumwalt
+    - Gozala
     - guseggert
     - haadcode
     - hacdias
@@ -51,10 +47,12 @@ members:
     - jesseclay
     - Jorropo
     - kevina
+    - Kubuxu
     - kumavis
     - lidel
     - litzenberger
     - magik6k
+    - MarcoPolo
     - masih
     - mcollina
     - michaelavila
@@ -66,8 +64,10 @@ members:
     - petar
     - pkafei
     - protocollabsit-readonly
+    - RangerMauve
     - raulk
     - ribasushi
+    - RichardLitt
     - richardschneider
     - travisperson
     - vasco-santos
@@ -166,8 +166,8 @@ repositories:
         - lidel
         - olizilla
       maintain:
-        - SgtPooki
         - hacdias
+        - SgtPooki
       push:
         - alvin-reyes
         - andyschwab
@@ -195,6 +195,21 @@ repositories:
       maintain:
         - w3dt-stewards
     visibility: public
+  go-car-priv:
+    collaborators:
+      pull:
+        - alvin-reyes
+        - jennijuju
+        - TippyFlitsUK
+      push:
+        - hsanjuan
+    default_branch: master
+    description: go-car but private for hush-hush security stuff
+    teams:
+      admin:
+        - Go Team
+        - w3dt-stewards
+    visibility: private
   go-car:
     branch_protection:
       feat/filestore: {}
@@ -216,21 +231,6 @@ repositories:
       push:
         - Go Team
     visibility: public
-  go-car-priv:
-    collaborators:
-      pull:
-        - TippyFlitsUK
-        - alvin-reyes
-        - jennijuju
-      push:
-        - hsanjuan
-    default_branch: master
-    description: go-car but private for hush-hush security stuff
-    teams:
-      admin:
-        - Go Team
-        - w3dt-stewards
-    visibility: private
   go-codec-dagpb:
     collaborators:
       admin:
@@ -253,20 +253,6 @@ repositories:
     default_branch: master
     description: Use IPLD from Starlark -- read and write data, and play
       programmagically in an interpreted language!
-    visibility: public
-  go-ipld:
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Golang IPLD Dev Entry Point Repo
-    teams:
-      admin:
-        - w3dt-stewards
-      pull:
-        - Core
-      push:
-        - Go Team
     visibility: public
   go-ipld-adl-hamt:
     collaborators:
@@ -337,6 +323,22 @@ repositories:
       maintain:
         - Go Team
     visibility: public
+  go-ipld-prime-proto:
+    collaborators:
+      admin:
+        - hannahhoward
+      push:
+        - web3-bot
+    default_branch: master
+    description: A DagPB implementation for go-ipld-prime
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - Go Team
+    visibility: public
   go-ipld-prime:
     branch_protection:
       master: {}
@@ -355,22 +357,6 @@ repositories:
         - w3dt-stewards
       maintain:
         - reviewers
-      pull:
-        - Core
-      push:
-        - Go Team
-    visibility: public
-  go-ipld-prime-proto:
-    collaborators:
-      admin:
-        - hannahhoward
-      push:
-        - web3-bot
-    default_branch: master
-    description: A DagPB implementation for go-ipld-prime
-    teams:
-      admin:
-        - w3dt-stewards
       pull:
         - Core
       push:
@@ -404,6 +390,20 @@ repositories:
         - w3dt-stewards
       pull:
         - Admin
+        - Core
+      push:
+        - Go Team
+    visibility: public
+  go-ipld:
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    description: Golang IPLD Dev Entry Point Repo
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
         - Core
       push:
         - Go Team
@@ -487,30 +487,6 @@ repositories:
         - JavaScript Team
         - Rust Team
     visibility: public
-  ipld:
-    collaborators:
-      maintain:
-        - olizilla
-      push:
-        - web3-bot
-    default_branch: master
-    description: InterPlanetary Linked Data
-    teams:
-      admin:
-        - Admin
-        - w3dt-stewards
-      maintain:
-        - close-collaborators
-        - reviewers
-      pull:
-        - Contributors
-        - Rust Team
-      push:
-        - Core
-        - Go Team
-        - JavaScript Team
-        - research
-    visibility: public
   ipld-examples:
     collaborators:
       push:
@@ -558,6 +534,30 @@ repositories:
         - w3dt-stewards
       pull:
         - Core
+    visibility: public
+  ipld:
+    collaborators:
+      maintain:
+        - olizilla
+      push:
+        - web3-bot
+    default_branch: master
+    description: InterPlanetary Linked Data
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      maintain:
+        - close-collaborators
+        - reviewers
+      pull:
+        - Contributors
+        - Rust Team
+      push:
+        - Core
+        - Go Team
+        - JavaScript Team
+        - research
     visibility: public
   is-circular:
     collaborators:
@@ -818,24 +818,6 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
-  js-ipld:
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: The JavaScript Implementation of IPLD
-    teams:
-      admin:
-        - Admin
-        - w3dt-stewards
-      pull:
-        - Core
-      push:
-        - JavaScript Team
-    topics:
-      - ipld
-      - ipld-resolver
-    visibility: public
   js-ipld-bencode:
     collaborators:
       push:
@@ -952,6 +934,21 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
+  js-ipld-eth-block-list:
+    branch_protection:
+      master: {}
+    collaborators:
+      push:
+        - kumavis
+    default_branch: master
+    teams:
+      admin:
+        - Admin
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    visibility: public
   js-ipld-eth-block:
     branch_protection:
       master: {}
@@ -974,21 +971,6 @@ repositories:
       - ethereum
       - ipld
       - javascript
-    visibility: public
-  js-ipld-eth-block-list:
-    branch_protection:
-      master: {}
-    collaborators:
-      push:
-        - kumavis
-    default_branch: master
-    teams:
-      admin:
-        - Admin
-      pull:
-        - Core
-      push:
-        - JavaScript Team
     visibility: public
   js-ipld-eth-state-trie:
     branch_protection:
@@ -1040,7 +1022,7 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
-  js-ipld-eth-tx:
+  js-ipld-eth-tx-trie:
     branch_protection:
       master: {}
     collaborators:
@@ -1055,7 +1037,7 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
-  js-ipld-eth-tx-trie:
+  js-ipld-eth-tx:
     branch_protection:
       master: {}
     collaborators:
@@ -1248,6 +1230,24 @@ repositories:
         - JavaScript Team
     topics:
       - ipld-format
+    visibility: public
+  js-ipld:
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    description: The JavaScript Implementation of IPLD
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - Core
+      push:
+        - JavaScript Team
+    topics:
+      - ipld-resolver
+      - ipld
     visibility: public
   js-iq:
     collaborators:
@@ -1547,9 +1547,9 @@ repositories:
         - Go Team
         - Rust Team
       push:
+        - ci
         - Core
         - JavaScript Team
-        - ci
     topics:
       - content-addressed
       - graph
@@ -1571,10 +1571,10 @@ repositories:
         - Admin
         - w3dt-stewards
       pull:
+        - close-collaborators
         - Go Team
         - JavaScript Team
         - Rust Team
-        - close-collaborators
       push:
         - Contributors
         - Core
@@ -1616,11 +1616,11 @@ teams:
   Admin:
     members:
       maintainer:
-        - Stebalien
         - aschmahmann
         - daviddias
         - jbenet
         - mikeal
+        - Stebalien
         - vmx
         - warpfork
         - whyrusleeping
@@ -1628,29 +1628,43 @@ teams:
         - BigLep
         - Kubuxu
     privacy: closed
+  ci:
+    description: ci
+    members:
+      member:
+        - ipfsbot
+    privacy: closed
+  close-collaborators:
+    description: Folks who work across many IPLD repos and languages
+    members:
+      maintainer:
+        - warpfork
+      member:
+        - RangerMauve
+    privacy: closed
   Contributors:
     members:
       maintainer:
-        - Stebalien
         - aschmahmann
         - daviddias
+        - Stebalien
         - vmx
         - whyrusleeping
       member:
-        - Kubuxu
-        - RichardLitt
         - adlrocha
         - davidad
         - flyingzumwalt
+        - Kubuxu
         - nicola
+        - RichardLitt
     privacy: closed
   Core:
     description: Core Team
     members:
       maintainer:
-        - Stebalien
         - mikeal
         - rvagg
+        - Stebalien
         - vmx
         - warpfork
       member:
@@ -1667,13 +1681,12 @@ teams:
   Go Team:
     members:
       maintainer:
-        - Stebalien
         - aschmahmann
         - rvagg
+        - Stebalien
         - warpfork
         - whyrusleeping
       member:
-        - Kubuxu
         - aarshkshah1992
         - anorth
         - arajasek
@@ -1682,6 +1695,7 @@ teams:
         - guseggert
         - hannahhoward
         - ipldbot
+        - Kubuxu
         - magik6k
         - masih
         - momack2
@@ -1711,10 +1725,10 @@ teams:
         - rvagg
         - vmx
       member:
-        - AdamStone
-        - Gozala
         - achingbrain
+        - AdamStone
         - alanshaw
+        - Gozala
         - haadcode
         - hacdias
         - hugomrdias
@@ -1741,43 +1755,14 @@ teams:
       member:
         - dhruvbaldawa
     privacy: closed
-  Rust Team:
-    members:
-      maintainer:
-        - vmx
-      member:
-        - MarcoPolo
-        - mxinden
-    privacy: closed
-  Swift Team:
-    members:
-      maintainer:
-        - daviddias
-      member:
-        - cloutiertyler
-    privacy: closed
-  ci:
-    description: ci
-    members:
-      member:
-        - ipfsbot
-    privacy: closed
-  close-collaborators:
-    description: Folks who work across many IPLD repos and languages
-    members:
-      maintainer:
-        - warpfork
-      member:
-        - RangerMauve
-    privacy: closed
   research:
     members:
       maintainer:
-        - Stebalien
         - dignifiedquire
         - jbenet
         - miyazono
         - nicola
+        - Stebalien
         - vmx
       member:
         - davidad
@@ -1793,16 +1778,31 @@ teams:
         - RangerMauve
         - willscott
     privacy: closed
+  Rust Team:
+    members:
+      maintainer:
+        - vmx
+      member:
+        - MarcoPolo
+        - mxinden
+    privacy: closed
+  Swift Team:
+    members:
+      maintainer:
+        - daviddias
+      member:
+        - cloutiertyler
+    privacy: closed
   w3dt-stewards:
     members:
       maintainer:
+        - aschmahmann
         - BigLep
         - Stebalien
-        - aschmahmann
       member:
         - achingbrain
         - ajnavarro
-        - Jorropo
         - guseggert
+        - Jorropo
         - lidel
     privacy: closed
