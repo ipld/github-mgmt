@@ -1,1 +1,6 @@
-*       @galargh
+# The ipdx team is responsible for GitHub Management maintenance
+* @ipld/ipdx
+
+# The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
+# The ipdx team is added here temporarily to witness use patterns in github-mgmt
+/github/ipld.yml @ipld/github-mgmt-stewards @ipld/ipdx
