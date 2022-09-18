@@ -49,7 +49,6 @@ members:
     - kevina
     - Kubuxu
     - kumavis
-    - laurentsenta
     - lidel
     - litzenberger
     - magik6k
@@ -87,6 +86,7 @@ repositories:
     description: Org level automation.
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -103,6 +103,7 @@ repositories:
     description: Spec for Content Identifiers (CIDs) in CBOR for IANA CBOR Tag registry
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -128,6 +129,7 @@ repositories:
     description: All you need to know about IPLD
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       push:
         - Core
@@ -143,6 +145,7 @@ repositories:
     description: Decentralized Protocol Compiler
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   eth-hash-to-cid:
@@ -179,6 +182,7 @@ repositories:
       admin:
         - Admin
         - Core
+        - ipdx
         - w3dt-stewards
     visibility: public
   github-mgmt:
@@ -215,6 +219,7 @@ repositories:
     teams:
       admin:
         - Go Team
+        - ipdx
         - w3dt-stewards
     visibility: private
   go-car:
@@ -232,6 +237,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -249,6 +255,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -270,6 +277,7 @@ repositories:
     default_branch: master
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -286,6 +294,7 @@ repositories:
     description: ipld handlers for bitcoin
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -300,6 +309,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -326,6 +336,7 @@ repositories:
     description: Graphql queries over IPLD schemas
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       maintain:
         - Go Team
@@ -340,6 +351,7 @@ repositories:
     description: A DagPB implementation for go-ipld-prime
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -361,6 +373,7 @@ repositories:
       tools.
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       maintain:
         - reviewers
@@ -379,6 +392,7 @@ repositories:
     description: Implementation of an ipld schema parser
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -394,6 +408,7 @@ repositories:
     default_branch: master
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Admin
@@ -409,6 +424,7 @@ repositories:
     description: Golang IPLD Dev Entry Point Repo
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -446,6 +462,7 @@ repositories:
     description: Storage for hashes, targeted at content addressable systems
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       push:
         - Go Team
@@ -461,6 +478,7 @@ repositories:
       execute selectors
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   grants:
@@ -471,6 +489,7 @@ repositories:
     description: IPLD Grants for Research and Development
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -487,6 +506,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -503,6 +523,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -521,6 +542,7 @@ repositories:
     description: 🧠 IPLD in your RAM
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Admin
@@ -538,6 +560,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -553,6 +576,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       maintain:
         - close-collaborators
@@ -574,6 +598,7 @@ repositories:
     description: determines if an object (or array) is circular
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -591,6 +616,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -608,6 +634,7 @@ repositories:
     description: A Java implementation of the IPLD cbor format
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -623,6 +650,7 @@ repositories:
     description: JavaScript Bitcoin data multiformats codecs and utilities for IPLD
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -637,6 +665,7 @@ repositories:
     description: IPLD Block Interface
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -651,6 +680,7 @@ repositories:
     description: Convert a BlockCodec from the multiformats module to an IPLD format
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   js-car:
@@ -662,6 +692,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -678,6 +709,7 @@ repositories:
     description: IPLD Command Line Interface
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -692,6 +724,7 @@ repositories:
     description: IPLD Codec Interface
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -706,6 +739,7 @@ repositories:
     description: "WIP: IPLD Composites"
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -720,6 +754,7 @@ repositories:
     description: dag-cbor codec for IPLD
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -736,6 +771,7 @@ repositories:
     description: JSON Directed Acyclic Graph for IPLD
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -751,6 +787,7 @@ repositories:
       multiformats or @ipld/block)
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -776,6 +813,7 @@ repositories:
     description: Content Addressable aRchive format reader and writer
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Admin
@@ -791,6 +829,7 @@ repositories:
     description: JavaScript IPLD Examples
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - JavaScript Team
@@ -805,6 +844,7 @@ repositories:
     description: Flexible Byte Layout Implementation
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -819,6 +859,7 @@ repositories:
     description: IPLD codec loader
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -834,6 +875,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -851,6 +893,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -869,6 +912,7 @@ repositories:
     description: Implementation of the Block data structure in JavaScript.
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -898,6 +942,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -918,6 +963,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1071,6 +1117,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1088,6 +1135,7 @@ repositories:
       multiformats module
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   js-ipld-git:
@@ -1098,6 +1146,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1117,6 +1166,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1132,6 +1182,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1150,6 +1201,7 @@ repositories:
     description: "IPLD Schema Implementation: parser and utilities"
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1165,6 +1217,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1183,6 +1236,7 @@ repositories:
     description: "EXPERIMENTAL: Next JS IPLD authoring stack"
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1198,6 +1252,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1213,6 +1268,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1230,6 +1286,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1247,6 +1304,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1264,6 +1322,7 @@ repositories:
     description: "Experimental: IPLD Query"
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1280,6 +1339,7 @@ repositories:
     description: IPLD multi-block path resolver (Data Model Only)
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1296,6 +1356,7 @@ repositories:
     description: Convert a decoded IPLD value to a colored printable string
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1312,6 +1373,7 @@ repositories:
     description: Generate type interfaces from IPLD Schema
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1328,6 +1390,7 @@ repositories:
     description: Validate decoded data against an IPLD Schema
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1352,6 +1415,7 @@ repositories:
     description: IPLD unixfs-v2 Implementation
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Admin
@@ -1367,6 +1431,7 @@ repositories:
     description: Unixfs V2, this time with more metadata and IPLD magic
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1396,6 +1461,7 @@ repositories:
     description: Regularly collect metrics about the IPLD ecosystem
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1411,6 +1477,7 @@ repositories:
     default_branch: master
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1427,6 +1494,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1443,6 +1511,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1464,6 +1533,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1498,6 +1568,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1514,6 +1585,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - research
         - w3dt-stewards
       pull:
@@ -1531,6 +1603,7 @@ repositories:
     description: IPLD Project Roadmap
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1549,6 +1622,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Go Team
@@ -1576,6 +1650,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - close-collaborators
@@ -1599,6 +1674,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
     visibility: public
   website:
@@ -1615,6 +1691,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - ipdx
         - w3dt-stewards
       pull:
         - Core
@@ -1737,7 +1814,6 @@ teams:
     members:
       maintainer:
         - galargh
-        - laurentsenta
     parent_team_id: w3dt-stewards
     privacy: closed
   Java Team:
@@ -1835,6 +1911,7 @@ teams:
       member:
         - achingbrain
         - ajnavarro
+        - galargh
         - guseggert
         - Jorropo
         - lidel
