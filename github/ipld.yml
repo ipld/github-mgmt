@@ -205,6 +205,8 @@ repositories:
         - ipdx # NOTE: ipdx are the creators of GitHub Management framework
       push:
         - github-mgmt stewards
+    topics:
+      - ipdx
     visibility: public
   go-car-priv:
     collaborators:
