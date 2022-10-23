@@ -459,6 +459,7 @@ repositories:
         - gammazero
         - willscott
       push:
+        - ischasny
         - web3-bot
     default_branch: master
     description: Storage for hashes, targeted at content addressable systems
@@ -1139,6 +1140,21 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
+    visibility: public
+  js-ipld-garbage:
+    collaborators:
+      admin:
+        - rvagg
+    default_branch: master
+    description: Generate garbage objects conformant with the IPLD Data Model
+    teams:
+      admin:
+        - Admin
+        - Core
+        - ipdx
+        - w3dt-stewards
+      push:
+        - JavaScript Team
     visibility: public
   js-ipld-git:
     collaborators:
