@@ -802,7 +802,9 @@ repositories:
       admin:
         - Gozala
       maintain:
+        - alanshaw
         - hugomrdias
+        - olizilla
     default_branch: main
     description: UCAN codec for IPLD
     visibility: public
