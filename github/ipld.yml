@@ -1147,6 +1147,8 @@ repositories:
     collaborators:
       admin:
         - rvagg
+      push:
+        - web3-bot
     default_branch: master
     description: Generate garbage objects conformant with the IPLD Data Model
     teams:
