@@ -571,8 +571,8 @@ repositories:
   ipld:
     collaborators:
       maintain:
-        - olizilla
         - dannys03
+        - olizilla
       push:
         - web3-bot
     default_branch: master
