@@ -69,6 +69,7 @@ members:
     - ribasushi
     - RichardLitt
     - richardschneider
+    - tchardin
     - travisperson
     - vasco-santos
     - victorb
@@ -1826,6 +1827,7 @@ teams:
         - petar
         - raulk
         - ribasushi
+        - tchardin
         - willscott
     privacy: closed
   Infra:
@@ -1874,6 +1876,7 @@ teams:
         - olizilla
         - pkafei
         - richardschneider
+        - tchardin
         - vasco-santos
         - victorb
         - wanderer
