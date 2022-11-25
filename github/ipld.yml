@@ -572,6 +572,7 @@ repositories:
     collaborators:
       maintain:
         - olizilla
+        - dannys03
       push:
         - web3-bot
     default_branch: master
