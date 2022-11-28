@@ -11,7 +11,6 @@ members:
     - mikeal
     - protocollabsit
     - rvagg
-    - Stebalien
     - vmx
     - warpfork
     - whyrusleeping
@@ -47,7 +46,6 @@ members:
     - jesseclay
     - Jorropo
     - kevina
-    - Kubuxu
     - kumavis
     - lidel
     - litzenberger
@@ -67,7 +65,6 @@ members:
     - RangerMauve
     - raulk
     - ribasushi
-    - RichardLitt
     - richardschneider
     - tchardin
     - travisperson
@@ -91,8 +88,6 @@ repositories:
         - w3dt-stewards
       pull:
         - Core
-      push:
-        - JavaScript Team
     visibility: public
   cid-cbor:
     collaborators:
@@ -107,8 +102,6 @@ repositories:
         - ipdx
         - w3dt-stewards
       pull:
-        - Core
-        - Go Team
         - JavaScript Team
         - Rust Team
     visibility: public
@@ -118,9 +111,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Fixtures for testing standard IPLD codecs
-    teams:
-      push:
-        - Rust Team
     visibility: public
   docs:
     collaborators:
@@ -153,12 +143,8 @@ repositories:
     default_branch: master
     description: Utility to convert ethereum hashes to CID (Content IDentifier)
     teams:
-      admin:
-        - Admin
       pull:
         - Core
-      push:
-        - JavaScript Team
     topics:
       - cid
       - ethereum
@@ -181,8 +167,6 @@ repositories:
     description: Explore the Merkle Forest from the comfort of your browser
     teams:
       admin:
-        - Admin
-        - Core
         - ipdx
         - w3dt-stewards
     visibility: public
@@ -314,8 +298,6 @@ repositories:
         - Admin
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
       push:
         - Go Team
     visibility: public
@@ -326,8 +308,6 @@ repositories:
       pull:
         - Admin
         - Core
-      push:
-        - Go Team
     visibility: public
   go-ipld-graphql:
     collaborators:
@@ -341,8 +321,6 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
-      maintain:
-        - Go Team
     visibility: public
   go-ipld-prime-proto:
     collaborators:
@@ -356,8 +334,6 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
       push:
         - Go Team
     visibility: public
@@ -397,8 +373,6 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
       push:
         - Admin
         - Go Team
@@ -413,11 +387,6 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
-      pull:
-        - Admin
-        - Core
-      push:
-        - Go Team
     visibility: public
   go-ipld:
     collaborators:
@@ -429,8 +398,6 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
       push:
         - Go Team
     visibility: public
@@ -468,8 +435,6 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
-      push:
-        - Go Team
     visibility: public
   go-walker:
     collaborators:
@@ -515,8 +480,6 @@ repositories:
       pull:
         - Core
         - Go Team
-        - JavaScript Team
-        - Rust Team
     visibility: public
   ipld-examples:
     collaborators:
@@ -526,14 +489,8 @@ repositories:
     default_branch: master
     teams:
       admin:
-        - Admin
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
-        - Go Team
-        - JavaScript Team
-        - Rust Team
     topics:
       - examples
       - ipld
@@ -549,10 +506,7 @@ repositories:
         - ipdx
         - w3dt-stewards
       pull:
-        - Admin
         - Core
-      push:
-        - JavaScript Team
     visibility: public
   ipld-yang:
     collaborators:
@@ -572,7 +526,7 @@ repositories:
   ipld:
     collaborators:
       maintain:
-        - dannys03
+        - DannyS03
         - olizilla
       push:
         - web3-bot
@@ -580,7 +534,6 @@ repositories:
     description: InterPlanetary Linked Data
     teams:
       admin:
-        - Admin
         - ipdx
         - w3dt-stewards
       maintain:
@@ -605,8 +558,6 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
       push:
         - JavaScript Team
     visibility: public
@@ -620,11 +571,8 @@ repositories:
     description: Java implementation of Content Identifier
     teams:
       admin:
-        - Admin
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
     topics:
       - cid
       - ipld
@@ -642,7 +590,6 @@ repositories:
         - ipdx
         - w3dt-stewards
       pull:
-        - Core
         - Java Team
     visibility: public
   js-bitcoin:
@@ -674,8 +621,6 @@ repositories:
         - w3dt-stewards
       pull:
         - Core
-      push:
-        - JavaScript Team
     visibility: public
   js-blockcodec-to-ipld-format:
     collaborators:
@@ -699,8 +644,6 @@ repositories:
         - Admin
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
       push:
         - JavaScript Team
     visibility: public
@@ -716,10 +659,6 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
-      push:
-        - JavaScript Team
     visibility: public
   js-codec-interface:
     collaborators:
@@ -731,10 +670,6 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
-      push:
-        - JavaScript Team
     visibility: public
   js-composites:
     collaborators:
@@ -761,8 +696,6 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
       push:
         - JavaScript Team
     visibility: public
@@ -796,8 +729,6 @@ repositories:
         - w3dt-stewards
       pull:
         - Core
-      push:
-        - JavaScript Team
     visibility: public
   js-dag-ucan:
     collaborators:
@@ -838,8 +769,6 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
-      pull:
-        - JavaScript Team
     visibility: public
   js-fbl:
     collaborators:
@@ -853,10 +782,6 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
-      push:
-        - JavaScript Team
     visibility: public
   js-get-codec:
     collaborators:
@@ -886,8 +811,6 @@ repositories:
         - w3dt-stewards
       pull:
         - Core
-      push:
-        - JavaScript Team
     visibility: public
   js-ipld-bitcoin:
     collaborators:
@@ -899,13 +822,8 @@ repositories:
     description: JavaScript implementation of Bitcoin IPLD formats
     teams:
       admin:
-        - Admin
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
-      push:
-        - JavaScript Team
     topics:
       - ipld-format
     visibility: public
@@ -921,10 +839,6 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
-      push:
-        - JavaScript Team
     visibility: public
   js-ipld-cli:
     branch_protection:
@@ -936,8 +850,6 @@ repositories:
         - Admin
       pull:
         - Core
-      push:
-        - JavaScript Team
     visibility: public
   js-ipld-dag-cbor:
     collaborators:
@@ -951,8 +863,6 @@ repositories:
         - Admin
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
       push:
         - JavaScript Team
     topics:
@@ -974,8 +884,6 @@ repositories:
         - w3dt-stewards
       pull:
         - Core
-      push:
-        - JavaScript Team
     topics:
       - ipld-format
     visibility: public
@@ -989,8 +897,6 @@ repositories:
     teams:
       admin:
         - Admin
-      pull:
-        - Core
       push:
         - JavaScript Team
     visibility: public
@@ -1002,10 +908,6 @@ repositories:
         - kumavis
     default_branch: master
     teams:
-      admin:
-        - Admin
-      pull:
-        - Core
       push:
         - JavaScript Team
     visibility: public
@@ -1025,8 +927,6 @@ repositories:
         - Admin
       pull:
         - Core
-      push:
-        - JavaScript Team
     topics:
       - ethereum
       - ipld
@@ -1045,8 +945,6 @@ repositories:
         - Admin
       pull:
         - Core
-      push:
-        - JavaScript Team
     topics:
       - ethereum
       - ipld
@@ -1060,10 +958,6 @@ repositories:
         - kumavis
     default_branch: master
     teams:
-      admin:
-        - Admin
-      pull:
-        - Core
       push:
         - JavaScript Team
     visibility: public
@@ -1092,10 +986,6 @@ repositories:
     teams:
       admin:
         - Admin
-      pull:
-        - Core
-      push:
-        - JavaScript Team
     visibility: public
   js-ipld-eth-tx:
     branch_protection:
@@ -1105,12 +995,8 @@ repositories:
         - kumavis
     default_branch: master
     teams:
-      admin:
-        - Admin
       pull:
         - Core
-      push:
-        - JavaScript Team
     visibility: public
   js-ipld-ethereum:
     collaborators:
@@ -1169,13 +1055,8 @@ repositories:
     default_branch: master
     teams:
       admin:
-        - Admin
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
-      push:
-        - JavaScript Team
     topics:
       - ipld-format
     visibility: public
@@ -1189,13 +1070,10 @@ repositories:
     description: Provides an efficient way to build and manipulate IPLD DAGs as JSON
     teams:
       admin:
-        - Admin
         - ipdx
         - w3dt-stewards
       pull:
         - Core
-      push:
-        - JavaScript Team
     visibility: public
   js-ipld-raw:
     collaborators:
@@ -1227,8 +1105,6 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
       push:
         - JavaScript Team
     visibility: public
@@ -1243,10 +1119,6 @@ repositories:
         - Admin
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
-      push:
-        - JavaScript Team
     topics:
       - ipld
     visibility: public
@@ -1275,7 +1147,6 @@ repositories:
     description: JavaScript implementation of the Torrent IPLD format
     teams:
       admin:
-        - Admin
         - ipdx
         - w3dt-stewards
       pull:
@@ -1294,8 +1165,6 @@ repositories:
         - Admin
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
       push:
         - JavaScript Team
     visibility: public
@@ -1314,8 +1183,6 @@ repositories:
         - w3dt-stewards
       pull:
         - Core
-      push:
-        - JavaScript Team
     topics:
       - ipld-format
     visibility: public
@@ -1327,7 +1194,6 @@ repositories:
     description: The JavaScript Implementation of IPLD
     teams:
       admin:
-        - Admin
         - ipdx
         - w3dt-stewards
       pull:
@@ -1367,8 +1233,6 @@ repositories:
         - w3dt-stewards
       pull:
         - Core
-      push:
-        - JavaScript Team
     visibility: public
   js-printify:
     collaborators:
@@ -1401,8 +1265,6 @@ repositories:
         - w3dt-stewards
       pull:
         - Core
-      push:
-        - JavaScript Team
     visibility: public
   js-schema-validation:
     collaborators:
@@ -1416,15 +1278,12 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
       push:
         - JavaScript Team
     visibility: public
   js-unixfs:
     collaborators:
       admin:
-        - Gozala
         - hugomrdias
     default_branch: main
     description: UnixFS Directed Acyclic Graph for IPLD
@@ -1442,7 +1301,6 @@ repositories:
         - ipdx
         - w3dt-stewards
       pull:
-        - Admin
         - Core
       push:
         - JavaScript Team
@@ -1462,8 +1320,6 @@ repositories:
     visibility: public
   libipld:
     collaborators:
-      admin:
-        - Stebalien
       push:
         - dvc94ch
         - lKrayola
@@ -1472,7 +1328,6 @@ repositories:
     description: Rust IPLD library
     teams:
       pull:
-        - Core
         - Rust Team
     visibility: public
   metrics:
@@ -1487,8 +1342,6 @@ repositories:
       admin:
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
       push:
         - JavaScript Team
     visibility: public
@@ -1520,8 +1373,6 @@ repositories:
         - Admin
         - ipdx
         - w3dt-stewards
-      pull:
-        - Core
     visibility: public
   py-cid:
     collaborators:
@@ -1539,8 +1390,6 @@ repositories:
         - w3dt-stewards
       pull:
         - Core
-      push:
-        - Python Team
     topics:
       - cid
       - ipld
@@ -1596,7 +1445,6 @@ repositories:
         - w3dt-stewards
       pull:
         - Core
-        - Go Team
         - JavaScript Team
         - Rust Team
     visibility: public
@@ -1608,12 +1456,9 @@ repositories:
     description: "Research repo for the IPLD github org "
     teams:
       admin:
-        - Admin
         - ipdx
         - research
         - w3dt-stewards
-      pull:
-        - Core
     visibility: public
   roadmap:
     collaborators:
@@ -1645,16 +1490,13 @@ repositories:
     description: Content-addressed, authenticated, immutable data structures
     teams:
       admin:
-        - Admin
         - ipdx
         - w3dt-stewards
       pull:
         - Go Team
-        - Rust Team
       push:
         - ci
         - Core
-        - JavaScript Team
     topics:
       - content-addressed
       - graph
@@ -1679,11 +1521,7 @@ repositories:
       pull:
         - close-collaborators
         - Go Team
-        - JavaScript Team
         - Rust Team
-      push:
-        - Contributors
-        - Core
     visibility: public
   wasm-ipld:
     branch_protection:
@@ -1727,14 +1565,10 @@ teams:
         - aschmahmann
         - daviddias
         - jbenet
-        - mikeal
-        - Stebalien
         - vmx
         - warpfork
-        - whyrusleeping
       member:
         - BigLep
-        - Kubuxu
     privacy: closed
   ci:
     description: ci
@@ -1753,37 +1587,25 @@ teams:
   Contributors:
     members:
       maintainer:
-        - aschmahmann
-        - daviddias
-        - Stebalien
         - vmx
-        - whyrusleeping
       member:
-        - adlrocha
         - davidad
         - flyingzumwalt
-        - Kubuxu
         - nicola
-        - RichardLitt
     privacy: closed
   Core:
     description: Core Team
     members:
       maintainer:
         - mikeal
-        - rvagg
-        - Stebalien
         - vmx
-        - warpfork
       member:
         - BigLep
-        - willscott
     privacy: closed
   DX:
     description: Developer Experience Team
     members:
       member:
-        - travisperson
         - victorb
     privacy: closed
   github-mgmt stewards:
@@ -1806,29 +1628,19 @@ teams:
     privacy: closed
   Go Team:
     members:
-      maintainer:
-        - aschmahmann
-        - rvagg
-        - Stebalien
-        - warpfork
-        - whyrusleeping
       member:
         - aarshkshah1992
-        - anorth
         - arajasek
-        - davidd8
         - dirkmc
         - guseggert
         - hannahhoward
         - ipldbot
-        - Kubuxu
         - magik6k
         - masih
         - momack2
         - petar
         - raulk
         - ribasushi
-        - tchardin
         - willscott
     privacy: closed
   Infra:
@@ -1843,11 +1655,6 @@ teams:
     privacy: closed
   Java Team:
     description: Java Java Java Java
-    members:
-      maintainer:
-        - jbenet
-      member:
-        - ianopolous
     privacy: closed
   JavaScript Team:
     description: The most awesome team
@@ -1855,31 +1662,17 @@ teams:
       maintainer:
         - daviddias
         - dignifiedquire
-        - mikeal
-        - rvagg
         - vmx
       member:
         - achingbrain
         - AdamStone
         - alanshaw
-        - Gozala
-        - haadcode
-        - hacdias
-        - hugomrdias
-        - ipldbot
         - jacobheun
         - kumavis
         - litzenberger
         - magik6k
-        - mcollina
-        - momack2
-        - nicola
         - olizilla
-        - pkafei
-        - richardschneider
-        - tchardin
         - vasco-santos
-        - victorb
         - wanderer
     privacy: closed
   Python Team:
@@ -1887,8 +1680,6 @@ teams:
     members:
       maintainer:
         - daviddias
-      member:
-        - dhruvbaldawa
     privacy: closed
   research:
     members:
@@ -1897,7 +1688,6 @@ teams:
         - jbenet
         - miyazono
         - nicola
-        - Stebalien
         - vmx
       member:
         - davidad
@@ -1919,7 +1709,6 @@ teams:
         - vmx
       member:
         - MarcoPolo
-        - mxinden
     privacy: closed
   Swift Team:
     members:
@@ -1933,12 +1722,10 @@ teams:
       maintainer:
         - aschmahmann
         - BigLep
-        - Stebalien
       member:
         - achingbrain
         - ajnavarro
         - galargh
         - guseggert
-        - Jorropo
         - lidel
     privacy: closed
