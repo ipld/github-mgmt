@@ -572,7 +572,7 @@ repositories:
   ipld:
     collaborators:
       maintain:
-        - dannys03
+        - DannyS03
         - olizilla
       push:
         - web3-bot
