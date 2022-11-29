@@ -49,6 +49,7 @@ members:
     - kevina
     - Kubuxu
     - kumavis
+    - laurentsenta
     - lidel
     - litzenberger
     - magik6k
@@ -572,7 +573,7 @@ repositories:
   ipld:
     collaborators:
       maintain:
-        - dannys03
+        - DannyS03
         - olizilla
       push:
         - web3-bot
@@ -1839,6 +1840,8 @@ teams:
     members:
       maintainer:
         - galargh
+      member:
+        - laurentsenta
     parent_team_id: w3dt-stewards
     privacy: closed
   Java Team:
@@ -1940,5 +1943,6 @@ teams:
         - galargh
         - guseggert
         - Jorropo
+        - laurentsenta
         - lidel
     privacy: closed
