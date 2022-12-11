@@ -305,21 +305,6 @@ repositories:
       push:
         - Go Team
     visibility: public
-  go-ipld-daghelpers:
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    teams:
-      admin:
-        - Admin
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - Core
-      push:
-        - Go Team
-    visibility: public
   go-ipld-deprecated:
     default_branch: master
     description: Golang IPLD Dev Entry Point Repo
@@ -1493,20 +1478,6 @@ repositories:
         - Core
       push:
         - JavaScript Team
-    visibility: public
-  oneoff-ddrop-cloner:
-    collaborators:
-      admin:
-        - ribasushi
-      push:
-        - web3-bot
-    default_branch: master
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - Core
     visibility: public
   persistent-metadata:
     collaborators:
