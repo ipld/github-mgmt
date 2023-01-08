@@ -2,6 +2,7 @@
 
 members:
   admin:
+    - andyschwab-admin
     - aschmahmann
     - daviddias
     - dignifiedquire
@@ -9,7 +10,6 @@ members:
     - jbenet
     - marten-seemann
     - mikeal
-    - protocollabsit
     - rvagg
     - Stebalien
     - vmx
@@ -64,7 +64,6 @@ members:
     - olizilla
     - petar
     - pkafei
-    - protocollabsit-readonly
     - RangerMauve
     - raulk
     - ribasushi
