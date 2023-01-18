@@ -1818,17 +1818,17 @@ teams:
   ipfs-gui:
     members:
       maintainer:
-        - sgtpooki
         - rvagg
+        - sgtpooki
         - tinytb
       member:
-        - sgtpooki
-        - lidel
-        - hacdias
-        - olizilla
-        - whizzzkid
         - djmcquillan
+        - hacdias
         - juliaxbow
+        - lidel
+        - olizilla
+        - sgtpooki
+        - whizzzkid
     privacy: closed
   Java Team:
     description: Java Java Java Java
@@ -1932,4 +1932,3 @@ teams:
         - laurentsenta
         - lidel
     privacy: closed
-  
