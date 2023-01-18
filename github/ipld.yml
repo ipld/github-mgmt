@@ -1815,6 +1815,21 @@ teams:
         - laurentsenta
     parent_team_id: w3dt-stewards
     privacy: closed
+  ipfs-gui:
+    members:
+      maintainer:
+        - sgtpooki
+        - rvagg
+        - tinytb
+      member:
+        - sgtpooki
+        - lidel
+        - hacdias
+        - olizilla
+        - whizzzkid
+        - djmcquillan
+        - juliaxbow
+    privacy: closed
   Java Team:
     description: Java Java Java Java
     members:
@@ -1917,3 +1932,4 @@ teams:
         - laurentsenta
         - lidel
     privacy: closed
+  
