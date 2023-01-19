@@ -32,6 +32,7 @@ members:
     - davidd8
     - dhruvbaldawa
     - dirkmc
+    - djmcquillan
     - flyingzumwalt
     - Gozala
     - guseggert
@@ -46,6 +47,7 @@ members:
     - jbenetsafer
     - jesseclay
     - Jorropo
+    - juliaxbow
     - kevina
     - Kubuxu
     - kumavis
@@ -69,12 +71,15 @@ members:
     - ribasushi
     - RichardLitt
     - richardschneider
+    - sgtpooki
     - tchardin
+    - tinytb
     - travisperson
     - vasco-santos
     - victorb
     - wanderer
     - web3-bot
+    - whizzzkid
     - willscott
 repositories:
   auto:
