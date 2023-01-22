@@ -190,6 +190,9 @@ repositories:
         - Core
         - ipdx
         - w3dt-stewards
+    topics:
+      - ipfs-gui
+      - ipfs
     visibility: public
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
@@ -1821,6 +1824,7 @@ teams:
     parent_team_id: w3dt-stewards
     privacy: closed
   ipfs-gui:
+    create_default_maintainer: false
     members:
       maintainer:
         - rvagg
