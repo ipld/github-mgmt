@@ -1716,6 +1716,7 @@ teams:
         - Kubuxu
     privacy: closed
   Alumni:
+    create_default_maintainer: false
     privacy: closed
   ci:
     description: ci
