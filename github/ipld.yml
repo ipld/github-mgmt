@@ -936,7 +936,6 @@ repositories:
   js-ipld-dag-cbor:
     collaborators:
       push:
-        - hugomrdias
         - web3-bot
     default_branch: master
     description: JavaScript implementation of the IPLD dag-cbor format.
@@ -1829,7 +1828,6 @@ teams:
       maintainer:
         - rvagg
         - sgtpooki
-        - tinytb
       member:
         - djmcquillan
         - hacdias
@@ -1933,7 +1931,6 @@ teams:
         - Stebalien
       member:
         - achingbrain
-        - ajnavarro
         - galargh
         - guseggert
         - Jorropo
