@@ -1716,6 +1716,8 @@ teams:
         - BigLep
         - Kubuxu
     privacy: closed
+  Alumni:
+    privacy: closed
   ci:
     description: ci
     members:
