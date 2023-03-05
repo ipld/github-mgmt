@@ -835,23 +835,6 @@ repositories:
       pull:
         - JavaScript Team
     visibility: public
-  js-fbl:
-    collaborators:
-      admin:
-        - mikeal
-      push:
-        - web3-bot
-    default_branch: master
-    description: Flexible Byte Layout Implementation
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - Core
-      push:
-        - JavaScript Team
-    visibility: public
   js-get-codec:
     collaborators:
       push:
