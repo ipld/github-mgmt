@@ -1400,8 +1400,11 @@ repositories:
   js-unixfs:
     collaborators:
       admin:
+        - alanshaw
         - Gozala
         - hugomrdias
+      maintain:
+        - gobengo
     default_branch: main
     description: UnixFS Directed Acyclic Graph for IPLD
     visibility: public
