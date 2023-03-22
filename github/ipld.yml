@@ -197,7 +197,22 @@ repositories:
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - Comment
+          strict: true
     default_branch: master
     files:
       CODEOWNERS:
@@ -235,9 +250,19 @@ repositories:
     visibility: private
   go-car:
     branch_protection:
-      feat/filestore: {}
+      feat/filestore:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: true
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
       master:
-        # This key accepts only EXACT branch names, unlike the terraform resource which accepts any pattern
         allows_deletions: false
         allows_force_pushes: false
         enforce_admins: false
@@ -369,7 +394,20 @@ repositories:
     visibility: public
   go-ipld-prime:
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 0
+          restrict_dismissals: false
+        required_status_checks:
+          strict: true
     collaborators:
       admin:
         - warpfork
@@ -459,7 +497,18 @@ repositories:
     visibility: public
   go-storethehash:
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
     collaborators:
       admin:
         - adlrocha
@@ -918,7 +967,32 @@ repositories:
     visibility: public
   js-ipld-cli:
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjc5MDg0Mg==
+          - MDQ6VXNlcjE0NzQ5Nzg=
+          - MDQ6VXNlcjE1Mjg2Mw==
+          - MDQ6VXNlcjE1ODIxMQ==
+          - MDQ6VXNlcjEyMTExNTI=
+          - MDQ6VXNlcjQ1OTc2NA==
+          - MDQ6VXNlcjQyODM5
+          - MDQ6VXNlcjU0NDcwODg=
+          - MDQ6VXNlcjU4ODcx
+          - MDQ6VXNlcjY2NTgxMA==
+          - MDQ6VXNlcjYzOTgzNA==
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: true
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: true
+        required_status_checks:
+          strict: true
     default_branch: master
     description: Interact with IPLD on the command line
     teams:
@@ -970,7 +1044,32 @@ repositories:
     visibility: public
   js-ipld-eth-account-snapshot:
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjc5MDg0Mg==
+          - MDQ6VXNlcjE0NzQ5Nzg=
+          - MDQ6VXNlcjE1Mjg2Mw==
+          - MDQ6VXNlcjE1ODIxMQ==
+          - MDQ6VXNlcjEyMTExNTI=
+          - MDQ6VXNlcjQ1OTc2NA==
+          - MDQ6VXNlcjQyODM5
+          - MDQ6VXNlcjU0NDcwODg=
+          - MDQ6VXNlcjU4ODcx
+          - MDQ6VXNlcjY2NTgxMA==
+          - MDQ6VXNlcjYzOTgzNA==
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: true
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: true
+        required_status_checks:
+          strict: true
     collaborators:
       push:
         - kumavis
@@ -985,7 +1084,32 @@ repositories:
     visibility: public
   js-ipld-eth-block-list:
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjc5MDg0Mg==
+          - MDQ6VXNlcjE0NzQ5Nzg=
+          - MDQ6VXNlcjE1Mjg2Mw==
+          - MDQ6VXNlcjE1ODIxMQ==
+          - MDQ6VXNlcjEyMTExNTI=
+          - MDQ6VXNlcjQ1OTc2NA==
+          - MDQ6VXNlcjQyODM5
+          - MDQ6VXNlcjU0NDcwODg=
+          - MDQ6VXNlcjU4ODcx
+          - MDQ6VXNlcjY2NTgxMA==
+          - MDQ6VXNlcjYzOTgzNA==
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: true
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: true
+        required_status_checks:
+          strict: true
     collaborators:
       push:
         - kumavis
@@ -1000,7 +1124,32 @@ repositories:
     visibility: public
   js-ipld-eth-block:
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjc5MDg0Mg==
+          - MDQ6VXNlcjE0NzQ5Nzg=
+          - MDQ6VXNlcjE1Mjg2Mw==
+          - MDQ6VXNlcjE1ODIxMQ==
+          - MDQ6VXNlcjEyMTExNTI=
+          - MDQ6VXNlcjQ1OTc2NA==
+          - MDQ6VXNlcjQyODM5
+          - MDQ6VXNlcjU0NDcwODg=
+          - MDQ6VXNlcjU4ODcx
+          - MDQ6VXNlcjY2NTgxMA==
+          - MDQ6VXNlcjYzOTgzNA==
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: true
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: true
+        required_status_checks:
+          strict: true
     collaborators:
       admin:
         - daviddias
@@ -1023,7 +1172,32 @@ repositories:
     visibility: public
   js-ipld-eth-state-trie:
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjc5MDg0Mg==
+          - MDQ6VXNlcjE0NzQ5Nzg=
+          - MDQ6VXNlcjE1Mjg2Mw==
+          - MDQ6VXNlcjE1ODIxMQ==
+          - MDQ6VXNlcjEyMTExNTI=
+          - MDQ6VXNlcjQ1OTc2NA==
+          - MDQ6VXNlcjQyODM5
+          - MDQ6VXNlcjU0NDcwODg=
+          - MDQ6VXNlcjU4ODcx
+          - MDQ6VXNlcjY2NTgxMA==
+          - MDQ6VXNlcjYzOTgzNA==
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: true
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: true
+        required_status_checks:
+          strict: true
     collaborators:
       push:
         - kumavis
@@ -1043,7 +1217,32 @@ repositories:
     visibility: public
   js-ipld-eth-storage-trie:
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjc5MDg0Mg==
+          - MDQ6VXNlcjE0NzQ5Nzg=
+          - MDQ6VXNlcjE1Mjg2Mw==
+          - MDQ6VXNlcjE1ODIxMQ==
+          - MDQ6VXNlcjEyMTExNTI=
+          - MDQ6VXNlcjQ1OTc2NA==
+          - MDQ6VXNlcjQyODM5
+          - MDQ6VXNlcjU0NDcwODg=
+          - MDQ6VXNlcjU4ODcx
+          - MDQ6VXNlcjY2NTgxMA==
+          - MDQ6VXNlcjYzOTgzNA==
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: true
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: true
+        required_status_checks:
+          strict: true
     collaborators:
       push:
         - kumavis
@@ -1058,7 +1257,32 @@ repositories:
     visibility: public
   js-ipld-eth-trie:
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjc5MDg0Mg==
+          - MDQ6VXNlcjE0NzQ5Nzg=
+          - MDQ6VXNlcjE1Mjg2Mw==
+          - MDQ6VXNlcjE1ODIxMQ==
+          - MDQ6VXNlcjEyMTExNTI=
+          - MDQ6VXNlcjQ1OTc2NA==
+          - MDQ6VXNlcjQyODM5
+          - MDQ6VXNlcjU0NDcwODg=
+          - MDQ6VXNlcjU4ODcx
+          - MDQ6VXNlcjY2NTgxMA==
+          - MDQ6VXNlcjYzOTgzNA==
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: true
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: true
+        required_status_checks:
+          strict: true
     collaborators:
       push:
         - kumavis
@@ -1073,7 +1297,32 @@ repositories:
     visibility: public
   js-ipld-eth-tx-trie:
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjc5MDg0Mg==
+          - MDQ6VXNlcjE0NzQ5Nzg=
+          - MDQ6VXNlcjE1Mjg2Mw==
+          - MDQ6VXNlcjE1ODIxMQ==
+          - MDQ6VXNlcjEyMTExNTI=
+          - MDQ6VXNlcjQ1OTc2NA==
+          - MDQ6VXNlcjQyODM5
+          - MDQ6VXNlcjU0NDcwODg=
+          - MDQ6VXNlcjU4ODcx
+          - MDQ6VXNlcjY2NTgxMA==
+          - MDQ6VXNlcjYzOTgzNA==
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: true
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: true
+        required_status_checks:
+          strict: true
     collaborators:
       push:
         - kumavis
@@ -1088,7 +1337,32 @@ repositories:
     visibility: public
   js-ipld-eth-tx:
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjc5MDg0Mg==
+          - MDQ6VXNlcjE0NzQ5Nzg=
+          - MDQ6VXNlcjE1Mjg2Mw==
+          - MDQ6VXNlcjE1ODIxMQ==
+          - MDQ6VXNlcjEyMTExNTI=
+          - MDQ6VXNlcjQ1OTc2NA==
+          - MDQ6VXNlcjQyODM5
+          - MDQ6VXNlcjU0NDcwODg=
+          - MDQ6VXNlcjU4ODcx
+          - MDQ6VXNlcjY2NTgxMA==
+          - MDQ6VXNlcjYzOTgzNA==
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: true
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: true
+        required_status_checks:
+          strict: true
     collaborators:
       push:
         - kumavis
@@ -1665,7 +1939,20 @@ repositories:
     visibility: public
   wasm-ipld:
     branch_protection:
-      main: {}
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: true
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: true
     collaborators:
       admin:
         - aschmahmann
