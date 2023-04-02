@@ -670,6 +670,7 @@ repositories:
       admin:
         - ianopolous
       push:
+        - kevodwyer
         - web3-bot
     default_branch: master
     description: Java implementation of Content Identifier
