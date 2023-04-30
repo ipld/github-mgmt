@@ -2202,6 +2202,7 @@ teams:
       maintainer:
         - vmx
       member:
+        - adlrocha
         - MarcoPolo
         - mxinden
     privacy: closed
