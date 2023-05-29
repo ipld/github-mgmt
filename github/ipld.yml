@@ -85,6 +85,7 @@ repositories:
   auto:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - mikeal
@@ -111,6 +112,7 @@ repositories:
   cid-cbor:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - vmx
@@ -138,6 +140,7 @@ repositories:
   codec-fixtures:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -157,6 +160,7 @@ repositories:
   docs:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -180,6 +184,7 @@ repositories:
   edelweiss:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - petar
@@ -202,6 +207,7 @@ repositories:
   eth-hash-to-cid:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     default_branch: master
     description: Utility to convert ethereum hashes to CID (Content IDentifier)
     has_discussions: false
@@ -227,6 +233,7 @@ repositories:
   explore.ipld.io:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - lidel
@@ -261,6 +268,7 @@ repositories:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     advanced_security: false
     allow_update_branch: true
+    archived: false
     branch_protection:
       master:
         allows_deletions: false
@@ -309,6 +317,7 @@ repositories:
   go-car-priv:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       pull:
         - alvin-reyes
@@ -334,6 +343,7 @@ repositories:
   go-car:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     branch_protection:
       feat/filestore:
         allows_deletions: false
@@ -392,6 +402,7 @@ repositories:
   go-codec-dagpb:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - rvagg
@@ -417,6 +428,7 @@ repositories:
   go-datalark:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - dustmop
@@ -434,6 +446,7 @@ repositories:
   go-ipld-adl-hamt:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - warpfork
@@ -459,6 +472,7 @@ repositories:
   go-ipld-btc:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - marten-seemann
@@ -485,6 +499,7 @@ repositories:
   go-ipld-deprecated:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     default_branch: master
     description: Golang IPLD Dev Entry Point Repo
     has_discussions: false
@@ -504,6 +519,7 @@ repositories:
   go-ipld-graphql:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - willscott
@@ -528,6 +544,7 @@ repositories:
   go-ipld-prime-proto:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - hannahhoward
@@ -554,6 +571,7 @@ repositories:
   go-ipld-prime:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     branch_protection:
       master:
         allows_deletions: false
@@ -602,6 +620,7 @@ repositories:
   go-ipld-schema:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - whyrusleeping
@@ -629,6 +648,7 @@ repositories:
   go-ipld-selector-text-lite:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - ribasushi
@@ -654,6 +674,7 @@ repositories:
   go-ipld:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -678,6 +699,7 @@ repositories:
   go-ipldtool:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -697,6 +719,7 @@ repositories:
   go-selector-store:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - hannahhoward
@@ -713,6 +736,7 @@ repositories:
   go-storethehash:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     branch_protection:
       master:
         allows_deletions: false
@@ -755,6 +779,7 @@ repositories:
   go-walker:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - hannahhoward
@@ -778,6 +803,7 @@ repositories:
   grants:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -800,6 +826,7 @@ repositories:
   interface-ipld-format:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -829,6 +856,7 @@ repositories:
   ipld-examples:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - mildred
@@ -858,6 +886,7 @@ repositories:
   ipld-in-memory:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -883,6 +912,7 @@ repositories:
   ipld-yang:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - hsanjuan
@@ -907,6 +937,7 @@ repositories:
   ipld:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       maintain:
         - DannyS03
@@ -942,6 +973,7 @@ repositories:
   is-circular:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -966,6 +998,7 @@ repositories:
   java-cid:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - ianopolous
@@ -996,6 +1029,7 @@ repositories:
   java-ipld-cbor:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - ianopolous
@@ -1020,6 +1054,7 @@ repositories:
   js-bitcoin:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - rvagg
@@ -1046,6 +1081,7 @@ repositories:
   js-block:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -1070,6 +1106,7 @@ repositories:
   js-blockcodec-to-ipld-format:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -1090,6 +1127,7 @@ repositories:
   js-car:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1115,6 +1153,7 @@ repositories:
   js-cli:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - mikeal
@@ -1141,6 +1180,7 @@ repositories:
   js-codec-interface:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -1165,6 +1205,7 @@ repositories:
   js-composites:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -1189,6 +1230,7 @@ repositories:
   js-dag-cbor:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1213,6 +1255,7 @@ repositories:
   js-dag-json:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - mikeal
@@ -1239,6 +1282,7 @@ repositories:
   js-dag-pb:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1264,6 +1308,7 @@ repositories:
   js-dag-ucan:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - Gozala
@@ -1285,6 +1330,7 @@ repositories:
   js-datastore-car:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - rvagg
@@ -1312,6 +1358,7 @@ repositories:
   js-examples:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - rvagg
@@ -1334,6 +1381,7 @@ repositories:
   js-get-codec:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -1358,6 +1406,7 @@ repositories:
   js-ipld-bencode:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -1383,6 +1432,7 @@ repositories:
   js-ipld-bitcoin:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - vmx
@@ -1412,6 +1462,7 @@ repositories:
   js-ipld-block:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - dignifiedquire
@@ -1438,6 +1489,7 @@ repositories:
   js-ipld-cli:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     branch_protection:
       master:
         allows_deletions: false
@@ -1487,6 +1539,7 @@ repositories:
   js-ipld-dag-cbor:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -1515,6 +1568,7 @@ repositories:
   js-ipld-dag-pb:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - daviddias
@@ -1544,6 +1598,7 @@ repositories:
   js-ipld-eth-account-snapshot:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     branch_protection:
       master:
         allows_deletions: false
@@ -1595,6 +1650,7 @@ repositories:
   js-ipld-eth-block-list:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     branch_protection:
       master:
         allows_deletions: false
@@ -1646,6 +1702,7 @@ repositories:
   js-ipld-eth-block:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     branch_protection:
       master:
         allows_deletions: false
@@ -1705,6 +1762,7 @@ repositories:
   js-ipld-eth-state-trie:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     branch_protection:
       master:
         allows_deletions: false
@@ -1761,6 +1819,7 @@ repositories:
   js-ipld-eth-storage-trie:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     branch_protection:
       master:
         allows_deletions: false
@@ -1812,6 +1871,7 @@ repositories:
   js-ipld-eth-trie:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     branch_protection:
       master:
         allows_deletions: false
@@ -1863,6 +1923,7 @@ repositories:
   js-ipld-eth-tx-trie:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     branch_protection:
       master:
         allows_deletions: false
@@ -1914,6 +1975,7 @@ repositories:
   js-ipld-eth-tx:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     branch_protection:
       master:
         allows_deletions: false
@@ -1965,6 +2027,7 @@ repositories:
   js-ipld-ethereum:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - kumavis
@@ -1995,6 +2058,7 @@ repositories:
   js-ipld-format-to-blockcodec:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -2016,6 +2080,7 @@ repositories:
   js-ipld-garbage:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - rvagg
@@ -2042,6 +2107,7 @@ repositories:
   js-ipld-git:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -2068,6 +2134,7 @@ repositories:
   js-ipld-graph-builder:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - wanderer
@@ -2095,6 +2162,7 @@ repositories:
   js-ipld-raw:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -2122,6 +2190,7 @@ repositories:
   js-ipld-schema:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - rvagg
@@ -2148,6 +2217,7 @@ repositories:
   js-ipld-selector:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - nicola
@@ -2175,6 +2245,7 @@ repositories:
   js-ipld-stack:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - mikeal
@@ -2201,6 +2272,7 @@ repositories:
   js-ipld-torrent-file:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -2226,6 +2298,7 @@ repositories:
   js-ipld-torrent-info:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -2251,6 +2324,7 @@ repositories:
   js-ipld-zcash:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - vmx
@@ -2280,6 +2354,7 @@ repositories:
   js-ipld:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -2308,6 +2383,7 @@ repositories:
   js-iq:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -2332,6 +2408,7 @@ repositories:
   js-path-level-one:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - mikeal
@@ -2358,6 +2435,7 @@ repositories:
   js-printify:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - mikeal
@@ -2384,6 +2462,7 @@ repositories:
   js-schema-gen:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - mikeal
@@ -2410,6 +2489,7 @@ repositories:
   js-schema-validation:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - mikeal
@@ -2436,6 +2516,7 @@ repositories:
   js-unixfs:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - alanshaw
@@ -2456,6 +2537,7 @@ repositories:
   js-unixfsv2:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - mikeal
@@ -2483,6 +2565,7 @@ repositories:
   legacy-unixfs-v2:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -2505,6 +2588,7 @@ repositories:
   libipld:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - Stebalien
@@ -2529,6 +2613,7 @@ repositories:
   metrics:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - mikeal
@@ -2555,6 +2640,7 @@ repositories:
   persistent-metadata:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - flyingzumwalt
@@ -2581,6 +2667,7 @@ repositories:
   py-cid:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - dhruvbaldawa
@@ -2613,6 +2700,7 @@ repositories:
   py-ipld-dag:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - dhruvbaldawa
@@ -2638,6 +2726,7 @@ repositories:
   react-ipld:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - dignifiedquire
@@ -2666,6 +2755,7 @@ repositories:
   replication:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - mikeal
@@ -2694,6 +2784,7 @@ repositories:
   research:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -2718,6 +2809,7 @@ repositories:
   roadmap:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - mikeal
@@ -2744,6 +2836,7 @@ repositories:
   serde_ipld_dagcbor:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     default_branch: master
     description: DAG-CBOR implementation for Serde
     has_discussions: false
@@ -2757,6 +2850,7 @@ repositories:
   specs:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - hannahhoward
@@ -2793,6 +2887,7 @@ repositories:
   team-mgmt:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - aschmahmann
@@ -2824,6 +2919,7 @@ repositories:
   wasm-ipld:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     branch_protection:
       main:
         allows_deletions: false
@@ -2864,6 +2960,7 @@ repositories:
   website:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - olizilla
