@@ -9,7 +9,6 @@ members:
     - galargh
     - jbenet
     - marten-seemann
-    - mikeal
     - rvagg
     - Stebalien
     - vmx
@@ -87,8 +86,6 @@ repositories:
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
-        - mikeal
       push:
         - web3-bot
     default_branch: master
@@ -1155,8 +1152,6 @@ repositories:
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
-        - mikeal
       push:
         - web3-bot
     default_branch: master
@@ -1257,8 +1252,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - mikeal
       push:
         - web3-bot
     default_branch: master
@@ -2247,8 +2240,6 @@ repositories:
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
-        - mikeal
       push:
         - web3-bot
     default_branch: master
@@ -2410,8 +2401,6 @@ repositories:
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
-        - mikeal
       push:
         - web3-bot
     default_branch: master
@@ -2437,8 +2426,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - mikeal
       push:
         - web3-bot
     default_branch: master
@@ -2464,8 +2451,6 @@ repositories:
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
-        - mikeal
       push:
         - web3-bot
     default_branch: master
@@ -2491,8 +2476,6 @@ repositories:
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
-        - mikeal
       push:
         - web3-bot
     default_branch: master
@@ -2539,8 +2522,6 @@ repositories:
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
-        - mikeal
       push:
         - web3-bot
     default_branch: master
@@ -2615,8 +2596,6 @@ repositories:
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
-        - mikeal
       push:
         - web3-bot
     default_branch: master
@@ -2757,8 +2736,6 @@ repositories:
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
-        - mikeal
       push:
         - web3-bot
     default_branch: master
@@ -2812,7 +2789,6 @@ repositories:
     archived: true
     collaborators:
       admin:
-        - mikeal
         - vmx
         - warpfork
       push:
@@ -2993,7 +2969,6 @@ teams:
         - aschmahmann
         - daviddias
         - jbenet
-        - mikeal
         - Stebalien
         - vmx
         - warpfork
@@ -3039,7 +3014,6 @@ teams:
     description: Core Team
     members:
       maintainer:
-        - mikeal
         - rvagg
         - Stebalien
         - vmx
@@ -3139,7 +3113,6 @@ teams:
       maintainer:
         - daviddias
         - dignifiedquire
-        - mikeal
         - rvagg
         - vmx
       member:
