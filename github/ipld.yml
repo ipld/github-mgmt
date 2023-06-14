@@ -143,6 +143,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: Fixtures for testing standard IPLD codecs
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -324,6 +327,9 @@ repositories:
         - hsanjuan
     default_branch: master
     description: go-car but private for hush-hush security stuff
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -379,6 +385,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: A content addressible archive utility
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1004,6 +1013,9 @@ repositories:
         - web3-bot
     default_branch: master
     description: Java implementation of Content Identifier
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1312,6 +1324,9 @@ repositories:
         - olizilla
     default_branch: main
     description: UCAN codec for IPLD
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2509,6 +2524,9 @@ repositories:
         - gobengo
     default_branch: main
     description: UnixFS Directed Acyclic Graph for IPLD
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2579,6 +2597,9 @@ repositories:
         - molekilla
     default_branch: master
     description: Rust IPLD library
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2815,6 +2836,9 @@ repositories:
     archived: false
     default_branch: master
     description: DAG-CBOR implementation for Serde
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2920,6 +2944,9 @@ repositories:
         - web3-bot
     default_branch: main
     description: Tools and examples of IPLD codecs and ADLs in WASM callable from hosts
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
