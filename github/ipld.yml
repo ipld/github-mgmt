@@ -298,6 +298,10 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - hannahhoward
+        - kylehuntsman
     default_branch: master
     description: An experimental minimal IPLD data provider for the IPFS network
     has_discussions: false
