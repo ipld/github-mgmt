@@ -300,6 +300,10 @@ repositories:
     archived: false
     default_branch: master
     description: An experimental minimal IPLD data provider for the IPFS network
+    collaborators:
+      push:
+        - hannahhoward
+        - kylehuntsman
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
