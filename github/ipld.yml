@@ -270,7 +270,7 @@ repositories:
         - olizilla
       maintain:
         - hacdias
-        - SgtPooki
+        - ipfs-gui
       push:
         - alvin-reyes
         - andyschwab
@@ -3188,7 +3188,6 @@ teams:
         - sgtpooki
       member:
         - hacdias
-        - juliaxbow
         - lidel
         - olizilla
         - whizzzkid
