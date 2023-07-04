@@ -270,7 +270,6 @@ repositories:
         - olizilla
       maintain:
         - hacdias
-        - ipfs-gui
       push:
         - alvin-reyes
         - andyschwab
@@ -290,6 +289,8 @@ repositories:
         - Core
         - ipdx
         - w3dt-stewards
+      maintain:
+        - ipfs-gui
     topics:
       - ipfs-gui
       - ipfs
