@@ -302,7 +302,6 @@ repositories:
     collaborators:
       push:
         - hannahhoward
-        - kylehuntsman
         - web3-bot
     default_branch: master
     description: An experimental minimal IPLD data provider for the IPFS network
@@ -3218,7 +3217,6 @@ teams:
         - hacdias
         - hugomrdias
         - ipldbot
-        - jacobheun
         - kumavis
         - litzenberger
         - magik6k
