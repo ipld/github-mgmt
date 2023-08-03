@@ -85,6 +85,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Org level automation.
     has_discussions: false
@@ -186,6 +189,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: All you need to know about IPLD
     has_discussions: false
@@ -612,6 +618,8 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
+      push:
+        - web3-bot
     default_branch: master
     description: A DagPB implementation for go-ipld-prime
     has_discussions: false
@@ -686,6 +694,8 @@ repositories:
     collaborators:
       admin:
         - whyrusleeping
+      push:
+        - web3-bot
     default_branch: master
     description: Implementation of an ipld schema parser
     has_discussions: false
@@ -757,6 +767,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: A fine gadget
     has_discussions: false
@@ -856,6 +869,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     description: IPLD Grants for Research and Development
     has_discussions: false
@@ -879,6 +895,8 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+      push:
+        - web3-bot
     default_branch: master
     description: A interface you can follow to implement a valid IPLD format,
       resolvable through the IPLD Resolver (available in IPFS)
@@ -907,6 +925,7 @@ repositories:
     collaborators:
       push:
         - mildred
+        - web3-bot
     default_branch: master
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -933,6 +952,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: 🧠 IPLD in your RAM
     has_discussions: false
@@ -959,6 +981,8 @@ repositories:
     collaborators:
       admin:
         - hsanjuan
+      push:
+        - web3-bot
     default_branch: master
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -1013,6 +1037,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: determines if an object (or array) is circular
     has_discussions: false
@@ -1117,6 +1144,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: IPLD Block Interface
     has_discussions: false
@@ -1186,6 +1216,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: IPLD Command Line Interface
     has_discussions: false
@@ -1208,6 +1241,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: IPLD Codec Interface
     has_discussions: false
@@ -1230,6 +1266,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: "WIP: IPLD Composites"
     has_discussions: false
@@ -1356,6 +1395,8 @@ repositories:
     collaborators:
       admin:
         - rvagg
+      push:
+        - web3-bot
     default_branch: master
     description: Content Addressable aRchive format reader and writer
     has_discussions: false
@@ -1402,6 +1443,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: IPLD codec loader
     has_discussions: false
@@ -1424,6 +1468,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: JavaScript implementation of the bencode IPLD format
     has_discussions: false
@@ -1450,6 +1497,8 @@ repositories:
     collaborators:
       admin:
         - vmx
+      push:
+        - web3-bot
     default_branch: master
     description: JavaScript implementation of Bitcoin IPLD formats
     has_discussions: false
@@ -1478,6 +1527,8 @@ repositories:
     collaborators:
       admin:
         - dignifiedquire
+      push:
+        - web3-bot
     default_branch: master
     description: Implementation of the Block data structure in JavaScript.
     has_discussions: false
@@ -1550,6 +1601,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: JavaScript implementation of the IPLD dag-cbor format.
     has_discussions: false
@@ -1579,6 +1633,8 @@ repositories:
     collaborators:
       admin:
         - daviddias
+      push:
+        - web3-bot
     default_branch: master
     description: JavaScript Implementation of the MerkleDAG Nodes with Protobuf.
     has_discussions: false
@@ -2038,6 +2094,7 @@ repositories:
         - kumavis
       push:
         - dryajov
+        - web3-bot
     default_branch: master
     description: JavaScript Implementation of All Ethereum IPLD formats
     has_discussions: false
@@ -2112,6 +2169,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2139,6 +2199,8 @@ repositories:
     collaborators:
       admin:
         - wanderer
+      push:
+        - web3-bot
     default_branch: master
     description: Provides an efficient way to build and manipulate IPLD DAGs as JSON
     has_discussions: false
@@ -2162,6 +2224,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: JavaScript implementation of the IPLD raw format.
     has_discussions: false
@@ -2215,6 +2280,7 @@ repositories:
     collaborators:
       push:
         - nicola
+        - web3-bot
     default_branch: master
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2239,6 +2305,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: "EXPERIMENTAL: Next JS IPLD authoring stack"
     has_discussions: false
@@ -2261,6 +2330,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: JavaScript implementation of the Torrent IPLD format
     has_discussions: false
@@ -2284,6 +2356,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: JavaScript implementation of the Torrent File IPLD format
     has_discussions: false
@@ -2310,6 +2385,8 @@ repositories:
     collaborators:
       admin:
         - vmx
+      push:
+        - web3-bot
     default_branch: master
     description: "JavaScript implementation of Zcash IPLD formats "
     has_discussions: false
@@ -2335,6 +2412,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: The JavaScript Implementation of IPLD
     has_discussions: false
@@ -2361,6 +2441,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: "Experimental: IPLD Query"
     has_discussions: false
@@ -2383,6 +2466,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: IPLD multi-block path resolver (Data Model Only)
     has_discussions: false
@@ -2427,6 +2513,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Generate type interfaces from IPLD Schema
     has_discussions: false
@@ -2449,6 +2538,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Validate decoded data against an IPLD Schema
     has_discussions: false
@@ -2495,6 +2587,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: IPLD unixfs-v2 Implementation
     has_discussions: false
@@ -2518,6 +2613,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: "This repository contains deprecated / legacy Unixfs \"V2\" discussions. "
     has_discussions: false
@@ -2566,6 +2664,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Regularly collect metrics about the IPLD ecosystem
     has_discussions: false
@@ -2593,6 +2694,7 @@ repositories:
         - flyingzumwalt
       push:
         - edsu
+        - web3-bot
     default_branch: master
     description: Creating authenticated metadata with IPLD
     has_discussions: false
@@ -2617,6 +2719,8 @@ repositories:
     collaborators:
       admin:
         - dhruvbaldawa
+      push:
+        - web3-bot
     default_branch: master
     description: Self-describing content-addressed identifiers for distributed
       systems implementation in Python
@@ -2648,6 +2752,8 @@ repositories:
     collaborators:
       admin:
         - dhruvbaldawa
+      push:
+        - web3-bot
     default_branch: master
     description: Merkle DAG implementation for IPLD in Python
     has_discussions: false
@@ -2698,6 +2804,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Discussions and proposals regarding IPLD replication.
     has_discussions: false
@@ -2722,6 +2831,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: "Research repo for the IPLD github org "
     has_discussions: false
@@ -2748,6 +2860,8 @@ repositories:
       admin:
         - vmx
         - warpfork
+      push:
+        - web3-bot
     default_branch: master
     description: IPLD Project Roadmap
     has_discussions: false
@@ -2788,6 +2902,7 @@ repositories:
     collaborators:
       push:
         - hannahhoward
+        - web3-bot
     default_branch: master
     description: Content-addressed, authenticated, immutable data structures
     has_discussions: false
@@ -2900,6 +3015,7 @@ repositories:
         - alanshaw
         - jesseclay
         - richsilv
+        - web3-bot
     default_branch: master
     description: Official website for IPLD
     has_discussions: false
