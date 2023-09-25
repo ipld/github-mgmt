@@ -881,10 +881,10 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
     teams:
       push:
         - Go Team
+    visibility: public
   go-walker:
     advanced_security: false
     allow_update_branch: false
