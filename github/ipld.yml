@@ -1073,8 +1073,8 @@ repositories:
     archived: false
     collaborators:
       maintain:
-        - DannyS03
         - olizilla
+        - salmad3
     default_branch: master
     description: InterPlanetary Linked Data
     has_discussions: false
