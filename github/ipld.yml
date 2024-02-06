@@ -110,9 +110,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - vmx
     default_branch: master
     description: Spec for Content Identifiers (CIDs) in CBOR for IANA CBOR Tag registry
     has_discussions: false
@@ -214,8 +211,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - petar
       push:
         - web3-bot
     default_branch: main
@@ -262,15 +257,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - lidel
-        - olizilla
-      maintain:
-        - hacdias
-      push:
-        - alvin-reyes
-        - andyschwab
     default_branch: master
     description: Explore the Merkle Forest from the comfort of your browser
     has_discussions: false
@@ -378,13 +364,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      pull:
-        - alvin-reyes
-        - jennijuju
-        - TippyFlitsUK
-      push:
-        - hsanjuan
     default_branch: master
     description: go-car but private for hush-hush security stuff
     files:
@@ -441,7 +420,6 @@ repositories:
         - masih
         - willscott
       push:
-        - hannahhoward
         - web3-bot
     default_branch: master
     description: A content addressible archive utility
@@ -513,9 +491,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - dustmop
     default_branch: master
     description: Use IPLD from Starlark -- read and write data, and play
       programmagically in an interpreted language!
@@ -554,8 +529,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - warpfork
       push:
         - web3-bot
     default_branch: master
@@ -580,8 +553,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - marten-seemann
       push:
         - web3-bot
     default_branch: master
@@ -627,8 +598,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - willscott
       push:
         - web3-bot
     default_branch: master
@@ -696,8 +665,6 @@ repositories:
         required_status_checks:
           strict: true
     collaborators:
-      admin:
-        - warpfork
       push:
         - hannahhoward
         - web3-bot
@@ -757,7 +724,6 @@ repositories:
     archived: false
     collaborators:
       push:
-        - ribasushi
         - web3-bot
     default_branch: master
     has_discussions: false
@@ -823,9 +789,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hannahhoward
     default_branch: main
     description: A simple store to record selector traversals
     has_discussions: false
@@ -856,12 +819,7 @@ repositories:
           required_approving_review_count: 1
           restrict_dismissals: false
     collaborators:
-      admin:
-        - adlrocha
-        - gammazero
-        - willscott
       push:
-        - ischasny
         - web3-bot
     default_branch: master
     description: Storage for hashes, targeted at content addressable systems
@@ -915,9 +873,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hannahhoward
     default_branch: main
     description: Walker provides an alternate, parellizable and controllable way to
       execute selectors
@@ -1071,10 +1026,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      maintain:
-        - olizilla
-        - salmad3
     default_branch: master
     description: InterPlanetary Linked Data
     has_discussions: false
@@ -1133,8 +1084,6 @@ repositories:
     collaborators:
       admin:
         - ianopolous
-      push:
-        - kevodwyer
     default_branch: master
     description: Java implementation of Content Identifier
     files:
@@ -1163,9 +1112,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - ianopolous
     default_branch: master
     description: A Java implementation of the IPLD cbor format
     has_discussions: false
@@ -1237,9 +1183,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - achingbrain
     default_branch: master
     description: Convert a BlockCodec from the multiformats module to an IPLD format
     has_discussions: false
@@ -1438,11 +1381,6 @@ repositories:
     collaborators:
       admin:
         - Gozala
-      maintain:
-        - alanshaw
-        - gobengo
-        - hugomrdias
-        - olizilla
     default_branch: main
     description: UCAN codec for IPLD
     files:
@@ -2188,9 +2126,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - achingbrain
     default_branch: master
     description: Converts an IPLD Format into a BlockCodec for use with the
       multiformats module
@@ -2635,9 +2570,6 @@ repositories:
       admin:
         - alanshaw
         - Gozala
-        - hugomrdias
-      maintain:
-        - gobengo
     default_branch: main
     description: UnixFS Directed Acyclic Graph for IPLD
     files:
@@ -2707,10 +2639,6 @@ repositories:
     collaborators:
       admin:
         - Stebalien
-      push:
-        - dvc94ch
-        - lKrayola
-        - molekilla
     default_branch: master
     description: Rust IPLD library
     files:
@@ -3051,9 +2979,6 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           strict: true
-    collaborators:
-      admin:
-        - aschmahmann
     default_branch: main
     description: Tools and examples of IPLD codecs and ADLs in WASM callable from hosts
     files:
@@ -3105,48 +3030,77 @@ teams:
   Admin:
     members:
       maintainer:
-        - aschmahmann
-        - daviddias
-        - jbenet
-        - Stebalien
         - vmx
-        - warpfork
-        - whyrusleeping
-      member:
-        - BigLep
-        - Kubuxu
     privacy: closed
   Alumni:
-    privacy: closed
-  ci:
-    description: ci
     members:
       member:
+        - 0xDanomite
+        - aarshkshah1992
+        - AdamStone
+        - adlrocha
+        - ajnavarro
+        - andrew
+        - andyschwab-admin
+        - andyschwab
+        - anorth
+        - arajasek
+        - aschmahmann
+        - cloutiertyler
+        - davidad
+        - davidd8
+        - daviddias
+        - dhruvbaldawa
+        - dignifiedquire
+        - dirkmc
+        - flyingzumwalt
+        - guseggert
+        - haadcode
+        - hacdias
+        - hugomrdias
         - ipfsbot
-    privacy: closed
-  close-collaborators:
-    description: Folks who work across many IPLD repos and languages
-    members:
-      maintainer:
-        - warpfork
-      member:
+        - ipldbot
+        - jacobheun
+        - jbenet
+        - jbenetsafer
+        - jesseclay
+        - Jorropo
+        - juliaxbow
+        - kevina
+        - Kubuxu
+        - kumavis
+        - lidel
+        - litzenberger
+        - magik6k
+        - MarcoPolo
+        - marten-seemann
+        - mcollina
+        - michaelavila
+        - miyazono
+        - momack2
+        - mxinden
+        - nicola
+        - petar
+        - pkafei
         - RangerMauve
+        - raulk
+        - ribasushi
+        - RichardLitt
+        - richardschneider
+        - tchardin
+        - tinytb
+        - travisperson
+        - vasco-santos
+        - victorb
+        - wanderer
+        - warpfork
+        - whizzzkid
+        - whyrusleeping
     privacy: closed
   Contributors:
     members:
       maintainer:
-        - aschmahmann
-        - daviddias
-        - Stebalien
         - vmx
-        - whyrusleeping
-      member:
-        - adlrocha
-        - davidad
-        - flyingzumwalt
-        - Kubuxu
-        - nicola
-        - RichardLitt
     privacy: closed
   Core:
     description: Core Team
@@ -3155,17 +3109,9 @@ teams:
         - rvagg
         - Stebalien
         - vmx
-        - warpfork
       member:
         - BigLep
         - willscott
-    privacy: closed
-  DX:
-    description: Developer Experience Team
-    members:
-      member:
-        - travisperson
-        - victorb
     privacy: closed
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
@@ -3177,42 +3123,16 @@ teams:
       #  - be familiar with GitHub Management
       #  - be ready to triage/review org configuration change request in github-mgmt
       maintainer:
-        - aschmahmann
         - rvagg
-      member:
-        - BigLep
-        - lidel
-        - willscott
     privacy: closed
   Go Team:
     members:
       maintainer:
-        - aschmahmann
         - rvagg
-        - Stebalien
-        - warpfork
-        - whyrusleeping
       member:
-        - aarshkshah1992
-        - anorth
-        - arajasek
-        - davidd8
-        - dirkmc
-        - guseggert
         - hannahhoward
-        - ipldbot
-        - Kubuxu
-        - magik6k
         - masih
-        - momack2
-        - petar
-        - raulk
-        - ribasushi
-        - tchardin
         - willscott
-    privacy: closed
-  Infra:
-    description: https://github.com/protocol/infra-team/
     privacy: closed
   ipdx:
     members:
@@ -3226,108 +3146,41 @@ teams:
       maintainer:
         - rvagg
         - SgtPooki
-      member:
-        - hacdias
-        - lidel
-        - olizilla
-        - whizzzkid
-    privacy: closed
-  Java Team:
-    description: Java Java Java Java
-    members:
-      maintainer:
-        - jbenet
-      member:
-        - ianopolous
     privacy: closed
   JavaScript Team:
     description: The most awesome team
     members:
       maintainer:
-        - daviddias
-        - dignifiedquire
         - rvagg
         - vmx
       member:
         - achingbrain
-        - AdamStone
         - alanshaw
-        - Gozala
-        - haadcode
-        - hacdias
-        - hugomrdias
-        - ipldbot
-        - kumavis
-        - litzenberger
-        - magik6k
-        - mcollina
-        - momack2
-        - nicola
         - olizilla
-        - pkafei
-        - richardschneider
-        - tchardin
-        - vasco-santos
-        - victorb
-        - wanderer
-    privacy: closed
-  Python Team:
-    description: Snaaaaakes 🐍
-    members:
-      maintainer:
-        - daviddias
-      member:
-        - dhruvbaldawa
     privacy: closed
   research:
     members:
       maintainer:
-        - dignifiedquire
-        - jbenet
-        - miyazono
-        - nicola
-        - Stebalien
         - vmx
-      member:
-        - davidad
     privacy: closed
   reviewers:
     members:
       maintainer:
         - rvagg
-        - warpfork
       member:
         - BigLep
-        - RangerMauve
         - willscott
     privacy: closed
   Rust Team:
     members:
       maintainer:
         - vmx
-      member:
-        - adlrocha
-        - MarcoPolo
-        - mxinden
-    privacy: closed
-  Swift Team:
-    members:
-      maintainer:
-        - daviddias
-      member:
-        - cloutiertyler
     privacy: closed
   w3dt-stewards:
     members:
       maintainer:
-        - aschmahmann
         - BigLep
-        - Stebalien
       member:
         - achingbrain
         - galargh
-        - guseggert
-        - Jorropo
-        - laurentsenta
-        - lidel
     privacy: closed
