@@ -2,19 +2,21 @@
 
 members:
   admin:
+    # Admin permissions are intentionally minimal. 
+    # Permissoins are distributed across 3-4 separate organizations.
+    # One can request additional permissions using ipld/github-mgmt.
     - andyschwab-admin
     - aschmahmann
+    - galargh
+    - vmx
+  member:
     - daviddias
     - dignifiedquire
-    - galargh
     - jbenet
     - marten-seemann
-    - rvagg
     - Stebalien
-    - vmx
     - warpfork
     - whyrusleeping
-  member:
     - 0xDanomite
     - aarshkshah1992
     - achingbrain
