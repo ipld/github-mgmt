@@ -211,7 +211,7 @@ repositories:
   edelweiss:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -790,7 +790,7 @@ repositories:
   go-selector-store:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     default_branch: main
     description: A simple store to record selector traversals
     has_discussions: false
@@ -1184,7 +1184,7 @@ repositories:
   js-blockcodec-to-ipld-format:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     default_branch: master
     description: Convert a BlockCodec from the multiformats module to an IPLD format
     has_discussions: false
@@ -2127,7 +2127,7 @@ repositories:
   js-ipld-format-to-blockcodec:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     default_branch: master
     description: Converts an IPLD Format into a BlockCodec for use with the
       multiformats module
