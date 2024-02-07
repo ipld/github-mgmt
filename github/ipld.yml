@@ -2,12 +2,15 @@
 
 members:
   admin:
-    # Admin permissions are intentionally minimal. 
+    # Admin permissions map to "org admin" permissions listed in 
+    # https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#permissions-for-organization-rolesare 
+    # These permissions are very broad, and the thus the list of people is intentionally minimal. 
     # Permissoins are distributed across 3-4 separate organizations.
-    # One can request additional permissions using ipld/github-mgmt.
+    # One can request additional permissions for specific repos using ipld/github-mgmt.
     - andyschwab-admin
     - aschmahmann
     - galargh
+    - rvagg
     - vmx
   member:
     - 0xDanomite
