@@ -22,6 +22,7 @@ I didn't see them in https://github.com/ipld/github-mgmt/tree/master/docs.
 Reminders I wish were more present:
 * Terraform “push” corresponds with Github “write”.
 * Terraform “pull” corresponds with Github “read”.
+* Terraform members.admin correspond with Github "org owner" per https://registry.terraform.io/providers/integrations/github/latest/docs/resources/membership
 
 ## User-oriented view of changes
 I came at this again independently, but I would like something like was expressed in https://github.com/libp2p/github-mgmt/pull/12#pullrequestreview-999621620.
