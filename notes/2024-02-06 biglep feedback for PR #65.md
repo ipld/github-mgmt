@@ -15,8 +15,9 @@ Below are links or lookups I wish more readily available when engaging with gith
 I find myself looking them up each time I'm thinking about github-mgmt.  
 I didn't see them in https://github.com/ipld/github-mgmt/tree/master/docs.  
 
+* Org-level permissions: https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#permissions-for-organization-roles
 * Org base permissions: https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/setting-base-permissions-for-an-organization#setting-base-permissions
-* Permissions for each role: https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permissions-for-each-role 
+* Permissions for each repository role: https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permissions-for-each-role 
 * Difference between team maintainer vs. member: https://docs.github.com/en/organizations/organizing-members-into-teams/assigning-the-team-maintainer-role-to-a-team-member
 
 Reminders I wish were more present:
@@ -88,8 +89,8 @@ If some of the feedback above is incorporated, I'm wondering if we should do com
 # IPLD specifics
 ## Org admins
 At the minimum, this should be reduced to just a few.  I made a commit as a first pass: https://github.com/ipld/github-mgmt/pull/65/commits/5d21c43365e48ab589628e8b25188a70e443b8ad
-I wonder if we should go further by reduce the org owners to zero, and rely on escalation via github-mgmt in the rare cases where this is needed?
-(Or maybe org admin/owner permsissions is needed periodically to approve integrations, get Github emails targeted at admins, etc?  If that's the case, then just leaving it to a few people makes sense.)
+I wondered if we should go further by reduce the org owners to zero, and rely on escalation via github-mgmt in the rare cases where this is needed?
+It looks like it's encouraged that we just have a few per https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#organization-owners, so maybe the current proposal in the PR is good.
 
 ## Base permission
 ✅ We look to be at "no permissions" which I agree is best to do to keep things clear and easy to reason about.  One's permissions have to be increased from nothing based on what's in github-mgmt. 
