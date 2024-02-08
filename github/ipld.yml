@@ -212,12 +212,8 @@ repositories:
   edelweiss:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
-      admin:
-        - petar
-      push:
-        - web3-bot
     default_branch: main
     description: Decentralized Protocol Compiler
     has_discussions: true
@@ -228,9 +224,6 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
     visibility: public
   eth-hash-to-cid:
     advanced_security: false
@@ -822,10 +815,8 @@ repositories:
   go-selector-store:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
-      admin:
-        - hannahhoward
     default_branch: main
     description: A simple store to record selector traversals
     has_discussions: false
@@ -1236,10 +1227,8 @@ repositories:
   js-blockcodec-to-ipld-format:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
-      admin:
-        - achingbrain
     default_branch: master
     description: Convert a BlockCodec from the multiformats module to an IPLD format
     has_discussions: false
@@ -1250,9 +1239,6 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
     visibility: public
   js-car:
     advanced_security: false
@@ -2187,10 +2173,8 @@ repositories:
   js-ipld-format-to-blockcodec:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
-      admin:
-        - achingbrain
     default_branch: master
     description: Converts an IPLD Format into a BlockCodec for use with the
       multiformats module
@@ -2202,9 +2186,6 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
     visibility: public
   js-ipld-garbage:
     advanced_security: false
