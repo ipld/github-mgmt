@@ -3177,11 +3177,12 @@ teams:
     #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
     description: Users that are effectively org admins
     members:
-      # WARN: membership here should be treated exactly as cautiosly as having an org admin role
+      # WARN: membership here should be treated as cautiously as having an "org owner" role,
+      # since one can escalate their privileges accordingly.
       # ATTN: members are expected to:
       #  - be familiar with GitHub Management
       #  - be ready to triage/review org configuration change request in github-mgmt
-      # Intentionally don't have any "maintainers" so that additional membership is done through github-mgmt rather than Githbui UI.
+      # Intentionally don't have any "maintainers" so that additional membership is done through github-mgmt rather than the GitHub UI.
       # That said, since most of these people are also "org owners" ("members.admin" above), 
       # they can still make changes in the UI.
       member:
