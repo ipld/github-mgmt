@@ -13,13 +13,6 @@ members:
     - rvagg
     - vmx
   member:
-    - jbenet
-    - daviddias
-    - dignifiedquire
-    - marten-seemann
-    - warpfork
-    - whyrusleeping
-    - Stebalien
     - 0xDanomite
     - aarshkshah1992
     - achingbrain
@@ -35,7 +28,9 @@ members:
     - cloutiertyler
     - davidad
     - davidd8
+    - daviddias
     - dhruvbaldawa
+    - dignifiedquire
     - dirkmc
     - flyingzumwalt
     - Gozala
@@ -48,6 +43,7 @@ members:
     - ipfsbot
     - ipldbot
     - jacobheun
+    - jbenet
     - jbenetsafer
     - jesseclay
     - Jorropo
@@ -60,6 +56,7 @@ members:
     - litzenberger
     - magik6k
     - MarcoPolo
+    - marten-seemann
     - masih
     - mcollina
     - michaelavila
@@ -76,14 +73,17 @@ members:
     - RichardLitt
     - richardschneider
     - SgtPooki
+    - Stebalien
     - tchardin
     - tinytb
     - travisperson
     - vasco-santos
     - victorb
     - wanderer
+    - warpfork
     - web3-bot
     - whizzzkid
+    - whyrusleeping
     - willscott
 repositories:
   auto:
