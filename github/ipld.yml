@@ -1,19 +1,17 @@
 # yaml-language-server: $schema=.schema.json
 
 members:
+  # Admin permissions map to "org owner" permissions listed in 
+  # https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#permissions-for-organization-rolesare 
+  # These permissions are very broad, and thus, the list of people is intentionally minimal. 
+  # Permissions are distributed across 3-4 separate organizations.
+  # One can request additional permissions for specific repos using ipld/github-mgmt.
   admin:
     - andyschwab-admin
     - aschmahmann
-    - daviddias
-    - dignifiedquire
     - galargh
-    - jbenet
-    - marten-seemann
     - rvagg
-    - Stebalien
     - vmx
-    - warpfork
-    - whyrusleeping
   member:
     - 0xDanomite
     - aarshkshah1992
@@ -30,7 +28,9 @@ members:
     - cloutiertyler
     - davidad
     - davidd8
+    - daviddias
     - dhruvbaldawa
+    - dignifiedquire
     - dirkmc
     - flyingzumwalt
     - Gozala
@@ -43,6 +43,7 @@ members:
     - ipfsbot
     - ipldbot
     - jacobheun
+    - jbenet
     - jbenetsafer
     - jesseclay
     - Jorropo
@@ -55,6 +56,7 @@ members:
     - litzenberger
     - magik6k
     - MarcoPolo
+    - marten-seemann
     - masih
     - mcollina
     - michaelavila
@@ -71,14 +73,17 @@ members:
     - RichardLitt
     - richardschneider
     - SgtPooki
+    - Stebalien
     - tchardin
     - tinytb
     - travisperson
     - vasco-santos
     - victorb
     - wanderer
+    - warpfork
     - web3-bot
     - whizzzkid
+    - whyrusleeping
     - willscott
 repositories:
   auto:
@@ -3172,16 +3177,18 @@ teams:
     #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
     description: Users that are effectively org admins
     members:
-      # WARN: membership here should be treated exactly as cautiosly as having an org admin role
+      # WARN: membership here should be treated as cautiously as having an "org owner" role,
+      # since one can escalate their privileges accordingly.
       # ATTN: members are expected to:
       #  - be familiar with GitHub Management
       #  - be ready to triage/review org configuration change request in github-mgmt
-      maintainer:
+      # Intentionally don't have any "maintainers" so that additional membership is done through github-mgmt rather than the GitHub UI.
+      # That said, since most of these people are also "org owners" ("members.admin" above), 
+      # they can still make changes in the UI.
+      member:
         - aschmahmann
         - rvagg
-      member:
-        - BigLep
-        - lidel
+        - vmx
         - willscott
     privacy: closed
   Go Team:
