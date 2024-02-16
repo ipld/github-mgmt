@@ -22,7 +22,6 @@ members:
     - 0xDanomite
     - aarshkshah1992
     - achingbrain
-    - aschmahmann
     - AdamStone
     - adlrocha
     - ajnavarro
@@ -31,6 +30,7 @@ members:
     - andyschwab
     - anorth
     - arajasek
+    - aschmahmann
     - BigLep
     - cloutiertyler
     - davidad
@@ -87,13 +87,13 @@ members:
     - travisperson
     - vasco-santos
     - victorb
+    - vmx
     - wanderer
     - warpfork
     - web3-bot
     - whizzzkid
     - whyrusleeping
     - willscott
-    - vmx
 repositories:
   auto:
     advanced_security: false
