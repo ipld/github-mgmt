@@ -1155,12 +1155,12 @@ repositories:
       pull:
         - Contributors
         - github-mgmt stewards
-        - Rust Team
       push:
         - Core
         - Go Team
         - JavaScript Team
         - research
+        - Rust Team
     visibility: public
   is-circular:
     advanced_security: false
@@ -2846,6 +2846,7 @@ repositories:
       pull:
         - Core
         - github-mgmt stewards
+      push:
         - Rust Team
     visibility: public
   metrics:
@@ -3092,6 +3093,8 @@ repositories:
     teams:
       pull:
         - github-mgmt stewards
+      push:
+        - Rust Team
     visibility: public
   specs:
     advanced_security: false
@@ -3118,11 +3121,11 @@ repositories:
       pull:
         - github-mgmt stewards
         - Go Team
-        - Rust Team
       push:
         - ci
         - Core
         - JavaScript Team
+        - Rust Team
     topics:
       - content-addressed
       - graph
@@ -3455,9 +3458,7 @@ teams:
       maintainer:
         - vmx
       member:
-        - adlrocha
-        - MarcoPolo
-        - mxinden
+        - Stebalien
     privacy: closed
   Swift Team:
     members:
