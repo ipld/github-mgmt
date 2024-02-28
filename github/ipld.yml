@@ -488,6 +488,8 @@ repositories:
     collaborators:
       admin:
         - rvagg
+      push:
+        - web3-bot
     default_branch: master
     description: Tools to generate and inspect IPLD data to assist in testing
     has_discussions: false
@@ -770,6 +772,8 @@ repositories:
     collaborators:
       admin:
         - rvagg
+      push:
+        - web3-bot
     default_branch: master
     description: Go(lang) utilities for the IPFS Trustless Gateway HTTP protocol
     has_discussions: false
