@@ -18,6 +18,9 @@ members:
     # 1. co-founder of [IPDX](https://ipdx.co), and IPDX is contracted to look after GitHub for this organization.
     # 2. Multiple years of experience managing GitHub organizations of open source projects, including this org.
     - galargh
+    # Why @vmx?
+    # 1. Just temporarily, so that I can move repos from my personal account, to the ipld org, which is where they belong
+    - vmx
   member:
     - 0xDanomite
     - aarshkshah1992
