@@ -334,13 +334,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      pull:
-        - alvin-reyes
-        - jennijuju
-        - TippyFlitsUK
-      push:
-        - hsanjuan
     default_branch: master
     description: go-car but private for hush-hush security stuff
     files:
@@ -707,9 +700,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hannahhoward
     default_branch: main
     description: A simple store to record selector traversals
     has_discussions: false
@@ -748,7 +738,6 @@ repositories:
         - gammazero
         - willscott
       push:
-        - ischasny
         - web3-bot
     default_branch: master
     description: Storage for hashes, targeted at content addressable systems
@@ -806,9 +795,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hannahhoward
     default_branch: main
     description: Walker provides an alternate, parellizable and controllable way to
       execute selectors
@@ -964,9 +950,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - achingbrain
     default_branch: master
     description: Convert a BlockCodec from the multiformats module to an IPLD format
     has_discussions: false
@@ -1106,7 +1089,6 @@ repositories:
         - alanshaw
         - gobengo
         - hugomrdias
-        - olizilla
     default_branch: main
     description: UCAN codec for IPLD
     files:
@@ -1185,9 +1167,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - achingbrain
     default_branch: master
     description: Converts an IPLD Format into a BlockCodec for use with the
       multiformats module
@@ -1318,8 +1297,6 @@ repositories:
         - alanshaw
         - Gozala
         - hugomrdias
-      maintain:
-        - gobengo
     default_branch: main
     description: UnixFS Directed Acyclic Graph for IPLD
     files:
@@ -1349,7 +1326,6 @@ repositories:
         - Stebalien
       push:
         - dvc94ch
-        - lKrayola
         - molekilla
     default_branch: master
     description: Rust IPLD library
@@ -1558,12 +1534,31 @@ teams:
         - whyrusleeping
     privacy: closed
   Alumni:
+    members:
+      member:
+        - AdamStone
+        - andyschwab-admin
+        - cloutiertyler
+        - flyingzumwalt
+        - haadcode
+        - ipfsbot
+        - jbenetsafer
+        - jesseclay
+        - kevina
+        - litzenberger
+        - michaelavila
+        - mxinden
+        - nicola
+        - pkafei
+        - RichardLitt
+        - richardschneider
+        - tinytb
+        - travisperson
+        - victorb
+        - wanderer
     privacy: closed
   ci:
     description: ci
-    members:
-      member:
-        - ipfsbot
     privacy: closed
   close-collaborators:
     description: Folks who work across many IPLD repos and languages
@@ -1580,13 +1575,7 @@ teams:
         - adlrocha
         - aschmahmann
         - davidad
-        - daviddias
-        - flyingzumwalt
-        - Kubuxu
-        - nicola
-        - RichardLitt
         - Stebalien
-        - whyrusleeping
     privacy: closed
   Core:
     description: Core Team
@@ -1602,10 +1591,6 @@ teams:
     privacy: closed
   DX:
     description: Developer Experience Team
-    members:
-      member:
-        - travisperson
-        - victorb
     privacy: closed
   github-mgmt stewards:
     # Notes: 
@@ -1695,7 +1680,6 @@ teams:
     members:
       member:
         - ianopolous
-        - jbenet
     privacy: closed
   JavaScript Team:
     description: The most awesome team
@@ -1704,47 +1688,25 @@ teams:
         - vmx
       member:
         - achingbrain
-        - AdamStone
         - alanshaw
-        - daviddias
         - dignifiedquire
         - Gozala
-        - haadcode
-        - hacdias
         - hugomrdias
-        - ipldbot
-        - kumavis
-        - litzenberger
-        - magik6k
-        - mcollina
-        - momack2
-        - nicola
         - olizilla
-        - pkafei
-        - richardschneider
         - rvagg
         - tchardin
-        - vasco-santos
-        - victorb
-        - wanderer
     privacy: closed
   Python Team:
     description: Snaaaaakes 🐍
-    members:
-      member:
-        - daviddias
-        - dhruvbaldawa
     privacy: closed
   research:
     members:
       maintainer:
         - miyazono
-        - nicola
         - vmx
       member:
         - davidad
         - dignifiedquire
-        - jbenet
         - Stebalien
     privacy: closed
   reviewers:
@@ -1764,10 +1726,6 @@ teams:
         - Stebalien
     privacy: closed
   Swift Team:
-    members:
-      member:
-        - cloutiertyler
-        - daviddias
     privacy: closed
   w3dt-stewards:
     members:
