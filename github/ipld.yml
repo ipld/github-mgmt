@@ -1535,9 +1535,10 @@ teams:
     privacy: closed
   Alumni:
     members:
+      maintainer:
+        - andyschwab-admin
       member:
         - AdamStone
-        - andyschwab-admin
         - cloutiertyler
         - flyingzumwalt
         - haadcode
