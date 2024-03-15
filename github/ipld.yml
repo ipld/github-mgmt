@@ -132,7 +132,7 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - rvagg      
+        - rvagg
         - vmx
       push:
         - web3-bot
