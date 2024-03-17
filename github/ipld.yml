@@ -132,9 +132,6 @@ repositories:
     archived: false
     collaborators:
       push:
-        - Go Team
-        - JavaScript Team
-        - Rust Team
         - web3-bot
     default_branch: master
     description: Fixtures for testing standard IPLD codecs
@@ -1408,26 +1405,7 @@ repositories:
         - Rust Team
     visibility: public
   rust-ipld-extract-links:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - vmx
-    default_branch: main
-    description: Extract links from IPLD encoded data
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-        - Rust Team
-    visibility: public
+    archived: true
   serde_ipld_dagcbor:
     advanced_security: false
     allow_update_branch: false
