@@ -179,6 +179,8 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
+        - Go Team
+        - JavaScript Team
         - Rust Team
     visibility: public
   docs:
