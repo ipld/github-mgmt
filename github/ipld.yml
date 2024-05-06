@@ -190,6 +190,10 @@ repositories:
     allow_update_branch: false
     archived: true
     collaborators:
+      admin:
+        - petar
+      push:
+        - web3-bot
     default_branch: main
     description: Decentralized Protocol Compiler
     has_discussions: true
