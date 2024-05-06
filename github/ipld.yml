@@ -186,30 +186,7 @@ repositories:
   docs:
     archived: true
   edelweiss:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - petar
-      push:
-        - web3-bot
-    default_branch: main
-    description: Decentralized Protocol Compiler
-    has_discussions: true
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-    visibility: public
   eth-hash-to-cid:
     archived: true
   explore.ipld.io:
@@ -699,22 +676,7 @@ repositories:
   go-ipldtool:
     archived: true
   go-selector-store:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    default_branch: main
-    description: A simple store to record selector traversals
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
   go-storethehash:
     advanced_security: false
     allow_update_branch: false
@@ -1166,26 +1128,7 @@ repositories:
   js-ipld-ethereum:
     archived: true
   js-ipld-format-to-blockcodec:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    default_branch: master
-    description: Converts an IPLD Format into a BlockCodec for use with the
-      multiformats module
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ipdx
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-    visibility: public
   js-ipld-garbage:
     advanced_security: false
     allow_update_branch: false
