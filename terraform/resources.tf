@@ -1,12 +1,5 @@
 resource "github_membership" "this" {
-  for_each = merge([
-    for role, members in lookup(local.config, "members", {}) : {
-      for member in members : lower("${member}") => {
-        username = member
-        role     = role
-      }
-    }
-  ]...)
+  for_each = local.resources.github_membership
 
   username = each.value.username
   role     = each.value.role
@@ -18,11 +11,7 @@ resource "github_membership" "this" {
 }
 
 resource "github_repository" "this" {
-  for_each = {
-    for repository, config in lookup(local.config, "repositories", {}) : lower(repository) => merge(config, {
-      name = repository
-    })
-  }
+  for_each = local.resources.github_repository
 
   name                                    = each.value.name
   allow_auto_merge                        = try(each.value.allow_auto_merge, null)
@@ -55,36 +44,36 @@ resource "github_repository" "this" {
   vulnerability_alerts                    = try(each.value.vulnerability_alerts, null)
 
   dynamic "security_and_analysis" {
-    for_each = try(each.value.visibility == "public" || local.advanced_security ? [{}] : [], [])
+    for_each = try(each.value.security_and_analysis, [])
 
     content {
       dynamic "advanced_security" {
-        for_each = try(each.value.visibility == "public" || !local.advanced_security ? [] : [each.value.advanced_security ? "enabled" : "disabled"], [])
+        for_each = security_and_analysis.value["advanced_security"]
         content {
-          status = advanced_security.value
+          status = advanced_security.value["status"]
         }
       }
       dynamic "secret_scanning" {
-        for_each = try(each.value.visibility == "private" ? [] : [each.value.secret_scanning ? "enabled" : "disabled"], [])
+        for_each = security_and_analysis.value["secret_scanning"]
         content {
-          status = secret_scanning.value
+          status = secret_scanning.value["status"]
         }
       }
       dynamic "secret_scanning_push_protection" {
-        for_each = try(each.value.visibility == "private" ? [] : [each.value.secret_scanning_push_protection ? "enabled" : "disabled"], [])
+        for_each = security_and_analysis.value["secret_scanning_push_protection"]
         content {
-          status = secret_scanning_push_protection.value
+          status = secret_scanning_push_protection.value["status"]
         }
       }
     }
   }
 
   dynamic "pages" {
-    for_each = try([each.value.pages], [])
+    for_each = try(each.value.pages, [])
     content {
       cname = try(pages.value["cname"], null)
       dynamic "source" {
-        for_each = [pages.value["source"]]
+        for_each = pages.value["source"]
         content {
           branch = source.value["branch"]
           path   = try(source.value["path"], null)
@@ -93,7 +82,7 @@ resource "github_repository" "this" {
     }
   }
   dynamic "template" {
-    for_each = try([each.value.template], [])
+    for_each = try(each.value.template, [])
     content {
       owner      = template.value["owner"]
       repository = template.value["repository"]
@@ -107,18 +96,7 @@ resource "github_repository" "this" {
 }
 
 resource "github_repository_collaborator" "this" {
-  for_each = merge(flatten([
-    for repository, repository_config in lookup(local.config, "repositories", {}) :
-    [
-      for permission, members in lookup(repository_config, "collaborators", {}) : {
-        for member in members : lower("${repository}:${member}") => {
-          repository = repository
-          username   = member
-          permission = permission
-        }
-      }
-    ]
-  ])...)
+  for_each = local.resources.github_repository_collaborator
 
   depends_on = [github_repository.this]
 
@@ -132,18 +110,12 @@ resource "github_repository_collaborator" "this" {
 }
 
 resource "github_branch_protection" "this" {
-  for_each = merge([
-    for repository, repository_config in lookup(local.config, "repositories", {}) :
-    {
-      for pattern, config in lookup(repository_config, "branch_protection", {}) : lower("${repository}:${pattern}") => merge(config, {
-        pattern        = pattern
-        repository_key = lower(repository)
-      })
-    }
-  ]...)
+  for_each = local.resources.github_branch_protection
 
-  pattern                         = each.value.pattern
-  repository_id                   = github_repository.this[each.value.repository_key].node_id
+  pattern = each.value.pattern
+
+  repository_id = lookup(each.value, "repository_id", lookup(lookup(github_repository.this, lower(lookup(each.value, "repository", "")), {}), "node_id", null))
+
   allows_deletions                = try(each.value.allows_deletions, null)
   allows_force_pushes             = try(each.value.allows_force_pushes, null)
   blocks_creations                = try(each.value.blocks_creations, null)
@@ -155,7 +127,7 @@ resource "github_branch_protection" "this" {
   required_linear_history         = try(each.value.required_linear_history, null)
 
   dynamic "required_pull_request_reviews" {
-    for_each = try([each.value.required_pull_request_reviews], [])
+    for_each = try(each.value.required_pull_request_reviews, [])
     content {
       dismiss_stale_reviews           = try(required_pull_request_reviews.value["dismiss_stale_reviews"], null)
       dismissal_restrictions          = try(required_pull_request_reviews.value["dismissal_restrictions"], null)
@@ -166,7 +138,7 @@ resource "github_branch_protection" "this" {
     }
   }
   dynamic "required_status_checks" {
-    for_each = try([each.value.required_status_checks], [])
+    for_each = try(each.value.required_status_checks, null)
     content {
       contexts = try(required_status_checks.value["contexts"], null)
       strict   = try(required_status_checks.value["strict"], null)
@@ -175,17 +147,14 @@ resource "github_branch_protection" "this" {
 }
 
 resource "github_team" "this" {
-  for_each = {
-    for team, config in lookup(local.config, "teams", {}) : lower(team) => merge(config, {
-      name           = team
-      parent_team_id = try(try(element(data.github_organization_teams.this[0].teams, index(data.github_organization_teams.this[0].teams.*.name, config.parent_team_id)).id, config.parent_team_id), null)
-    })
-  }
+  for_each = local.resources.github_team
 
-  name           = each.value.name
-  description    = try(each.value.description, null)
-  parent_team_id = try(each.value.parent_team_id, null)
-  privacy        = try(each.value.privacy, null)
+  name = each.value.name
+
+  parent_team_id = try(try(element(data.github_organization_teams.this[0].teams, index(data.github_organization_teams.this[0].teams.*.name, each.value.parent_team_id)).id, each.value.parent_team_id), null)
+
+  description = try(each.value.description, null)
+  privacy     = try(each.value.privacy, null)
 
   lifecycle {
     ignore_changes = []
@@ -193,27 +162,14 @@ resource "github_team" "this" {
 }
 
 resource "github_team_repository" "this" {
-  for_each = merge(flatten([
-    for repository, repository_config in lookup(local.config, "repositories", {}) :
-    [
-      for permission, teams in lookup(repository_config, "teams", {}) : {
-        for team in teams : lower("${team}:${repository}") => {
-          repository = repository
-          team_key   = lower(team)
-          permission = permission
-        }
-      }
-    ]
-  ])...)
+  for_each = local.resources.github_team_repository
 
-  depends_on = [
-    github_repository.this
-  ]
+  depends_on = [github_repository.this]
 
   repository = each.value.repository
-  team_id    = github_team.this[each.value.team_key].id
+  permission = each.value.permission
 
-  permission = try(each.value.permission, null)
+  team_id = lookup(each.value, "team_id", lookup(lookup(github_team.this, lower(lookup(each.value, "team", "")), {}), "id", null))
 
   lifecycle {
     ignore_changes = []
@@ -221,22 +177,12 @@ resource "github_team_repository" "this" {
 }
 
 resource "github_team_membership" "this" {
-  for_each = merge(flatten([
-    for team, team_config in lookup(local.config, "teams", {}) :
-    [
-      for role, members in lookup(team_config, "members", {}) : {
-        for member in members : lower("${team}:${member}") => {
-          team_key = lower(team)
-          username = member
-          role     = role
-        }
-      }
-    ]
-  ])...)
+  for_each = local.resources.github_team_membership
 
-  team_id  = github_team.this[each.value.team_key].id
   username = each.value.username
   role     = each.value.role
+
+  team_id = lookup(each.value, "team_id", lookup(lookup(github_team.this, lower(lookup(each.value, "team", "")), {}), "id", null))
 
   lifecycle {
     ignore_changes = []
@@ -244,31 +190,19 @@ resource "github_team_membership" "this" {
 }
 
 resource "github_repository_file" "this" {
-  for_each = merge([
-    for repository, repository_config in lookup(local.config, "repositories", {}) :
-    {
-      for config in [
-        for file, config in lookup(repository_config, "files", {}) : merge(config, {
-          repository     = repository
-          file           = file
-          repository_key = lower(repository)
-          content        = try(file("${path.module}/../files/${config.content}"), config.content)
-        }) if contains(keys(config), "content")
-      ] : lower("${config.repository}/${config.file}") => config
-    }
-  ]...)
+  for_each = local.resources.github_repository_file
 
   repository = each.value.repository
   file       = each.value.file
   content    = each.value.content
   # Since 5.25.0 the branch attribute defaults to the default branch of the repository
   # branch              = try(each.value.branch, null)
-  branch              = github_repository.this[each.value.repository_key].default_branch
-  overwrite_on_create = try(each.value.overwrite_on_create, null)
+  branch              = lookup(each.value, "branch", lookup(lookup(github_repository.this, each.value.repository, {}), "default_branch", null))
+  overwrite_on_create = try(each.value.overwrite_on_create, true)
   # Keep the defaults from 4.x
-  commit_author       = "GitHub"
-  commit_email        = "noreply@github.com"
-  commit_message      = "chore: Update ${each.value.file} [skip ci]"
+  commit_author  = try(each.value.commit_author, "GitHub")
+  commit_email   = try(each.value.commit_email, "noreply@github.com")
+  commit_message = try(each.value.commit_message, "chore: Update ${each.value.file} [skip ci]")
 
   lifecycle {
     ignore_changes = []
@@ -276,20 +210,13 @@ resource "github_repository_file" "this" {
 }
 
 resource "github_issue_label" "this" {
-  for_each = merge([
-    for repository, repository_config in lookup(local.config, "repositories", {}) :
-    {
-      for label, config in lookup(repository_config, "labels", {}) : lower("${repository}:${label}") => merge(config, {
-        repository = repository
-        label      = label
-      })
-    }
-  ]...)
+  for_each = local.resources.github_issue_label
 
   depends_on = [github_repository.this]
 
-  repository  = each.value.repository
-  name        = each.value.label
+  repository = each.value.repository
+  name       = each.value.name
+
   color       = try(each.value.color, null)
   description = try(each.value.description, null)
 
