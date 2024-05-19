@@ -1307,7 +1307,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
+      push:
         - vmx
     default_branch: main
     description: This crate provides core types for interoperating with IPLD.
@@ -1328,7 +1328,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
+      push:
         - vmx
     default_branch: main
     description: IPLD DAG-PB codec.
@@ -1373,7 +1373,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
+      push:
         - vmx
     default_branch: main
     description: IPLD DAG-JSON support for Serde.
@@ -1444,13 +1444,13 @@ teams:
     members:
       maintainer:
         - daviddias
-        - vmx
       member:
         - aschmahmann
         - BigLep
         - jbenet
         - Kubuxu
         - Stebalien
+        - vmx
         - warpfork
         - whyrusleeping
     privacy: closed
@@ -1491,23 +1491,21 @@ teams:
     privacy: closed
   Contributors:
     members:
-      maintainer:
-        - vmx
       member:
         - adlrocha
         - aschmahmann
         - davidad
         - Stebalien
+        - vmx
     privacy: closed
   Core:
     description: Core Team
     members:
-      maintainer:
-        - vmx
       member:
         - BigLep
         - rvagg
         - Stebalien
+        - vmx
         - warpfork
         - willscott
     privacy: closed
@@ -1534,8 +1532,6 @@ teams:
       # INFO: There are others who could certainly qualify to be members of this team.  
       # There is a balance to be had to ensure there are enough knowledgeable people available to support the needs/requests of the github org,
       # and reducing risk by not having too many with the escalation path that this role affords.
-      maintainer:
-        - vmx
       member:
         # Why @aschmahmann?
         # 1. Long-time and still very active contributor to important Go-based IPFS repos that consume and occasionally require changes of IPLD repos, 
@@ -1545,6 +1541,7 @@ teams:
         # 1. Continued IPLD maintainer since the pre-2021 days of an "IPLD core team", working across both JS and Go repos.
         # 2. Active applier of IPLD in contexts like Filecoin.
         - rvagg
+        - vmx
         # Why @willscott?
         # 1. Active maintainer in and around IPLD, IPFS, and Filecoin projects for multiple years now.
         # 2. Active and experienced with github-mgmt in this org.
