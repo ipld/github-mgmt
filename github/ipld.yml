@@ -1628,8 +1628,8 @@ teams:
       maintainer:
         - vmx
       member:
-        - Stebalien
         - rvagg
+        - Stebalien
     privacy: closed
   Swift Team:
     privacy: closed
