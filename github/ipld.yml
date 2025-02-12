@@ -1629,6 +1629,7 @@ teams:
         - vmx
       member:
         - Stebalien
+        - rvagg
     privacy: closed
   Swift Team:
     privacy: closed
