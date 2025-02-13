@@ -1628,6 +1628,7 @@ teams:
       maintainer:
         - vmx
       member:
+        - rvagg
         - Stebalien
     privacy: closed
   Swift Team:
