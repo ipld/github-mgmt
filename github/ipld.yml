@@ -1,1 +1,1521 @@
-{}
+members:
+  admin:
+    - andyschwab-admin
+    - galargh
+  member:
+    - 0xDanomite
+    - aarshkshah1992
+    - achingbrain
+    - AdamStone
+    - adlrocha
+    - ajnavarro
+    - alanshaw
+    - andrew
+    - andyschwab
+    - anorth
+    - arajasek
+    - aschmahmann
+    - BigLep
+    - cloutiertyler
+    - davidad
+    - davidd8
+    - daviddias
+    - dhruvbaldawa
+    - dignifiedquire
+    - dirkmc
+    - flyingzumwalt
+    - Gozala
+    - guseggert
+    - haadcode
+    - hacdias
+    - hannahhoward
+    - hugomrdias
+    - ianopolous
+    - ipfsbot
+    - ipldbot
+    - jacobheun
+    - jbenet
+    - jbenetsafer
+    - jesseclay
+    - Jorropo
+    - juliaxbow
+    - kevina
+    - Kubuxu
+    - kumavis
+    - laurentsenta
+    - lidel
+    - litzenberger
+    - magik6k
+    - MarcoPolo
+    - marten-seemann
+    - masih
+    - mcollina
+    - michaelavila
+    - miyazono
+    - momack2
+    - mxinden
+    - nicola
+    - olizilla
+    - petar
+    - pkafei
+    - RangerMauve
+    - raulk
+    - ribasushi
+    - RichardLitt
+    - richardschneider
+    - rvagg
+    - SgtPooki
+    - Stebalien
+    - tchardin
+    - TinyTb
+    - travisperson
+    - vasco-santos
+    - victorb
+    - vmx
+    - wanderer
+    - warpfork
+    - web3-bot
+    - whizzzkid
+    - whyrusleeping
+    - willscott
+repositories:
+  auto:
+    archived: true
+  cid-cbor:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - vmx
+    default_branch: master
+    description: Spec for Content Identifiers (CIDs) in CBOR for IANA CBOR Tag registry
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - Core
+        - github-mgmt stewards
+        - Go Team
+        - JavaScript Team
+        - Rust Team
+    visibility: public
+  codec-fixtures:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    description: Fixtures for testing standard IPLD codecs
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+      push:
+        - Go Team
+        - JavaScript Team
+        - Rust Team
+    visibility: public
+  docs:
+    archived: true
+  edelweiss:
+    archived: true
+  eth-hash-to-cid:
+    archived: true
+  explore.ipld.io:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - lidel
+        - olizilla
+      maintain:
+        - hacdias
+      push:
+        - alvin-reyes
+        - andyschwab
+    default_branch: master
+    description: Explore the Merkle Forest from the comfort of your browser
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - Core
+        - ipdx
+        - w3dt-stewards
+      maintain:
+        - ipfs-gui
+      pull:
+        - github-mgmt stewards
+    topics:
+      - ipfs-gui
+      - ipfs
+    visibility: public
+  frisbii:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: true
+    collaborators:
+      admin:
+        - rvagg
+      push:
+        - web3-bot
+    default_branch: master
+    description: An experimental minimal IPLD data provider for the IPFS network
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+      push:
+        - Go Team
+    visibility: public
+  github-mgmt:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - Comment
+          strict: true
+    default_branch: master
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+      push:
+        - github-mgmt stewards
+    topics:
+      - ipdx
+    visibility: public
+  go-car-priv:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    description: go-car but private for hush-hush security stuff
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Go Team
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: private
+  go-car:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      feat/filestore:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: true
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: true
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: true
+          required_approving_review_count: 1
+          restrict_dismissals: false
+    collaborators:
+      admin:
+        - masih
+        - willscott
+      push:
+        - hannahhoward
+        - web3-bot
+    default_branch: master
+    description: A content addressible archive utility
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - Core
+        - github-mgmt stewards
+      push:
+        - Go Team
+    visibility: public
+  go-codec-dagpb:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - rvagg
+        - web3-bot
+    default_branch: master
+    description: An implementation of the DAG-PB spec for Go
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - Go Team
+    visibility: public
+  go-datalark:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - dustmop
+    default_branch: master
+    description: Use IPLD from Starlark -- read and write data, and play
+      programmagically in an interpreted language!
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  go-fixtureplate:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - rvagg
+      push:
+        - web3-bot
+    default_branch: master
+    description: Tools to generate and inspect IPLD data to assist in testing
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+      push:
+        - Go Team
+    visibility: public
+  go-ipld-adl-hamt:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - warpfork
+      push:
+        - web3-bot
+    default_branch: master
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - Core
+        - github-mgmt stewards
+      push:
+        - Go Team
+    visibility: public
+  go-ipld-btc:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - marten-seemann
+        - web3-bot
+    default_branch: master
+    description: ipld handlers for bitcoin
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - Core
+        - github-mgmt stewards
+      push:
+        - Go Team
+    visibility: public
+  go-ipld-deprecated:
+    archived: true
+  go-ipld-graphql:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - willscott
+      push:
+        - web3-bot
+    default_branch: master
+    description: Graphql queries over IPLD schemas
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      maintain:
+        - Go Team
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  go-ipld-prime-proto:
+    archived: true
+  go-ipld-prime:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 0
+          restrict_dismissals: false
+        required_status_checks:
+          strict: true
+    collaborators:
+      admin:
+        - warpfork
+      push:
+        - hannahhoward
+        - web3-bot
+    default_branch: master
+    description: Golang interfaces for the IPLD Data Model, with core Codecs
+      included, IPLD Schemas support, and some handy functional transforms
+      tools.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      maintain:
+        - reviewers
+      pull:
+        - Core
+        - github-mgmt stewards
+      push:
+        - Go Team
+    visibility: public
+  go-ipld-schema:
+    archived: true
+  go-ipld-selector-text-lite:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - ribasushi
+        - web3-bot
+    default_branch: master
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - Admin
+        - Core
+        - github-mgmt stewards
+      push:
+        - Go Team
+    visibility: public
+  go-ipld:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    description: Golang IPLD Dev Entry Point Repo
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - Core
+        - github-mgmt stewards
+      push:
+        - Go Team
+    visibility: public
+  go-ipldtool:
+    archived: true
+  go-selector-store:
+    archived: true
+  go-storethehash:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+    collaborators:
+      admin:
+        - adlrocha
+        - gammazero
+        - willscott
+      push:
+        - web3-bot
+    default_branch: master
+    description: Storage for hashes, targeted at content addressable systems
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - Go Team
+    visibility: public
+  go-trustless-utils:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: true
+    collaborators:
+      admin:
+        - rvagg
+      push:
+        - web3-bot
+    default_branch: master
+    description: Go(lang) utilities for the IPFS Trustless Gateway HTTP protocol
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+      push:
+        - Go Team
+    visibility: public
+  go-walker:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: main
+    description: Walker provides an alternate, parellizable and controllable way to
+      execute selectors
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  grants:
+    archived: true
+  interface-ipld-format:
+    archived: true
+  ipld-examples:
+    archived: true
+  ipld-in-memory:
+    archived: true
+  ipld-yang:
+    archived: true
+  ipld:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      maintain:
+        - olizilla
+        - salmad3
+    default_branch: master
+    description: InterPlanetary Linked Data
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - ipdx
+        - w3dt-stewards
+      maintain:
+        - close-collaborators
+        - reviewers
+      pull:
+        - Contributors
+        - github-mgmt stewards
+      push:
+        - Core
+        - Go Team
+        - JavaScript Team
+        - research
+        - Rust Team
+    visibility: public
+  is-circular:
+    archived: true
+  java-cid:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - ianopolous
+      push:
+        - kevodwyer
+    default_branch: master
+    description: Java implementation of Content Identifier
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - Core
+        - github-mgmt stewards
+    topics:
+      - cid
+      - ipld
+      - java
+    visibility: public
+  java-ipld-cbor:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - ianopolous
+    default_branch: master
+    description: A Java implementation of the IPLD cbor format
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - Core
+        - github-mgmt stewards
+        - Java Team
+    visibility: public
+  js-bitcoin:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - rvagg
+    default_branch: master
+    description: JavaScript Bitcoin data multiformats codecs and utilities for IPLD
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - Core
+        - github-mgmt stewards
+      push:
+        - JavaScript Team
+    visibility: public
+  js-block:
+    archived: true
+  js-blockcodec-to-ipld-format:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    description: Convert a BlockCodec from the multiformats module to an IPLD format
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-car:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    description: Content Addressable aRchive format reader and writer for JavaScript
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - Core
+        - github-mgmt stewards
+      push:
+        - JavaScript Team
+    visibility: public
+  js-cli:
+    archived: true
+  js-codec-interface:
+    archived: true
+  js-composites:
+    archived: true
+  js-dag-cbor:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    description: dag-cbor codec for IPLD
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - Core
+        - github-mgmt stewards
+      push:
+        - JavaScript Team
+    visibility: public
+  js-dag-json:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    description: JSON Directed Acyclic Graph for IPLD
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - Core
+        - github-mgmt stewards
+      push:
+        - JavaScript Team
+    visibility: public
+  js-dag-pb:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    description: An implementation of the DAG-PB spec for JavaScript (for use with
+      multiformats or @ipld/block)
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - Core
+        - github-mgmt stewards
+      push:
+        - JavaScript Team
+    visibility: public
+  js-dag-ucan:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - Gozala
+      maintain:
+        - alanshaw
+        - gobengo
+        - hugomrdias
+    default_branch: main
+    description: UCAN codec for IPLD
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-datastore-car:
+    archived: true
+  js-examples:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - rvagg
+    default_branch: master
+    description: JavaScript IPLD Examples
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+        - JavaScript Team
+    visibility: public
+  js-get-codec:
+    archived: true
+  js-ipld-bencode:
+    archived: true
+  js-ipld-bitcoin:
+    archived: true
+  js-ipld-block:
+    archived: true
+  js-ipld-cli:
+    archived: true
+  js-ipld-dag-cbor:
+    archived: true
+  js-ipld-dag-pb:
+    archived: true
+  js-ipld-eth-account-snapshot:
+    archived: true
+  js-ipld-eth-block-list:
+    archived: true
+  js-ipld-eth-block:
+    archived: true
+  js-ipld-eth-state-trie:
+    archived: true
+  js-ipld-eth-storage-trie:
+    archived: true
+  js-ipld-eth-trie:
+    archived: true
+  js-ipld-eth-tx-trie:
+    archived: true
+  js-ipld-eth-tx:
+    archived: true
+  js-ipld-ethereum:
+    archived: true
+  js-ipld-format-to-blockcodec:
+    archived: true
+  js-ipld-garbage:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - rvagg
+      push:
+        - web3-bot
+    default_branch: master
+    description: Generate garbage objects conformant with the IPLD Data Model
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - Core
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - JavaScript Team
+    visibility: public
+  js-ipld-git:
+    archived: true
+  js-ipld-graph-builder:
+    archived: true
+  js-ipld-raw:
+    archived: true
+  js-ipld-schema:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - rvagg
+    default_branch: master
+    description: "IPLD Schema Implementation: parser and utilities"
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - Core
+        - github-mgmt stewards
+      push:
+        - JavaScript Team
+    visibility: public
+  js-ipld-selector:
+    archived: true
+  js-ipld-stack:
+    archived: true
+  js-ipld-torrent-file:
+    archived: true
+  js-ipld-torrent-info:
+    archived: true
+  js-ipld-zcash:
+    archived: true
+  js-ipld:
+    archived: true
+  js-iq:
+    archived: true
+  js-path-level-one:
+    archived: true
+  js-printify:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    description: Convert a decoded IPLD value to a colored printable string
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - Core
+        - github-mgmt stewards
+      push:
+        - JavaScript Team
+    visibility: public
+  js-schema-gen:
+    archived: true
+  js-schema-validation:
+    archived: true
+  js-unixfs:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - alanshaw
+        - Gozala
+        - hugomrdias
+    default_branch: main
+    description: UnixFS Directed Acyclic Graph for IPLD
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-unixfsv2:
+    archived: true
+  legacy-unixfs-v2:
+    archived: true
+  libipld:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    description: Rust IPLD library
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - Core
+        - github-mgmt stewards
+      push:
+        - Rust Team
+    visibility: public
+  metrics:
+    archived: true
+  persistent-metadata:
+    archived: true
+  py-cid:
+    archived: true
+  py-ipld-dag:
+    archived: true
+  react-ipld:
+    archived: true
+  replication:
+    archived: true
+  research:
+    archived: true
+  roadmap:
+    archived: true
+  rust-ipld-core:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: main
+    description: This crate provides core types for interoperating with IPLD.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+      push:
+        - Rust Team
+    visibility: public
+  rust-ipld-dagpb:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: main
+    description: IPLD DAG-PB codec.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+      push:
+        - Rust Team
+    visibility: public
+  rust-ipld-extract-links:
+    archived: true
+  serde_ipld_dagcbor:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    description: DAG-CBOR implementation for Serde
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+      push:
+        - Rust Team
+    visibility: public
+  serde_ipld_dagjson:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: main
+    description: IPLD DAG-JSON support for Serde.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+      push:
+        - Rust Team
+    visibility: public
+  specs:
+    archived: true
+  team-mgmt:
+    archived: true
+  wasm-ipld:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: true
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: true
+    collaborators:
+      admin:
+        - aschmahmann
+    default_branch: main
+    description: Tools and examples of IPLD codecs and ADLs in WASM callable from hosts
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - ipdx
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  website:
+    archived: true
+teams:
+  Admin:
+    members:
+      maintainer:
+        - daviddias
+      member:
+        - aschmahmann
+        - BigLep
+        - jbenet
+        - Kubuxu
+        - Stebalien
+        - vmx
+        - warpfork
+        - whyrusleeping
+    privacy: closed
+  Alumni:
+    members:
+      maintainer:
+        - andyschwab-admin
+      member:
+        - AdamStone
+        - cloutiertyler
+        - flyingzumwalt
+        - haadcode
+        - ipfsbot
+        - jbenetsafer
+        - jesseclay
+        - kevina
+        - litzenberger
+        - michaelavila
+        - mxinden
+        - nicola
+        - pkafei
+        - RichardLitt
+        - richardschneider
+        - TinyTb
+        - travisperson
+        - victorb
+        - wanderer
+    privacy: closed
+  ci:
+    description: ci
+    privacy: closed
+  close-collaborators:
+    description: Folks who work across many IPLD repos and languages
+    members:
+      member:
+        - RangerMauve
+        - warpfork
+    privacy: closed
+  Contributors:
+    members:
+      member:
+        - adlrocha
+        - aschmahmann
+        - davidad
+        - Stebalien
+        - vmx
+    privacy: closed
+  Core:
+    description: Core Team
+    members:
+      member:
+        - BigLep
+        - rvagg
+        - Stebalien
+        - vmx
+        - warpfork
+        - willscott
+    privacy: closed
+  DX:
+    description: Developer Experience Team
+    privacy: closed
+  github-mgmt stewards:
+    description: Users that are effectively org admins
+    members:
+      member:
+        - aschmahmann
+        - rvagg
+        - vmx
+        - willscott
+    privacy: closed
+  Go Team:
+    members:
+      member:
+        - aarshkshah1992
+        - anorth
+        - arajasek
+        - aschmahmann
+        - davidd8
+        - dirkmc
+        - guseggert
+        - hannahhoward
+        - ipldbot
+        - Kubuxu
+        - magik6k
+        - masih
+        - momack2
+        - petar
+        - raulk
+        - ribasushi
+        - rvagg
+        - Stebalien
+        - tchardin
+        - warpfork
+        - whyrusleeping
+        - willscott
+    privacy: closed
+  Infra:
+    description: https://github.com/protocol/infra-team/
+    privacy: closed
+  ipdx:
+    members:
+      maintainer:
+        - galargh
+      member:
+        - laurentsenta
+    privacy: closed
+  ipfs-gui:
+    members:
+      maintainer:
+        - SgtPooki
+      member:
+        - lidel
+        - olizilla
+        - whizzzkid
+    privacy: closed
+  Java Team:
+    description: Java Java Java Java
+    members:
+      member:
+        - ianopolous
+    privacy: closed
+  JavaScript Team:
+    description: The most awesome team
+    members:
+      maintainer:
+        - vmx
+      member:
+        - achingbrain
+        - alanshaw
+        - dignifiedquire
+        - Gozala
+        - hugomrdias
+        - olizilla
+        - rvagg
+        - tchardin
+    privacy: closed
+  Python Team:
+    description: Snaaaaakes 🐍
+    privacy: closed
+  research:
+    members:
+      maintainer:
+        - miyazono
+        - vmx
+      member:
+        - davidad
+        - dignifiedquire
+        - Stebalien
+    privacy: closed
+  reviewers:
+    members:
+      member:
+        - BigLep
+        - RangerMauve
+        - rvagg
+        - warpfork
+        - willscott
+    privacy: closed
+  Rust Team:
+    members:
+      maintainer:
+        - vmx
+      member:
+        - rvagg
+        - Stebalien
+    privacy: closed
+  Swift Team:
+    privacy: closed
+  w3dt-stewards:
+    members:
+      maintainer:
+        - BigLep
+      member:
+        - achingbrain
+        - aschmahmann
+        - galargh
+        - guseggert
+        - Jorropo
+        - laurentsenta
+        - lidel
+        - Stebalien
+    privacy: closed
