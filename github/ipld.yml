@@ -451,8 +451,7 @@ repositories:
       push:
         - dustmop
     default_branch: master
-    description: Use IPLD from Starlark -- read and write data, and play
-      programmagically in an interpreted language!
+    description: Use IPLD from Starlark -- read and write data, and play programmagically in an interpreted language!
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -601,9 +600,7 @@ repositories:
         - hannahhoward
         - web3-bot
     default_branch: master
-    description: Golang interfaces for the IPLD Data Model, with core Codecs
-      included, IPLD Schemas support, and some handy functional transforms
-      tools.
+    description: Golang interfaces for the IPLD Data Model, with core Codecs included, IPLD Schemas support, and some handy functional transforms tools.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -762,8 +759,7 @@ repositories:
     allow_update_branch: false
     archived: false
     default_branch: main
-    description: Walker provides an alternate, parellizable and controllable way to
-      execute selectors
+    description: Walker provides an alternate, parellizable and controllable way to execute selectors
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1025,8 +1021,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    description: An implementation of the DAG-PB spec for JavaScript (for use with
-      multiformats or @ipld/block)
+    description: An implementation of the DAG-PB spec for JavaScript (for use with multiformats or @ipld/block)
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
