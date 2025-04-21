@@ -104,6 +104,8 @@ repositories:
     collaborators:
       admin:
         - vmx
+      push:
+        - web3-bot
     default_branch: master
     description: Spec for Content Identifiers (CIDs) in CBOR for IANA CBOR Tag registry
     has_discussions: false
@@ -128,6 +130,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Fixtures for testing standard IPLD codecs
     files:
@@ -204,6 +209,7 @@ repositories:
       push:
         - alvin-reyes
         - andyschwab
+        - web3-bot
     default_branch: master
     description: Explore the Merkle Forest from the comfort of your browser
     has_discussions: false
@@ -285,6 +291,9 @@ repositories:
           contexts:
             - Comment
           strict: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     files:
       CODEOWNERS:
@@ -315,6 +324,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: go-car but private for hush-hush security stuff
     files:
@@ -450,6 +462,7 @@ repositories:
     collaborators:
       push:
         - dustmop
+        - web3-bot
     default_branch: master
     description: Use IPLD from Starlark -- read and write data, and play programmagically in an interpreted language!
     has_discussions: false
@@ -653,6 +666,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Golang IPLD Dev Entry Point Repo
     has_discussions: false
@@ -758,6 +774,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     description: Walker provides an alternate, parellizable and controllable way to execute selectors
     has_discussions: false
@@ -792,6 +811,8 @@ repositories:
       maintain:
         - olizilla
         - salmad3
+      push:
+        - web3-bot
     default_branch: master
     description: InterPlanetary Linked Data
     has_discussions: false
@@ -830,6 +851,7 @@ repositories:
         - ianopolous
       push:
         - kevodwyer
+        - web3-bot
     default_branch: master
     description: Java implementation of Content Identifier
     files:
@@ -862,6 +884,7 @@ repositories:
     collaborators:
       push:
         - ianopolous
+        - web3-bot
     default_branch: master
     description: A Java implementation of the IPLD cbor format
     has_discussions: false
@@ -887,6 +910,7 @@ repositories:
     collaborators:
       push:
         - rvagg
+        - web3-bot
     default_branch: master
     description: JavaScript Bitcoin data multiformats codecs and utilities for IPLD
     has_discussions: false
@@ -912,6 +936,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Convert a BlockCodec from the multiformats module to an IPLD format
     has_discussions: false
@@ -1050,6 +1077,8 @@ repositories:
         - alanshaw
         - gobengo
         - hugomrdias
+      push:
+        - web3-bot
     default_branch: main
     description: UCAN codec for IPLD
     files:
@@ -1075,6 +1104,7 @@ repositories:
     collaborators:
       push:
         - rvagg
+        - web3-bot
     default_branch: master
     description: JavaScript IPLD Examples
     has_discussions: false
@@ -1168,6 +1198,7 @@ repositories:
     collaborators:
       push:
         - rvagg
+        - web3-bot
     default_branch: master
     description: "IPLD Schema Implementation: parser and utilities"
     has_discussions: false
@@ -1207,6 +1238,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Convert a decoded IPLD value to a colored printable string
     has_discussions: false
@@ -1239,6 +1273,8 @@ repositories:
         - alanshaw
         - Gozala
         - hugomrdias
+      push:
+        - web3-bot
     default_branch: main
     description: UnixFS Directed Acyclic Graph for IPLD
     files:
@@ -1263,6 +1299,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: Rust IPLD library
     files:
@@ -1302,6 +1341,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     description: This crate provides core types for interoperating with IPLD.
     has_discussions: false
@@ -1321,6 +1363,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     description: IPLD DAG-PB codec.
     has_discussions: false
@@ -1342,6 +1387,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     description: DAG-CBOR implementation for Serde
     files:
@@ -1364,6 +1412,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     description: IPLD DAG-JSON support for Serde.
     has_discussions: false
@@ -1407,6 +1458,8 @@ repositories:
     collaborators:
       admin:
         - aschmahmann
+      push:
+        - web3-bot
     default_branch: main
     description: Tools and examples of IPLD codecs and ADLs in WASM callable from hosts
     files:
