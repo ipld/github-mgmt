@@ -1326,7 +1326,30 @@ repositories:
   persistent-metadata:
     archived: true
   py-cid:
-    archived: true
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    description: Python implementation of Content Identifier
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning: true
+    secret_scanning_push_protection: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Python Team
+      pull:
+        - github-mgmt stewards
+    topics:
+      - cid
+      - python
+    visibility: public
   py-ipld-dag:
     archived: true
   react-ipld:
@@ -1658,6 +1681,12 @@ teams:
     privacy: closed
   Python Team:
     description: Snaaaaakes 🐍
+    members:
+      member:
+        - acul71
+        - pacrob
+        - rvagg
+        - seetadev
     privacy: closed
   research:
     members:
