@@ -1330,24 +1330,33 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - dhruvbaldawa
       push:
         - web3-bot
     default_branch: master
-    description: Python implementation of Content Identifier
+    description: Self-describing content-addressed identifiers for distributed systems implementation in Python
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning: true
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
+    secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
+        - Admin
+        - ipdx
         - Python Team
+        - w3dt-stewards
       pull:
+        - Core
         - github-mgmt stewards
+      push:
+        - Python Team
     topics:
       - cid
+      - ipld
       - python
     visibility: public
   py-ipld-dag:
