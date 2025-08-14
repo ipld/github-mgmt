@@ -1342,15 +1342,10 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      admin:
-        - Admin
-        - ipdx
-        - Python Team
-        - w3dt-stewards
       pull:
-        - Core
         - github-mgmt stewards
       push:
+        - Core
         - Python Team
     topics:
       - cid
