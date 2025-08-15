@@ -1349,10 +1349,8 @@ repositories:
         - ipdx
         - w3dt-stewards
       pull:
-        - Core
         - github-mgmt stewards
       push:
-        - Core
         - Python Team
     topics:
       - cid
