@@ -1326,7 +1326,7 @@ repositories:
   persistent-metadata:
     archived: true
   py-cid:
-    archived: true
+    archived: false
   py-ipld-dag:
     archived: true
   react-ipld:
