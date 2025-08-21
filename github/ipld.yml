@@ -377,12 +377,12 @@ repositories:
         required_linear_history: false
     collaborators:
       admin:
-        - willscott
         - rvagg
+        - willscott
       push:
         - hannahhoward
-        - web3-bot
         - masih
+        - web3-bot
     default_branch: master
     description: A content addressible archive utility
     files:
