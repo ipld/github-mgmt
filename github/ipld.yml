@@ -129,6 +129,7 @@ repositories:
         - JavaScript Team
         - Rust Team
     visibility: public
+    web_commit_signoff_required: false
   codec-fixtures:
     advanced_security: false
     allow_update_branch: false
@@ -193,6 +194,7 @@ repositories:
         - JavaScript Team
         - Rust Team
     visibility: public
+    web_commit_signoff_required: false
   docs:
     archived: true
   edelweiss:
@@ -236,6 +238,7 @@ repositories:
       - ipfs-gui
       - ipfs
     visibility: public
+    web_commit_signoff_required: false
   frisbii:
     advanced_security: false
     allow_update_branch: false
@@ -270,6 +273,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     advanced_security: false
@@ -281,6 +285,8 @@ repositories:
         allows_force_pushes: false
         blocks_creations: false
         enforce_admins: false
+        force_push_bypassers:
+          - /galargh
         lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
@@ -288,6 +294,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
@@ -323,6 +330,7 @@ repositories:
     topics:
       - ipdx
     visibility: public
+    web_commit_signoff_required: false
   go-car-priv:
     advanced_security: false
     allow_update_branch: false
@@ -367,8 +375,11 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
+        restrict_pushes:
+          - blocks_creations: true
       master:
         allows_deletions: false
         allows_force_pushes: false
@@ -427,6 +438,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   go-codec-dagpb:
     advanced_security: false
     allow_update_branch: false
@@ -454,6 +466,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   go-datalark:
     advanced_security: false
     allow_update_branch: false
@@ -475,6 +488,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   go-fixtureplate:
     advanced_security: false
     allow_update_branch: false
@@ -499,6 +513,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   go-ipld-adl-hamt:
     advanced_security: false
     allow_update_branch: false
@@ -526,6 +541,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   go-ipld-btc:
     advanced_security: false
     allow_update_branch: false
@@ -553,6 +569,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   go-ipld-deprecated:
     archived: true
   go-ipld-graphql:
@@ -582,6 +599,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   go-ipld-prime-proto:
     archived: true
   go-ipld-prime:
@@ -601,6 +619,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 0
           restrict_dismissals: false
         required_status_checks:
@@ -632,6 +651,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   go-ipld-schema:
     archived: true
   go-ipld-selector-text-lite:
@@ -661,6 +681,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   go-ipld:
     advanced_security: false
     allow_update_branch: false
@@ -687,6 +708,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   go-ipldtool:
     archived: true
   go-selector-store:
@@ -708,6 +730,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
     collaborators:
@@ -735,6 +758,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   go-trustless-utils:
     advanced_security: false
     allow_update_branch: false
@@ -769,6 +793,7 @@ repositories:
       push:
         - Go Team
     visibility: public
+    web_commit_signoff_required: false
   go-walker:
     advanced_security: false
     allow_update_branch: false
@@ -792,6 +817,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   grants:
     archived: true
   interface-ipld-format:
@@ -839,6 +865,7 @@ repositories:
         - research
         - Rust Team
     visibility: public
+    web_commit_signoff_required: false
   is-circular:
     archived: true
   java-cid:
@@ -876,6 +903,7 @@ repositories:
       - ipld
       - java
     visibility: public
+    web_commit_signoff_required: false
   java-ipld-cbor:
     advanced_security: false
     allow_update_branch: false
@@ -902,6 +930,7 @@ repositories:
         - github-mgmt stewards
         - Java Team
     visibility: public
+    web_commit_signoff_required: false
   js-bitcoin:
     advanced_security: false
     allow_update_branch: false
@@ -929,6 +958,7 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   js-block:
     archived: true
   js-blockcodec-to-ipld-format:
@@ -954,6 +984,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   js-car:
     advanced_security: false
     allow_update_branch: false
@@ -981,6 +1012,7 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   js-cli:
     archived: true
   js-codec-interface:
@@ -1013,6 +1045,7 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   js-dag-json:
     advanced_security: false
     allow_update_branch: false
@@ -1039,6 +1072,7 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   js-dag-pb:
     advanced_security: false
     allow_update_branch: false
@@ -1065,6 +1099,7 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   js-dag-ucan:
     advanced_security: false
     allow_update_branch: false
@@ -1094,6 +1129,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   js-datastore-car:
     archived: true
   js-examples:
@@ -1121,6 +1157,7 @@ repositories:
         - github-mgmt stewards
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   js-get-codec:
     archived: true
   js-ipld-bencode:
@@ -1184,6 +1221,7 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   js-ipld-git:
     archived: true
   js-ipld-graph-builder:
@@ -1217,6 +1255,7 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   js-ipld-selector:
     archived: true
   js-ipld-stack:
@@ -1259,6 +1298,7 @@ repositories:
       push:
         - JavaScript Team
     visibility: public
+    web_commit_signoff_required: false
   js-schema-gen:
     archived: true
   js-schema-validation:
@@ -1290,6 +1330,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   js-unixfsv2:
     archived: true
   legacy-unixfs-v2:
@@ -1320,6 +1361,7 @@ repositories:
       push:
         - Rust Team
     visibility: public
+    web_commit_signoff_required: false
   metrics:
     archived: true
   persistent-metadata:
@@ -1349,6 +1391,7 @@ repositories:
       - cid
       - python
     visibility: public
+    web_commit_signoff_required: false
   py-ipld-dag:
     archived: true
   react-ipld:
@@ -1381,6 +1424,7 @@ repositories:
       push:
         - Rust Team
     visibility: public
+    web_commit_signoff_required: false
   rust-ipld-dagpb:
     advanced_security: false
     allow_update_branch: false
@@ -1403,6 +1447,7 @@ repositories:
       push:
         - Rust Team
     visibility: public
+    web_commit_signoff_required: false
   rust-ipld-extract-links:
     archived: true
   serde_ipld_dagcbor:
@@ -1430,6 +1475,7 @@ repositories:
       push:
         - Rust Team
     visibility: public
+    web_commit_signoff_required: false
   serde_ipld_dagjson:
     advanced_security: false
     allow_update_branch: false
@@ -1452,6 +1498,7 @@ repositories:
       push:
         - Rust Team
     visibility: public
+    web_commit_signoff_required: false
   specs:
     archived: true
   team-mgmt:
@@ -1473,6 +1520,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
@@ -1502,6 +1550,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+    web_commit_signoff_required: false
   website:
     archived: true
 teams:
@@ -1647,6 +1696,7 @@ teams:
         - galargh
       member:
         - laurentsenta
+    parent_team_id: w3dt-stewards
     privacy: closed
   ipfs-gui:
     members:
