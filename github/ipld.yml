@@ -358,6 +358,7 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: private
+    web_commit_signoff_required: false
   go-car:
     advanced_security: false
     allow_update_branch: false
