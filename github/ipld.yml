@@ -1741,8 +1741,6 @@ teams:
     privacy: closed
   ipfs-gui:
     members:
-      maintainer:
-        - SgtPooki
       member:
         - lidel
         - olizilla
