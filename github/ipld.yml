@@ -406,17 +406,14 @@ repositories:
           version: 2
           updates:
             - package-ecosystem: "gomod"
-              directory: "/"
+              directories:
+                - "/"
+                - "/v2"
+                - "/cmd"
               schedule:
-                interval: "weekly"
-            - package-ecosystem: "gomod"
-              directory: "/v2"
-              schedule:
-                interval: "weekly"
-            - package-ecosystem: "gomod"
-              directory: "/cmd"
-              schedule:
-                interval: "weekly"            
+                interval: "monthly"
+              cooldown:
+                default-days: 5
             - package-ecosystem: "github-actions"
               directory: "/"
               schedule:
